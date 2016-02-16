@@ -144,7 +144,7 @@ class Clothing {
             { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
             { "V_PlateCarrier2_rgr", "", 1000, { "life_coplevel", "SCALAR", 1 } },
             { "V_TacVest_blk_POLICE", "", 1000, { "life_coplevel", "", 2 } },
-            { "V_PlateCarrierSpec_blk", "", 1000, { "life_coplevel", "", 3 } },
+            { "V_PlateCarrierSpec_blk", "", 1000, { "life_coplevel", "", 3 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -255,13 +255,22 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_IG_Guerilla1_1", "", 5000, {"", "", -1} },
-            { "U_I_G_Story_Protagonist_F", "", 7500, { "", "", -1 } },
-            { "U_I_G_resistanceLeader_F", "", 11500, { "", "", -1 } },
-            { "U_O_SpecopsUniform_ocamo", "", 17500, { "", "", -1 } },
-            { "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },
-            { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
-            { "U_O_GhillieSuit", "", 50000, { "", "", -1 } }
+            { "U_IG_Guerilla1_1", "Guerilla Garment", 5000, {"", "", -1} },
+            { "U_B_CTRG_1", "", 5000, {"CTRG Combat Uniform", "", -1} },
+            { "U_B_CTRG_2", "", 5000, {"CTRG Combat Uniform (Tee)", "", -1} },
+            { "U_B_CTRG_3", "", 5000, {"CTRG Combat Uniform (Rolled-up)", "", -1} },
+            { "U_B_survival_uniform", "", 5000, {"Survival Fatigues", "", -1} },
+            { "U_I_G_Story_Protagonist_F", "Worn Combat Fatigues (Kerry)", 5000, {"", "", -1} },
+            { "U_IG_Guerrilla_6_1", "", 5000, {"Guerilla Apparel", "", -1} },
+            { "U_BG_Guerrilla_6_1", "", 5000, {"Guerilla Apparel", "", -1} },
+            { "U_OG_Guerrilla_6_1", "", 5000, {"Guerilla Apparel", "", -1} },
+            { "U_O_FullGhillie_sard", "", 70000, {"Full Ghillie (Semi-Arid) (NATO)", "", -1} },
+            { "U_B_FullGhillie_ard", "", 70000, {"Full Ghillie (Arid) (NATO)", "", -1} },
+            { "U_B_FullGhillie_lsh", "", 70000, {"Full Ghillie (Lush) (NATO)", "", -1} },
+            { "U_O_SpecopsUniform_ocamo", "", 14500, { "Recon Fatigues (Hex)", "", -1 } },
+            { "U_O_PilotCoveralls", "", 15610, { "Pilot Coveralls [AAF]", "", -1 } },
+            { "U_O_GhillieSuit", "", 50000, { "Ghillie Suit [AAF]", "", -1 } }
+            { "U_I_G_resistanceLeader_F", "", 5000, { "Combat Fatigues (Stavrou)", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
