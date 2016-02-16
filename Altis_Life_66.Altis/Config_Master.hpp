@@ -24,7 +24,7 @@ class Life_Settings {
 
     /* Revive system settings */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
+    revive_fee = 5000; //Revive fee that players have to pay and medics / EMS are rewarded
 
     /* House related settings */
     house_limit = 5; //Maximum amount of houses a player can own.
@@ -37,7 +37,7 @@ class Life_Settings {
     /* Player-related systems */
     enable_fatigue = false; //Set to false to disable the ARMA 3 false system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
-    paycheck_period = 5; //Scaled in minutes
+    paycheck_period = 10; //Scaled in minutes
 
     /* Impound Variables */
     impound_car = 1350; //Price for impounding cars
@@ -45,14 +45,14 @@ class Life_Settings {
     impound_air = 5850; //Price for impounding helicopters / planes
 
     /* Initial Bank Amount */
-    bank_cop = 97000; //Amount of cash on bank for new cops
-    bank_civ = 93000; //Amount of cash on bank for new civillians
-    bank_med = 96500; //Amount of cash on bank for new medics
+    bank_cop = 150000; //Amount of cash on bank for new cops
+    bank_civ = 150000; //Amount of cash on bank for new civillians
+    bank_med = 150000; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
-    paycheck_cop = 5500; //Payment for cops
-    paycheck_civ = 2350; //Payment for civillians
-    paycheck_med = 6450; //Payment for medics
+    paycheck_cop = 5000; //Payment for cops
+    paycheck_civ = 5000; //Payment for civillians
+    paycheck_med = 5000; //Payment for medics
 
     /* Federal Reserve settings */
     noatm_timer = 10; //Time in minutes that players won't be able to deposit his money after selling stolen gold
