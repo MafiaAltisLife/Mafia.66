@@ -275,7 +275,7 @@ class Clothing {
             { "U_B_FullGhillie_lsh", "", 70000, {"Full Ghillie (Lush) (NATO)", "", -1} },
             { "U_O_SpecopsUniform_ocamo", "", 14500, { "Recon Fatigues (Hex)", "", -1 } },
             { "U_O_PilotCoveralls", "", 15610, { "Pilot Coveralls [AAF]", "", -1 } },
-            { "U_O_GhillieSuit", "", 50000, { "Ghillie Suit [AAF]", "", -1 } }
+            { "U_O_GhillieSuit", "", 50000, { "Ghillie Suit [AAF]", "", -1 } },
             { "U_I_G_resistanceLeader_F", "", 5000, { "Combat Fatigues (Stavrou)", "", -1 } }
         };
         headgear[] = {
