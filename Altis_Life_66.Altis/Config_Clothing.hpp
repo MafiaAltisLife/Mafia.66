@@ -141,6 +141,7 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
             { "V_PlateCarrier2_rgr", "", 1500, { "life_coplevel", "SCALAR", 1 } },
+            { " V_TacVest_blk", "", 1000, { "life_coplevel", "", 2 } },
             { "V_PlateCarrierSpec_blk", "", 5000, { "life_coplevel", "", 3 } },
         };
         backpacks[] = {
