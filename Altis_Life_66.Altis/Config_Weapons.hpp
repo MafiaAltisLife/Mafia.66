@@ -269,7 +269,7 @@ class WeaponShops {
             { "acc_flashlight", "", 750, 100 },
             { "optic_Holosight", "", 1200, 275 },
             { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "muzzle_snds_H", "", 2750, -1 },
             
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
