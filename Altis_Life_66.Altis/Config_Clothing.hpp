@@ -314,7 +314,6 @@ class Clothing {
             { "V_TacVest_brn", "", 2000, { "", "", -1 } }, 
             { "V_TacVest_blk", "", 2000, { "", "", -1 } }, 
             { "V_TacVest_camo", "", 2000, { "", "", -1 } },
-            { "V_TacVestCamo_khk", "", 2000, { "", "", -1 } },
             { "V_HarnessOGL_brn", "", 2000, { "", "", -1 } },
             { "V_HarnessO_gry", "", 2000, { "", "", -1 } },
             { "V_HarnessOGL_gry", "", 2000, { "", "", -1 } },
