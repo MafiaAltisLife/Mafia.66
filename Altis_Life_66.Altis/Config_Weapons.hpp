@@ -89,7 +89,7 @@ class WeaponShops {
             { "srifle_DMR_05_blk_F", "", 320000, 160000 },
             { "srifle_DMR_05_hex_F", "", 320000, 160000 },
             { "srifle_DMR_05_tan_f", "", 320000, 160000},
-            { "srifle_DMR_06_camo_F", "", 320000, 160000}
+            { "srifle_DMR_06_camo_F", "", 320000, 160000},
             
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
