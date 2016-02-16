@@ -81,8 +81,8 @@ class WeaponShops {
             { "srifle_DMR_04_Tan_F", "", 280000, 14000 },
             { "srifle_DMR_05_blk_F", "", 320000, 340000 },
             { "srifle_DMR_05_hex_F", "", 320000, 34000 },
-            { "srifle_DMR_05_tan_f", "", 320000, 34000}
-            { " srifle_DMR_06_camo_F", "", 320000, 34000}
+            { "srifle_DMR_05_tan_f", "", 320000, 34000},
+            { "srifle_DMR_06_camo_F", "", 320000, 34000}
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
