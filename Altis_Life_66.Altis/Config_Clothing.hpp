@@ -143,8 +143,6 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
             { "V_PlateCarrier2_rgr", "", 1000, { "life_coplevel", "SCALAR", 1 } },
-            { "V_TacVest_blk", "", 1500, { "life_coplevel", "", 3 } },
-            { "V_PlateCarrierSpec_blk", "", 5000, { "life_coplevel", "", 3 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -300,28 +298,6 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_BandollierB_khk", "", 2000, { "", "", -1 } },
-            { "V_BandollierB_blk", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrier1_rgr", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrier1_blk", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrierGL_rgr", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrierSpec_rgr", "", 2000, { "", "", -1 } },
-            { "V_Chestrig_khk", "", 2000, { "", "", -1 } },
-            { "V_Chestrig_blk", "", 2000, { "", "", -1 } }, 
-            { "V_Chestrig_oli", "", 2000, { "", "", -1 } }, 
-            { "V_TacVest_khk", "", 2000, { "", "", -1 } },
-            { "V_HarnessOGL_brn", "", 2000, { "", "", -1 } },
-            { "V_HarnessO_gry", "", 2000, { "", "", -1 } },
-            { "V_HarnessOGL_gry", "", 2000, { "", "", -1 } },
-            { "V_HarnessOSpec_brn", "", 2000, { "", "", -1 } },
-            { "V_HarnessOSpec_gry", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrierIA1_dgtl", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrierIAGL_dgtl", "", 2000, { "", "", -1 } },
-            { "V_RebreatherB", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrier_Kerry", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrierL_CTRG", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrierH_CTRG", "", 2000, { "", "", -1 } },
-            { "V_I_G_resistanceLeader_F", "", 2000, { "", "", -1 }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
