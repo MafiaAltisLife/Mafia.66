@@ -28,7 +28,14 @@ class WeaponShops {
             { "hgun_PDW2000_F", "", 20000, -1 },
             { "SMG_01_F", "", 22000, 11000 },
             { "SMG_02_F", "", 24000, 12000 },
-            { "optic_ACO_grn_smg", "", 2500, 250 }			
+            
+            { "optic_ACO_grn_smg", "", 950, 250 },
+            { "optic_MRCO", "", 1200, 600 },
+            { "optic_SOS", "", 1500, 750 },
+            { "optic_DMS", "", 1800, 900 },
+            { "optic_AMS_snd", "", 3000, 1500 },
+            { "optic_Arco", "", 2000, 1000 },
+            { "optic_Holosight_smg", "", 500, 250 }						
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -83,6 +90,19 @@ class WeaponShops {
             { "srifle_DMR_05_hex_F", "", 320000, 160000 },
             { "srifle_DMR_05_tan_f", "", 320000, 160000},
             { "srifle_DMR_06_camo_F", "", 320000, 160000}
+            
+            { "optic_ACO_grn_smg", "", 950, 250 },
+            { "optic_MRCO", "", 1200, 600 },
+            { "optic_SOS", "", 1500, 750 },
+            { "optic_DMS", "", 1800, 900 },
+            { "optic_AMS_snd", "", 3000, 1500 },
+            { "optic_Arco", "", 2000, 1000 },
+            { "optic_Holosight_smg", "", 500, 250 },
+            
+            { "bipod_01_F_blk", "", 800, 400 },
+            { "bipod_01_F_mtp", "", 800, 400 },
+            { "bipod_01_F_snd", "", 800, 400 },
+            { "bipod_01_F_tan", "", 800, 400 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -111,19 +131,7 @@ class WeaponShops {
             { "10Rnd_338_Mag", "", 200 },
             { "20Rnd_762x51_Mag", "", 220 },
             { "10Rnd_127x54_Mag", "", 240 },
-            { "10Rnd_93x64_DMR_05_Mag", "", 250 },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  },
-            { "", "",  }
+            { "10Rnd_93x64_DMR_05_Mag", "", 250 }
         };
     };
 
@@ -137,32 +145,25 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
             { "hgun_ACPC2_F", "", 4500, -1 },
             { "hgun_PDW2000_F", "", 9500, -1 },
+        
             { "optic_ACO_grn_smg", "", 950, 250 },
-			
-			{ "srifle_EBR_ARCO_pointer_snds_F", "", 3000000, 500000 },
-			{ "srifle_EBR_F", "", 3000000, 500000 },
-			{ "srifle_DMR_02_sniper_AMS_LP_S_F", "", 3000000, 500000 },
-			{ "srifle_DMR_03_woodland_F", "", 3000000, 500000 },
-			{ "srifle_DMR_04_MRCO_F", "", 3000000, 500000 },
-			{ "srifle_DMR_05_hex_F", "", 3000000, 500000 },
-			{ "srifle_DMR_06_camo_khs_F", "", 3000000, 500000 },
-			{ "MMG_01_hex_ARCO_LP_F", "", 3000000, 500000 },
-			{ "MMG_02_sand_RCO_LP_F", "", 3000000, 500000 }	
+            { "optic_MRCO", "", 1200, 600 },
+            { "optic_SOS", "", 1500, 750 },
+            { "optic_DMS", "", 1800, 900 },
+            { "optic_AMS_snd", "", 3000, 1500 },
+            { "optic_Arco", "", 2000, 1000 },
+            { "optic_Holosight_smg", "", 500, 250 },
+            
+            { "bipod_01_F_blk", "", 800, 400 },
+            { "bipod_01_F_mtp", "", 800, 400 },
+            { "bipod_01_F_snd", "", 800, 400 },
+            { "bipod_01_F_tan", "", 800, 400 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 },
-			{ "20Rnd_762x51_Mag", "", 500 },
-			{ "20Rnd_762x51_Mag", "", 500 },
-			{ "10Rnd_338_Mag", "", 500 },
-			{ "20Rnd_762x51_Mag", "", 500 },
-			{ "10Rnd_127x54_Mag", "", 500 },
-			{ "10Rnd_93x64_DMR_05_Mag", "", 500 },
-			{ "20Rnd_762x51_Mag", "", 500 },
-			{ "150Rnd_93x64_Mag", "", 500 },
-			{ "130Rnd_338_Mag", "", 500 }	
+            { "30Rnd_9x21_Mag", "", 75 }
         };
     };
 
@@ -230,7 +231,20 @@ class WeaponShops {
             { "muzzle_snds_L", "", 650, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 1000, 450 },
-            { "NVGoggles", "", 2000, 980 }
+            { "NVGoggles", "", 2000, 980 },
+            
+            { "optic_ACO_grn_smg", "", 950, 250 },
+            { "optic_MRCO", "", 1200, 600 },
+            { "optic_SOS", "", 1500, 750 },
+            { "optic_DMS", "", 1800, 900 },
+            { "optic_AMS_snd", "", 3000, 1500 },
+            { "optic_Arco", "", 2000, 1000 },
+            { "optic_Holosight_smg", "", 500, 250 },
+            
+            { "bipod_01_F_blk", "", 800, 400 },
+            { "bipod_01_F_mtp", "", 800, 400 },
+            { "bipod_01_F_snd", "", 800, 400 },
+            { "bipod_01_F_tan", "", 800, 400 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -245,16 +259,35 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
+            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
+            { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "hgun_P07_F", "", 7500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "MineDetector", "", 1000, 500 },
             { "acc_flashlight", "", 750, 100 },
             { "optic_Holosight", "", 1200, 275 },
             { "optic_Arco", "", 2500, -1 },
             { "muzzle_snds_H", "", 2750, -1 }
+            
+            { "optic_ACO_grn_smg", "", 950, 250 },
+            { "optic_MRCO", "", 1200, 600 },
+            { "optic_SOS", "", 1500, 750 },
+            { "optic_DMS", "", 1800, 900 },
+            { "optic_AMS_snd", "", 3000, 1500 },
+            { "optic_Arco", "", 2000, 1000 },
+            { "optic_Holosight_smg", "", 500, 250 },
+            
+            { "bipod_01_F_blk", "", 800, 400 },
+            { "bipod_01_F_mtp", "", 800, 400 },
+            { "bipod_01_F_snd", "", 800, 400 },
+            { "bipod_01_F_tan", "", 800, 400 }
         };
         mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 130 },
-            { "30Rnd_9x21_Mag", "", 250 }
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
+            { "30Rnd_65x39_caseless_mag", "", 130 }
         };
     };
 
@@ -270,16 +303,28 @@ class WeaponShops {
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "optic_Arco", "", 2500, -1 },
             { "muzzle_snds_H", "", 2750, -1 },
-			
-			{ "srifle_EBR_ARCO_pointer_snds_F", "", 3000, 2000},
-			{ "srifle_EBR_F", "", 3000, 2000 },
-			{ "srifle_DMR_02_sniper_AMS_LP_S_F", "", 3000, 2000 },
-			{ "srifle_DMR_03_woodland_F", "", 3000, 2000 },
-			{ "srifle_DMR_04_MRCO_F", "", 3000, 2000 },
-			{ "srifle_DMR_05_hex_F", "", 3000, 2000 },
-			{ "srifle_DMR_06_camo_khs_F", "", 3000, 2000 },
-			{ "MMG_01_hex_ARCO_LP_F", "", 3000, 2000 },
-			{ "MMG_02_sand_RCO_LP_F", "", 3000, 2000 }	
+            
+            { "srifle_EBR_ARCO_pointer_snds_F", "", 3000, 2000},
+            { "srifle_EBR_F", "", 3000, 2000 },
+            { "srifle_DMR_02_sniper_AMS_LP_S_F", "", 3000, 2000 },
+            { "srifle_DMR_03_woodland_F", "", 3000, 2000 },
+            { "srifle_DMR_04_MRCO_F", "", 3000, 2000 },
+            { "srifle_DMR_05_hex_F", "", 3000, 2000 },
+            { "srifle_DMR_06_camo_khs_F", "", 3000, 2000 },
+            { "MMG_01_hex_ARCO_LP_F", "", 3000, 2000 },
+            { "MMG_02_sand_RCO_LP_F", "", 3000, 2000 },
+            
+            { "optic_ACO_grn_smg", "", 950, 250 },
+            { "optic_SOS", "", 1500, 750 },
+            { "optic_DMS", "", 1800, 900 },
+            { "optic_AMS_snd", "", 3000, 1500 },
+            { "optic_Arco", "", 2000, 1000 },
+            { "optic_Holosight_smg", "", 500, 250 },
+            
+            { "bipod_01_F_blk", "", 800, 400 },
+            { "bipod_01_F_mtp", "", 800, 400 },
+            { "bipod_01_F_snd", "", 800, 400 },
+            { "bipod_01_F_tan", "", 800, 400 }	
         };
         mags[] = {
             { "9Rnd_45ACP_Mag", "", 200 },
