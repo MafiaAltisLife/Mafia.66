@@ -326,7 +326,7 @@ class Clothing {
             { "V_PlateCarrierSpec_mtp", "Carrier Special Rig (MTP)", 2000, { "", "", -1 } },
             { "V_PlateCarrierGL_blk", "Carrier GL Rig (Black)", 2000, { "", "", -1 } },
             { "V_PlateCarrierGL_mtp", "Carrier GL Rig (MTP)", 2000, { "", "", -1 } }
-       
+        };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
