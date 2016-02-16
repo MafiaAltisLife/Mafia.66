@@ -1,7 +1,7 @@
-author = "Tonic";
-loadScreen = "textures\armalife.jpg";
+author = "Tonic edited by Digone";
+loadScreen = "textures\logo.jpg";
 onLoadName = "     =Altis Life 4.4=    ";
-onLoadMission = "Alugue este server nuclearwar.ts3gamer.com.br";
+onLoadMission = "Entre em nosso TS:mafiaaltisbrasil.meuts3.com.br";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
