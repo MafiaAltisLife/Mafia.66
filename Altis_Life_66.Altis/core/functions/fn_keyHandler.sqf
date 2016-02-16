@@ -140,14 +140,22 @@ switch (_code) do {
 	
 	
 	//Surrender (Shift + B)
-	case 48: {
-		if(_shift) then {
-			if(player GVAR ["playerSurrender",false]) then {
-				player SVAR ["playerSurrender",false,true];
-			} else {
-				[] spawn life_fnc_surrender;
+	case 15:
+	{
+		//if(_shift) then {_handled = true;};
+
+		if (!_shift && !_alt && !_ctrlKey) then
+		{
+			if (vehicle player == player && !(player GVAR ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+			{
+				if (player GVAR ["surrender", false]) then
+				{
+					player SVAR ["surrender", false, true];
+				} else
+				{
+					[] spawn life_fnc_surrender;
+				};
 			};
-			_handled = true;
 		};
 	};
 
