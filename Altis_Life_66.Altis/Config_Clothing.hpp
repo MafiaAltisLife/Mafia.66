@@ -44,7 +44,6 @@ class Clothing {
             { "H_Bandanna_khk", "Khaki Bandanna", 145, { "", "", -1 } },
             { "H_Bandanna_sgg", "Sage Bandanna", 160, { "", "", -1 } },
             { "H_StrawHat", "Straw Fedora", 225, { "", "", -1 } },
-            { "H_BandMask_blk", "Hat & Bandanna", 300, { "", "", -1 } },
             { "H_Booniehat_tan", "", 425, { "", "", -1 } },
             { "H_Hat_blue", "", 310, { "", "", -1 } },
             { "H_Hat_brown", "", 276, { "", "", -1 } },
@@ -75,7 +74,10 @@ class Clothing {
             { "G_Combat", "", 55, { "", "", -1 } }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, { "", "", -1 } }
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
+            { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
+            { "V_Press_F", "", 3000, { "", "", -1 } },
+            
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -268,7 +270,8 @@ class Clothing {
             { "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
             { "H_HelmetO_ocamo", "", 2500, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 1200, { "", "", -1 } },
-            { "H_Bandanna_camo", "", 650, { "", "", -1 } }
+            { "H_Bandanna_camo", "", 650, { "", "", -1 } },
+            { "H_BandMask_blk", "Hat & Bandanna", 3000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
