@@ -4,9 +4,9 @@
 	Description:
 	Called upon first spawn selection and welcomes our player.
 */
-format["Bem-vindo %1, Leia o texto abaixo, pois é importante!",profileName] hintC
+format["Bem-vindo %1, É importante ler o texto abaixo!",profileName] hintC
 [
-	"Bem-vindo ao servidor Máfia! Algumas coisas mudaram no Altis Life RPG e você precisa saber!",
+	"Bem-vindo ao servidor Máfia! Você precisa estar ciente de algumas coisas:",
 	"A tecla Windows não está funcionando para os farms que necessitam da picareta. Deverão abrir o menu (Y) e clicar em usar",
 	"Aperte TAB para se render.",
 	"O seguro dos veículos está temporariamente desabilitado.",
