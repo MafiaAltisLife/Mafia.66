@@ -170,6 +170,8 @@ class WeaponShops {
         items[] = {
             { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "arifle_MX_F", "", 35000, 7500 },
             { "hgun_P07_F", "", 7500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
@@ -182,7 +184,8 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
+            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
+            { "30Rnd_65x39_caseless_mag", "", 130 }
         };
     };
 
@@ -192,8 +195,6 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
-            { "arifle_MX_F", "", 35000, 7500 },
-            { "SMG_02_ACO_F", "", 30000, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "MineDetector", "", 1000, 500 },
             { "acc_flashlight", "", 750, 100 },
