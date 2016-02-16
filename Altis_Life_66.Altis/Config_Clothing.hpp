@@ -323,7 +323,6 @@ class Clothing {
             { "V_HarnessOSpec_brn", "", 2000, { "", "", -1 } },
             { "V_HarnessOSpec_gry", "", 2000, { "", "", -1 } },
             { "V_PlateCarrierIA1_dgtl", "", 2000, { "", "", -1 } },
-            { "V_PlateCarrierIA2_dgtl", "", 2000, { "", "", -1 } },
             { "V_PlateCarrierIAGL_dgtl", "", 2000, { "", "", -1 } },
             { "V_RebreatherB", "", 2000, { "", "", -1 } },
             { "V_PlateCarrier_Kerry", "", 2000, { "", "", -1 } },
