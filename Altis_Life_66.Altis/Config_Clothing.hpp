@@ -115,7 +115,7 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "Cop Uniform", 25, { "", "", -1 } },
+            { "U_Rangemaster", "Cop Uniform", 25, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -144,7 +144,7 @@ class Clothing {
             { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
             { "V_PlateCarrier2_rgr", "", 1000, { "life_coplevel", "SCALAR", 1 } },
             { "V_TacVest_blk", "", 1500, { "life_coplevel", "", 3 } },
-            { "V_PlateCarrierSpec_blk", "", 5000, { "life_coplevel", "", 3 } },
+            { "V_PlateCarrierSpec_blk", "", 5000, { "life_coplevel", "", 3 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
