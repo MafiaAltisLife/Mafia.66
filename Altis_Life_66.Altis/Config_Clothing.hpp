@@ -299,8 +299,9 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Rangemaster_belt", "Rangemaster Belt", 2000, { "", "", -1 } },
-            { "V_BandollierB_blk", "Slash Bandolier (Black)", 2000, { "", "", -1 } },
-            { "V_BandollierB_khk", "Slash Bandolier (Khaki)", 2000, { "", "", -1 } }
+            { "V_BandollierB_blk", "Slash Bandolier (Black)", 3000, { "", "", -1 } },
+            { "V_BandollierB_khk", "Slash Bandolier (Khaki)", 3000, { "", "", -1 } },
+            { "V_PlateCarrier1_rgr", "Carrier Lite (Green)", 2000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
