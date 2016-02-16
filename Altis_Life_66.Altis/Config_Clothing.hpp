@@ -298,33 +298,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "Rangemaster Belt", 2000, { "", "", -1 } },
-            { "V_BandollierB_khk", "Slash Bandolier (Khaki)", 2000, { "", "", -1 } },
-            { "V_BandollierB_blk", "Slash Bandolier (Black)", 2000, { "", "", -1 } },
-            { "V_PlateCarrier1_rgr", "Carrier Lite (Green)", 2000, { "", "", -1 } },
-            { "V_PlateCarrier2_rgr", "Carrier Rig (Green)", 2000, { "", "", -1 } },
-            { "V_PlateCarrier3_rgr", "Carrier Rig (Green)", 2000, { "", "", -1 } },
-            { "V_PlateCarrierGL_rgr", "Carrier GL Rig (Green)", 2000, { "", "", -1 } },
-            { "V_PlateCarrier1_blk", "Carrier Lite (Black)", 2000, { "", "", -1 } },
-            { "V_PlateCarrierSpec_rgr", "Carrier Special Rig (Green)", 2000, { "", "", -1 } },
-            { "V_Chestrig_khk", "Chest Rig (Khaki)", 2000, { "", "", -1 } },
-            { "V_Chestrig_blk", "Fighter Chestrig (Black)", 2000, { "", "", -1 } },
-            { "V_TacVest_khk", "Tactical Vest (Khaki)", 2000, { "", "", -1 } },
-            { "V_TacVest_blk", "Tactical Vest (Black)", 2000, { "", "", -1 } },
-            { "V_TacVestIR_blk", "Raven Vest", 2000, { "", "", -1 } },
-            { "V_TacVestCamo_khk", "Camouflaged Vest", 2000, { "", "", -1 } },
-            { "V_HarnessO_brn", "LBV Harness", 2000, { "", "", -1 } },
-            { "V_HarnessO_gry", "LBV Harness (Gray)", 2000, { "", "", -1 } },
-            { "V_PlateCarrierIA1_dgtl", "GA Carrier Lite (Digi)", 2000, { "", "", -1 } },
-            { "V_PlateCarrierIAGL_dgtl", "GA Carrier GL Rig (Digi)", 2000, { "", "", -1 } },
-            { "V_RebreatherB", "Rebreather (NATO)", 2000, { "", "", -1 } },
-            { "V_PlateCarrier_Kerry", "US Plate Carrier Rig (Kerry)", 2000, { "", "", -1 } },
-            { "V_PlateCarrierH_CTRG", "CTRG Plate Carrier Rig Mk.2 (Heavy)", 2000, { "", "", -1 } },
-            { "V_I_G_resistanceLeader_F", "Tactical Vest (Stavrou)", 2000, { "", "", -1 } },
-            { "V_PlateCarrierSpec_blk", "Carrier Special Rig (Black)", 2000, { "", "", -1 } },
-            { "V_PlateCarrierSpec_mtp", "Carrier Special Rig (MTP)", 2000, { "", "", -1 } },
-            { "V_PlateCarrierGL_blk", "Carrier GL Rig (Black)", 2000, { "", "", -1 } }
-            { "V_PlateCarrierGL_mtp", "Carrier GL Rig (MTP)", 2000, { "", "", -1 } }
+            { "V_Rangemaster_belt", "Rangemaster Belt", 2000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
