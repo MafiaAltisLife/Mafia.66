@@ -63,7 +63,15 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
     };
-
+    
+class drugdealer_D {
+        name = "Mercado Negro";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "diamond_uncut", "diamond_cut" };
+    };
+    
     class oil {
         name = "STR_Shops_Oil";
         side = "civ";
@@ -391,7 +399,7 @@ class VirtualItems {
         weight = 4;
         buyPrice = -1;
         sellPrice = 750;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_diamondUncut.paa";
     };
@@ -401,8 +409,8 @@ class VirtualItems {
         displayName = "STR_Item_DiamondC";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 2000;
-        illegal = false;
+        sellPrice = 7000;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_diamondCut.paa";
     };
