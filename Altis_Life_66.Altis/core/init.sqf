@@ -126,6 +126,7 @@ life_fnc_moveIn = compileFinal
 [] spawn life_fnc_survival;
 
 [] spawn {
+	if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];};
 	while {true} do {
 		waitUntil{(!isNull (findDisplay 49)) && (!isNull (findDisplay 602))}; // Check if Inventory and ESC dialogs are open
 		(findDisplay 49) closeDisplay 2; // Close ESC dialog
@@ -133,7 +134,6 @@ life_fnc_moveIn = compileFinal
 	};
 };
 
-if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];};
 CONSTVAR(life_paycheck); //Make the paycheck static.
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};
 
