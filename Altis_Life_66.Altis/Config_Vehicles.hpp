@@ -88,8 +88,8 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", 5000, { "" }, { "", "", -1 } },
-            { "C_SUV_01_F", 20000, { "" }, { "", "suvpm", -1 } },
+            { "C_Offroad_01_F", 5000, { "" }, { "", "offroad", -1 } },
+            { "C_SUV_01_F", 20000, { "" }, { "", "suv", -1 } },
             { "C_Hatchback_01_sport_F", 30000, { "" }, { "life_coplevel", "SCALAR", -1 } },
             { "B_MRAP_01_F", 200000, { "" }, { "life_coplevel", "SCALAR", -1 } },
         };
@@ -451,7 +451,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             } },
             { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+                "textures\Cop\offroad.paa"
             } }
         };
     };
@@ -654,11 +654,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             } },
             { "Police", "cop", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
-            } },
-            { "Police_1", "cop", {
-                "textures\Cop\suvpm.paa"
-                    
+                "textures\Cop\suv.paa"
             } },
         };
     };
