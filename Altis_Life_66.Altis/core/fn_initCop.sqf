@@ -30,7 +30,7 @@ waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be ope
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
 [] spawn{while {true} do{waitUntil {uniform player == "elite"};
-player setObjectTextureGlobal [0,"textures\Cop\elite.paa"];
+player setObjectTextureGlobal [0,"textures\elite.paa"];
 waitUntil {uniform player != "elite"};
         };
 };
