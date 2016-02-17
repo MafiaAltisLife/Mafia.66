@@ -131,8 +131,7 @@ life_fnc_moveIn = compileFinal
 		(findDisplay 49) closeDisplay 2; // Close ESC dialog
 		(findDisplay 602) closeDisplay 2; // Close Inventory dialog
 	};
-	
-	if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];};
+
 };
 
 CONSTVAR(life_paycheck); //Make the paycheck static.
