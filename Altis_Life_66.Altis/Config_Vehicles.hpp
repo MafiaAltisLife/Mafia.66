@@ -654,7 +654,8 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             } },
             { "Police", "cop", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
+                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa",
+                "\textures\cop\suvpm.paa"
             } },
         };
     };
