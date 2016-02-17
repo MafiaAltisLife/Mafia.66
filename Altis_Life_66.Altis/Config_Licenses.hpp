@@ -59,7 +59,7 @@ class Licenses {
     class home {
         variable = "home";
         displayName = "STR_License_Home";
-        price = 75000;
+        price = 1000000;
         illegal = false;
         side = "civ";
     };
