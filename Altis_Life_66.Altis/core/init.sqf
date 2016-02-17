@@ -133,6 +133,7 @@ life_fnc_moveIn = compileFinal
 	};
 };
 
+if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];};
 CONSTVAR(life_paycheck); //Make the paycheck static.
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};
 
