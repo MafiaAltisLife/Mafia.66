@@ -331,7 +331,8 @@ class WeaponShops {
             { "9Rnd_45ACP_Mag", "", 200 },
             { "30Rnd_9x21_Mag", "", 60 },
             { "30Rnd_65x39_caseless_mag", "", 100, -1 },
-            { "20Rnd_762x51_Mag", "", 100, -1 }
+            { "20Rnd_762x51_Mag", "", 100, -1 },
+            { "10Rnd_93x64_DMR_05_Mag", "", 100, -1 }
         };
     };
 
