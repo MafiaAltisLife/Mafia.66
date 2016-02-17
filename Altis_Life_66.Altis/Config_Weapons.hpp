@@ -22,10 +22,10 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 6500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
-            { "hgun_ACPC2_F", "", 11500, -1 },
-            { "hgun_PDW2000_F", "", 20000, -1 },
+            { "hgun_Rook40_F", "", 6500, 3250 },
+            { "hgun_Pistol_heavy_02_F", "", 9850, 4750 },
+            { "hgun_ACPC2_F", "", 11500, 5750 },
+            { "hgun_PDW2000_F", "", 20000, 10000 },
             { "SMG_01_F", "", 22000, 11000 },
             { "SMG_02_F", "", 24000, 12000 },
             
@@ -85,11 +85,11 @@ class WeaponShops {
             { "srifle_DMR_03_multicam_F", "", 160000, 80000 },
             { "srifle_DMR_03_woodland_F", "", 160000, 80000 },
             { "srifle_DMR_04_F", "", 280000, 140000 },
-            { "srifle_DMR_04_Tan_F", "", 280000, 140000 },
-            { "srifle_DMR_05_blk_F", "", 320000, 160000 },
-            { "srifle_DMR_05_hex_F", "", 320000, 160000 },
-            { "srifle_DMR_05_tan_f", "", 320000, 160000},
-            { "srifle_DMR_06_camo_F", "", 320000, 160000},
+            { "srifle_DMR_04_Tan_F", "", 280000, 145000 },
+            { "srifle_DMR_05_blk_F", "", 400000, 200000 },
+            { "srifle_DMR_05_hex_F", "", 400000, 200000 },
+            { "srifle_DMR_05_tan_f", "", 400000, 200000},
+            { "srifle_DMR_06_camo_F", "", 400000, 200000},
             
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
@@ -141,8 +141,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 1500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
+            { "hgun_Rook40_F", "", 1500, 750 },
+            { "hgun_Pistol_heavy_02_F", "", 2500, 1250 },
             { "hgun_ACPC2_F", "", 4500, -1 },
             { "hgun_PDW2000_F", "", 9500, -1 },
         
@@ -352,6 +352,7 @@ class WeaponShops {
         items[] = {
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, -1 },
+            { "ItemMap", "", 50, 35 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 500, 450 },
