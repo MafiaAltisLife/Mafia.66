@@ -11,7 +11,7 @@ class Licenses {
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
-        price = 500;
+        price = 10000;
         illegal = false;
         side = "civ";
     };
@@ -157,7 +157,7 @@ class Licenses {
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 75000;
+        price = 500000;
         illegal = true;
         side = "civ";
     };
@@ -190,7 +190,7 @@ class Licenses {
 	class Donator {
         variable = "donator";
         displayName = "Vip";
-        price = 7500000;
+        price = 999999999;
         illegal = false;
         side = "civ";
     };
