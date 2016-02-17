@@ -131,7 +131,6 @@ life_fnc_moveIn = compileFinal
 		(findDisplay 49) closeDisplay 2; // Close ESC dialog
 		(findDisplay 602) closeDisplay 2; // Close Inventory dialog
 	};
-
 };
 
 CONSTVAR(life_paycheck); //Make the paycheck static.
