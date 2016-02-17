@@ -29,6 +29,7 @@ class WeaponShops {
             { "SMG_01_F", "", 22000, 11000 },
             { "SMG_02_F", "", 24000, 12000 },
             
+            { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
             { "optic_SOS", "", 1500, 750 },
@@ -91,6 +92,7 @@ class WeaponShops {
             { "srifle_DMR_05_tan_f", "", 400000, 200000},
             { "srifle_DMR_06_camo_F", "", 400000, 200000},
             
+            { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
             { "optic_SOS", "", 1500, 750 },
@@ -146,6 +148,7 @@ class WeaponShops {
             { "hgun_ACPC2_F", "", 4500, -1 },
             { "hgun_PDW2000_F", "", 9500, -1 },
         
+            { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
             { "optic_SOS", "", 1500, 750 },
@@ -219,11 +222,12 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
+            { "arifle_sdar_F", "Taser Rifle", 20000, -1 },
+            { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
             { "SMG_02_ACO_F", "", 30000, -1 },
-            { "arifle_MX_F", "", 35000, 7500 },
+            { "arifle_MX_F", "", 35000, -1 },
             { "hgun_P07_F", "", 7500, 1500 },
+            
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
@@ -233,11 +237,9 @@ class WeaponShops {
             { "Medikit", "", 1000, 450 },
             { "NVGoggles", "", 2000, 980 },
             
+            { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
-            { "optic_SOS", "", 1500, 750 },
-            { "optic_DMS", "", 1800, 900 },
-            { "optic_AMS_snd", "", 3000, 1500 },
             { "optic_Arco", "", 2000, 1000 },
             { "optic_Holosight_smg", "", 500, 250 },
             
@@ -262,15 +264,11 @@ class WeaponShops {
             { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
             { "SMG_02_ACO_F", "", 30000, -1 },
-            { "arifle_MX_F", "", 35000, 7500 },
             { "hgun_P07_F", "", 7500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "MineDetector", "", 1000, 500 },
-            { "acc_flashlight", "", 750, 100 },
-            { "optic_Holosight", "", 1200, 275 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 },
             
+            { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
             { "optic_SOS", "", 1500, 750 },
@@ -314,6 +312,7 @@ class WeaponShops {
             { "MMG_01_hex_ARCO_LP_F", "", 3000, 2000 },
             { "MMG_02_sand_RCO_LP_F", "", 3000, 2000 },
             
+            { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_SOS", "", 1500, 750 },
             { "optic_DMS", "", 1800, 900 },
