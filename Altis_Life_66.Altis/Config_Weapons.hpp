@@ -291,7 +291,6 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 130 },
             { "100Rnd_65x39_caseless_mag_Tracer", "", 130 },
             { "100Rnd_65x39_caseless_mag", "", 130 },
-            { "30Rnd_65x39_caseless_mag", "", 130 },
             { "30Rnd_65x39_caseless_mag_Tracer", "", 130 }
         };
     };
@@ -311,7 +310,7 @@ class WeaponShops {
             { "srifle_DMR_04_ACO_F", "", 10000, -1 },
             { "srifle_DMR_05_blk_F", "", 12000, -1 },
             { "srifle_DMR_06_camo_F", "", 14000, -1 },
-            { "srifle_DMR_02_F, "", 14000, -1 },
+            { "srifle_DMR_02_F", "", 14000, -1 },
             
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             
