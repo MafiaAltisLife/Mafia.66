@@ -119,15 +119,15 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Cap_police", "", 100, { "life_coplevel", "", 1 } },
-            { "H_HelmetCrew_B", "", 100, { "life_coplevel", "", 2 } },
-            { "H_PilotHelmetHeli_B", "", 100, { "life_coplevel", "", 2 } },
-            { "H_HelmetSpecO_blk", "", 100, { "life_coplevel", "", 3 } },
-            { "H_Beret_blk", "", 100, { "life_coplevel", "", 3 } },
-            { "H_Beret_blk_POLICE", "", 100, { "life_coplevel", "", 3 } },
-            { "H_Beret_02", "", 100, { "life_coplevel", "", 3 } },
-            { "H_Beret_Colonel", "", 100, { "life_coplevel", "", 3 } },
-            { "H_Watchcap_blk", "", 100, { "life_coplevel", "", 2 } }
+            { "H_Cap_police", "", 100, { "", "", -1 } },
+            { "H_HelmetCrew_B", "", 100, { "", "", -1 } },
+            { "H_PilotHelmetHeli_B", "", 100, { "", "", -1 } },
+            { "H_HelmetSpecO_blk", "", 100, { "", "", -1 } },
+            { "H_Beret_blk", "", 100, { "", "", -1 } },
+            { "H_Beret_blk_POLICE", "", 100, { "", "", -1 } },
+            { "H_Beret_02", "", 100, { "", "", -1 } },
+            { "H_Beret_Colonel", "", 100, { "", "", -1 } },
+            { "H_Watchcap_blk", "", 100, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
