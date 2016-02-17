@@ -1,5 +1,5 @@
 author = "Tonic edited by Digone";
-loadScreen = "textures\logo.jpg";
+loadScreen = "textures\MafiaLogo.jpg";
 onLoadName = "     =Altis Life 4.4=    ";
 onLoadMission = "Entre em nosso TS:mafiaaltisbrasil.meuts3.com.br";
 joinUnassigned = 1;
