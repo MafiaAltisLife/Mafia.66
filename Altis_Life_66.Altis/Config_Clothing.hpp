@@ -319,7 +319,6 @@ class Clothing {
             { "V_BandollierB_blk", "Slash Bandolier (Black)", 3000, { "", "", -1 } },
             { "V_BandollierB_khk", "Slash Bandolier (Khaki)", 3000, { "", "", -1 } },
             { "V_PlateCarrier1_rgr", "Carrier Lite (Green)", 10000, { "", "", -1 } },
-            { "V_PlateCarrier1_rgr", "Carrier Lite (Green)", 10000, { "", "", -1 } },
             { "V_PlateCarrier2_rgr", "Carrier Rig (Green)", 10000, { "", "", -1 } },
             { "V_PlateCarrier3_rgr", "Carrier Rig (Green)", 10000, { "", "", -1 } },
             { "V_PlateCarrierGL_rgr", "Carrier GL Rig (Green)", 10000, { "", "", -1 } },
