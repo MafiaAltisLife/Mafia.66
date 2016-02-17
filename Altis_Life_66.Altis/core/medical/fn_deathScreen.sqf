@@ -16,9 +16,9 @@ waitUntil {
 	_nearby = 99999;  {    if (side _x == independent && alive _x && _x != player) then    {      
 	_distance = (getPosATL life_corpse) distance _x;      
 	if (_distance < _nearby) then {_nearby = _distance;};    };  } foreach playableUnits;
-	_medicsOnline ctrlSetText format["Medecin(s) actif(s): %1",[independent] call life_fnc_playerCount];  
+	_medicsOnline ctrlSetText format["Médico(s) Online(s): %1",[independent] call life_fnc_playerCount];  
 	if (_nearby == 99999) then   {     
-	_medicsNear ctrlSetText format["Medecin proche: Non",_nearby]; } else {   _medicsNear ctrlSetText format["Medecin le plus proche proche: %1m",[(round _nearby)] call life_fnc_numberText];};  sleep 1;  (isNull (findDisplay 7300))};
+	_medicsNear ctrlSetText format["Medecin proche: Non",_nearby]; } else {   _medicsNear ctrlSetText format["Médico mais próximo: %1m",[(round _nearby)] call life_fnc_numberText];};  sleep 1;  (isNull (findDisplay 7300))};
 	sleep 1;
 	(isNull (findDisplay 7300))
 	
