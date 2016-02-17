@@ -69,7 +69,7 @@ class drugdealer_D {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "diamond_uncut", "diamond_cut" };
+        items[] = { "diamond_uncut" };
     };
     
     class oil {
@@ -398,7 +398,7 @@ class VirtualItems {
         displayName = "STR_Item_DiamondU";
         weight = 4;
         buyPrice = -1;
-        sellPrice = 750;
+        sellPrice = 6800;
         illegal = true;
         edible = -1;
         icon = "icons\ico_diamondUncut.paa";
@@ -409,8 +409,8 @@ class VirtualItems {
         displayName = "STR_Item_DiamondC";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 7000;
-        illegal = true;
+        sellPrice = 2300;
+        illegal = false;
         edible = -1;
         icon = "icons\ico_diamondCut.paa";
     };
