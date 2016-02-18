@@ -40,7 +40,7 @@ while {true} do
 		if ((call life_coplevel) == 4) then {player setObjectTextureGlobal [0,"textures\Cop\PHM.jpg"];};
 		if ((call life_coplevel) == 5) then {player setObjectTextureGlobal [0,"textures\Cop\PK.jpg"];};
 		if ((call life_coplevel) == 6) then {player setObjectTextureGlobal [0,"textures\Cop\POK.jpg"];};
-		if ((call life_coplevel) == 7) then {player setObjectTextureGlobal [0,"textures\Cop\PHK.jpg"];};
+		if ((call life_coplevel) == 7) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupa.paa"];};
 		if ((call life_coplevel) == 8) then {player setObjectTextureGlobal [0,"textures\Cop\PR.jpg"];};
 		if ((call life_coplevel) == 9) then {player setObjectTextureGlobal [0,"textures\Cop\POR.jpg"];};
 		if ((call life_coplevel) == 10) then {player setObjectTextureGlobal [0,"textures\Cop\PD.jpg"];};

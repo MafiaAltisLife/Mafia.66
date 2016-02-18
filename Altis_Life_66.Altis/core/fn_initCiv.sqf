@@ -15,9 +15,13 @@ waitUntil {!(isNull (findDisplay 46))};
 if(life_is_arrested) then {
 	life_is_arrested = false;
 	[player,true] spawn life_fnc_jail;
+	[] spawn life_fnc_introcam;
+	[] execVM "core\welcome.sqf";
 } else {
 	[] call life_fnc_spawnMenu;
 	waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 	waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
+	[] spawn life_fnc_introcam;
+	[] execVM "core\welcome.sqf";
 };
 player addRating 9999999;

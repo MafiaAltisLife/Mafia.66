@@ -338,6 +338,7 @@ switch (_code) do {
 							[_veh,0] remoteExecCall ["life_fnc_lockVehicle",_veh];
 						};
 						systemChat localize "STR_MISC_VehUnlock";
+						 player say3D "car_unlock";
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
@@ -345,6 +346,7 @@ switch (_code) do {
 							[_veh,2] remoteExecCall ["life_fnc_lockVehicle",_veh];
 						};
 						systemChat localize "STR_MISC_VehLock";
+						  player say3D "car_lock";
 					};
 				};
 			};

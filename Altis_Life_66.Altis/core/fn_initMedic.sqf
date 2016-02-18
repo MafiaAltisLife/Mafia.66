@@ -30,3 +30,6 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"allow_medic_weapons"),0)) then
 [] call life_fnc_spawnMenu;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
+[] spawn life_fnc_introcam;
+[] execVM "core\welcome.sqf";
+[] call life_fnc_playerSkins;
