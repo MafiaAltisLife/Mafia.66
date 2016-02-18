@@ -8,15 +8,15 @@ Creates an intro on the bottom-right hand corner of the screen.
 _onScreenTime = 7; //Zeit wie lange ein Text angezeigt wird
 _role1 = "Corleone, Digone e Adrianu"; //In Gelb
 _role1names = ["Projetistas"]; //In Weiß
-_role2 = "IMPERADOR";
+_role2 = "IMPERADOR, Adrianu e Corleone";
 _role2names = ["Script"]; 
-_role3 = "Corleone";
-_role3names = ["Mappe'"];
-_role4 = "Corleone e Digone";
+_role3 = "Corleone e Digone";
+_role3names = ["Diretor'"];
+_role4 = "Digone";
 _role4names = ["Design"];
-_role5 = "ts3.novarp.de";
-_role5names = ["Ts Adresse"];
-_role6 = "www.novarp.de";
+_role5 = "mafiaaltisbrasil.meuts3.com.br";
+_role5names = ["Ts Adress"];
+_role6 = "http://hostgamesmafia.forumeiros.com/forum";
 _role6names = ["Forum"];
 {
 sleep 2;
