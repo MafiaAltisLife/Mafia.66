@@ -6,13 +6,13 @@ Description:
 Creates an intro on the bottom-right hand corner of the screen.
 */
 _onScreenTime = 7; //Zeit wie lange ein Text angezeigt wird
-_role1 = "ChrisHusky, Martin und Maxos"; //In Gelb
-_role1names = ["Projektleitung"]; //In Weiß
-_role2 = "Maxos";
-_role2names = ["Scripter"]; 
-_role3 = "ChrisHusky und Joshi";
-_role3names = ["Mapper"];
-_role4 = "Martin und Joshi";
+_role1 = "Corleone, Digone e Adrianu"; //In Gelb
+_role1names = ["Projetistas"]; //In Weiß
+_role2 = "IMPERADOR";
+_role2names = ["Script"]; 
+_role3 = "Corleone";
+_role3names = ["Mappe'"];
+_role4 = "Corleone e Digone";
 _role4names = ["Design"];
 _role5 = "ts3.novarp.de";
 _role5names = ["Ts Adresse"];
