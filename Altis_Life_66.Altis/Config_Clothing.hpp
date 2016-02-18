@@ -114,12 +114,7 @@ class Clothing {
         license = "";
         side = "cop";
         uniforms[] = {
-			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "U_Rangemaster", "Polizeiuniform", 25, { "", "", -1 } },
-			{ "U_O_Wetsuit", "", 2000, {"life_coplevel", "SCALAR", 1} },
-			{ "U_B_SpecopsUniform_sgg", "Einsatzuniform", 550, { "life_coplevel", "SCALAR", 4 } },
-			{ "U_B_CombatUniform_mcam", "Kampfanzug (Tropen)", 1000, { "life_coplevel", "SCALAR", 6 } },
-			{ "U_B_GhillieSuit", "Ghillie-Anzug (Tropen)", 1000, { "life_coplevel", "SCALAR", 6 } }
+	    { "NONE", "Remove Uniform", 0, { "", "", -1 } },
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
