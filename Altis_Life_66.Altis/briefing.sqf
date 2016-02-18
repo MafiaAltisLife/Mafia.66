@@ -549,10 +549,9 @@ player createDiarySubject ["controls","Controls"];
 
 
 // Controls Section
-
-	player createDiaryRecord ["Controles",
+	player createDiaryRecord ["Controls",
 		[
-			"",
+			"Controles",
 				"
 				Y: Abre o menu do jogador<br/>
 				U: Trancar e destrancar veículos e casas<br/>
