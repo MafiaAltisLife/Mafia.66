@@ -10,25 +10,25 @@ switch(playerSide) do {
 	case civilian: {
 		if(EQUAL(LIFE_SETTINGS(getNumber,"civ_skins"),1)) then {
 			if(uniform player == "U_C_Poloshirt_blue") then {
-				player setObjectTextureGlobal [0, "textures\civilian_uniform_1.jpg"];
+				player setObjectTextureGlobal [0, "textures\Civ\Civ_roupa.paa"];
 			};
 			if(uniform player == "U_C_Poloshirt_burgundy") then {
-				player setObjectTextureGlobal [0, "textures\civilian_uniform_2.jpg"];
+				player setObjectTextureGlobal [0, "textures\Civ\Civ_roupa.paa"];
 			};
 			if(uniform player == "U_C_Poloshirt_stripped") then {
-				player setObjectTextureGlobal [0, "textures\civilian_uniform_3.jpg"];
+				player setObjectTextureGlobal [0, "textures\Civ\Civ_roupa.paa"];
 			};
 			if(uniform player == "U_C_Poloshirt_tricolour") then {
-				player setObjectTextureGlobal [0, "textures\civilian_uniform_4.jpg"];
+				player setObjectTextureGlobal [0, "textures\Civ\Civ_roupa.paa"];
 			};
 			if(uniform player == "U_C_Poloshirt_salmon") then {
-				player setObjectTextureGlobal [0, "textures\civilian_uniform_5.jpg"];
+				player setObjectTextureGlobal [0, "textures\Civ\Civ_roupa.paa"];
 			};
 			if(uniform player == "U_C_Poloshirt_redwhite") then {
-				player setObjectTextureGlobal [0, "textures\civilian_uniform_6.jpg"];
+				player setObjectTextureGlobal [0, "textures\Civ\Civ_roupa.paa"];
 			};
 			if(uniform player == "U_C_Commoner1_1") then {
-				player setObjectTextureGlobal [0, "textures\civilian_uniform_7.jpg"];
+				player setObjectTextureGlobal [0, "textures\Civ\Civ_roupa.paa"];
 			};
 		};
 	};
