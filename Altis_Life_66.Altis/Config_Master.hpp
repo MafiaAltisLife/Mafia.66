@@ -20,7 +20,7 @@ class Life_Settings {
     cops_online_min = 5; //minimum cops online for robbing a bank
 
     /* Medic related settings*/
-    allow_medic_weapons = false; // true allows medics to hold/use weapons - false disallows
+    allow_medic_weapons = true; // true allows medics to hold/use weapons - false disallows
 
     /* Revive system settings */
     revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
