@@ -159,7 +159,6 @@ class Clothing {
             { "B_AssaultPack_cbr", "", 700, { "", "", -1 } },
             { "B_Bergen_sgg", "", 2500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 3500, { "", "", -1 } }
-            { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
         };
     };
 
