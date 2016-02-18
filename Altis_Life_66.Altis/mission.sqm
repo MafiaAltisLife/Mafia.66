@@ -85,7 +85,8 @@ class Mission
 		"A3_Structures_F_EPB_Items_Vessels",
 		"A3_Structures_F_EPA_Walls",
 		"A3_Structures_F_Bootcamp_Civ_Camping",
-		"A3_Structures_F_Heli_Ind_Cargo"
+		"A3_Structures_F_Heli_Ind_Cargo",
+		"A3_Characters_F_INDEP"
 	};
 	addOnsAuto[]=
 	{
@@ -94,6 +95,7 @@ class Mission
 		"A3_Characters_F_Civil",
 		"A3_Characters_F_OPFOR",
 		"A3_Characters_F_Gamma",
+		"A3_Characters_F_INDEP",
 		"A3_Characters_F_EPC",
 		"A3_Modules_F",
 		"A3_Structures_F_Civ_Garbage",
@@ -170,27 +172,21 @@ class Mission
 	randomSeed=2004553;
 	class Intel
 	{
-		briefingName="Altis Life RPG v4.4";
-		overviewText="An RPG game mode developed by Tonic";
-		startWeather=0.099999994;
-		startWind=0.29999998;
-		startWindDir=20;
-		startWaves=0.12;
-		startGust=0.099999994;
-		forecastWeather=0.099999994;
-		forecastWind=0.29999998;
-		forecastWaves=0.12;
-		forecastGust=0.099999994;
-		forecastWindDir=360;
-		wavesForced=1;
-		windForced=1;
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
 		year=2035;
-		month=7;
-		day=6;
-		hour=8;
+		month=6;
+		day=24;
+		hour=12;
 		minute=0;
-		startFogDecay=0.0049333;
-		forecastFogDecay=0.0049333;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 	class Groups
 	{
@@ -213,7 +209,7 @@ class Mission
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					text="cop_1";
+					text="cop_20";
 					init="removeBackpack this; removeAllWeapons this;";
 					description="Coronel - Cop 1";
 				};
@@ -227,7 +223,7 @@ class Mission
 					player="PLAY CDG";
 					rank="COLONEL";
 					skill=0.60000002;
-					text="cop_2";
+					text="cop_21";
 					init="removeBackpack this; removeAllWeapons this;";
 					description="Tenente Coronel - Cop 2";
 				};
@@ -241,7 +237,7 @@ class Mission
 					player="PLAY CDG";
 					rank="MAJOR";
 					skill=0.60000002;
-					text="cop_3";
+					text="cop_22";
 					init="removeBackpack this; removeAllWeapons this;";
 					description="Major - Cop 3";
 				};
@@ -255,7 +251,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CAPTAIN";
 					skill=0.60000002;
-					text="cop_4";
+					text="cop_23";
 					init="removeBackpack this; removeAllWeapons this;";
 					description="Capitao - Cop 4";
 				};
@@ -3518,11 +3514,11 @@ class Mission
 					special="NONE";
 					id=209;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					text="medic_1";
+					text="medic_5";
 					description="EMS Medic";
 				};
 				class Item1
@@ -41928,12 +41924,12 @@ class Intro
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
 		year=2035;
-		month=7;
-		day=6;
-		hour=14;
-		minute=15;
-		startFogDecay=0.0049333;
-		forecastFogDecay=0.0049333;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
 class OutroWin
@@ -41959,12 +41955,12 @@ class OutroWin
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
 		year=2035;
-		month=7;
-		day=6;
-		hour=14;
-		minute=15;
-		startFogDecay=0.0049333;
-		forecastFogDecay=0.0049333;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
 class OutroLoose
@@ -41990,11 +41986,11 @@ class OutroLoose
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
 		year=2035;
-		month=7;
-		day=6;
-		hour=14;
-		minute=15;
-		startFogDecay=0.0049333;
-		forecastFogDecay=0.0049333;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
