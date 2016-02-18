@@ -115,7 +115,7 @@ class Clothing {
         side = "cop";
         uniforms[] = {
 	    { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-	    { "", "", 50, { "", "", -1 } }
+	    { "U_B_CombatUniform_mcam", "Uniforme Policial", 50, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
