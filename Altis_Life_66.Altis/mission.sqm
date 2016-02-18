@@ -211,10 +211,11 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					leader=1;
+					rank="COLONEL";
 					skill=0.60000002;
 					text="cop_1";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 1";
+					description="Coronel - Cop 1";
 				};
 				class Item1
 				{
@@ -224,10 +225,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="COLONEL";
 					skill=0.60000002;
 					text="cop_2";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 2";
+					description="Tenente Coronel - Cop 2";
 				};
 				class Item2
 				{
@@ -237,10 +239,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="MAJOR";
 					skill=0.60000002;
 					text="cop_3";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 3";
+					description="Major - Cop 3";
 				};
 				class Item3
 				{
@@ -250,10 +253,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="CAPTAIN";
 					skill=0.60000002;
 					text="cop_4";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 4";
+					description="Capitao - Cop 4";
 				};
 				class Item4
 				{
@@ -263,10 +267,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="cop_5";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 5";
+					description="1ª Tenente - Cop 5";
 				};
 				class Item5
 				{
@@ -276,10 +281,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="cop_6";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 6";
+					description="2ª Tenente - Cop 6";
 				};
 				class Item6
 				{
@@ -289,10 +295,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="SERGEANT";
 					skill=0.60000002;
 					text="cop_7";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 7";
+					description="1ª Sargento - Cop 7";
 				};
 				class Item7
 				{
@@ -302,10 +309,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="SERGEANT";
 					skill=0.60000002;
 					text="cop_8";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 8";
+					description="2ª Sargento - Cop 8";
 				};
 				class Item8
 				{
@@ -315,10 +323,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="SERGEANT";
 					skill=0.60000002;
 					text="cop_9";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 9";
+					description="3ª Sargento - Cop 9";
 				};
 				class Item9
 				{
@@ -328,10 +337,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					text="cop_10";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 10";
+					description="Cabo - Cop 10";
 				};
 				class Item10
 				{
@@ -341,10 +351,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					text="cop_11";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 11";
+					description="Cabo - Cop 11";
 				};
 				class Item11
 				{
@@ -354,10 +365,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					text="cop_12";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 12";
+					description="Cabo - Cop 12";
 				};
 				class Item12
 				{
@@ -367,10 +379,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					text="cop_13";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 13";
+					description="Cabo - Cop 13";
 				};
 				class Item13
 				{
@@ -381,10 +394,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					text="cop_14";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 14";
+					description="Cabo - Cop 14";
 				};
 				class Item14
 				{
@@ -394,10 +408,11 @@ class Mission
 					side="WEST";
 					vehicle="B_medic_F";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					text="cop_15";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 15";
+					description="Cabo - Cop 15";
 				};
 				class Item15
 				{
@@ -410,7 +425,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 16";
+					description="Soldado - Cop 16";
 				};
 				class Item16
 				{
@@ -423,7 +438,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_17";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 17";
+					description="Soldado - Cop 17";
 				};
 				class Item17
 				{
@@ -436,7 +451,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_18";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 18";
+					description="Soldado - Cop 18";
 				};
 				class Item18
 				{
@@ -449,7 +464,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_19";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 19";
+					description="Soldado - Cop 19";
 				};
 			};
 		};
