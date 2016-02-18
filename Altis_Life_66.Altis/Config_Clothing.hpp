@@ -116,7 +116,7 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_B_CombatUniform_mcam", "Policial Uniforme", 25, { "", "textures\Cop\policia_roupa.paa", -1 } },
-            { "U_B_CombatUniform_mcam", "", 25, { "", "textures\Cop\elite.paa", -1 } }
+            { "U_B_CombatUniform_mcam", "Policial Elite", 25, { "", "textures\Cop\elite.paa",  } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -126,8 +126,8 @@ class Clothing {
             { "H_HelmetSpecO_blk", "", 100, { "", "", -1 } },
             { "H_Beret_blk", "", 100, { "", "", -1 } },
             { "H_Beret_blk_POLICE", "", 100, { "", "", -1 } },
-            { "H_Beret_02", "", 100, { "", "", 2 } },
-            { "H_Beret_Colonel", "", 100, { "", "", 3 } },
+            { "H_Beret_02", "", 100, { "", "", -1 } },
+            { "H_Beret_Colonel", "", 100, { "", "", -1 } },
             { "H_Watchcap_blk", "", 100, { "", "", -1 } }
         };
         goggles[] = {
@@ -148,9 +148,9 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Chestrig_blk", "", 1000, { "", "", 1 } },
-            { "V_TacVest_blk_POLICE", "", 1000, { "", "", 2 } },
-            { "V_PlateCarrierSpec_blk", "", 1000, { "", "", 4 } },
+            { "V_Chestrig_blk", "", 1000, { "", "", -1 } },
+            { "V_TacVest_blk_POLICE", "", 1000, { "", "", -1 } },
+            { "V_PlateCarrierSpec_blk", "", 1000, { "", "", -1 } },
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
