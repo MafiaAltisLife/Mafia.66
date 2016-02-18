@@ -116,7 +116,7 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_B_CombatUniform_mcam", "Policial Uniforme", 25, { "", "textures\Cop\policia_roupa.paa", -1 } },
-            { "U_B_CombatUniform_mcam", "Policial Elite", 25, { "", "textures\Cop\elite.paa",  } }
+            { "U_B_CombatUniform_mcam", "Policial Elite", 100 { "", "textures\Cop\elite.paa",  } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
