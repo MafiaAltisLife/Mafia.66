@@ -55,13 +55,6 @@ class CfgSounds
 		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
 		titles[] = {};
 	};
-	class welcome
-	{
-		name = "welcome";
-		sound[] = {"\sounds\welcome.ogg", 1.0, 1};
-		titles[] = {};
-	};
-	
 	class medicSiren
 	{
 		name = "medicSiren";
@@ -82,7 +75,7 @@ class CfgSounds
 		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
 		titles[] = {};
 		}; class unlock  {
-		name = "unlock";
+		name = "car_unlock";
 		sound[] = {"\sounds\car_unlock.ogg", 1.0, 1};
 		titles[] = {};
 	};

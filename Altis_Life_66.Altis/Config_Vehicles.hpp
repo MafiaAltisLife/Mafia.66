@@ -41,15 +41,15 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", 10000, { "" }, { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", 15000, { "" }, { "", "", -1 } },
-            { "C_SUV_01_F", 20000, { "" }, { "", "", -1 } },
+            { "C_Hatchback_01_sport_F", 15000, { "" }, { "", "SportSAMU", -1 } },
+            { "C_SUV_01_F", 20000, { "" }, { "", "SUVSAMU", -1 } },
         };
     };
 
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 30000, { "mAir" }, { "", "", -1 } },
+            { "B_Heli_Light_01_F", 30000, { "mAir" }, { "", "EMS_LTB", -1 } },
             { "O_Heli_Light_02_unarmed_F", 40000, { "mAir" }, { "", "", -1 } }
         };
     };
@@ -520,6 +520,9 @@ class LifeCfgVehicles {
             { "Police", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
             } }
+			{ "Medic", "med", {
+                "\textures\medic\SportSAMU.paa"
+            } }
         };
     };
 
@@ -656,6 +659,9 @@ class LifeCfgVehicles {
             { "Police", "cop", {
                 "textures\Cop\suv.paa"
             } },
+			{ "Medic", "med", {
+                "\textures\medic\SUVSAMU.paa"
+            } }
         };
     };
 
@@ -754,8 +760,8 @@ class LifeCfgVehicles {
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "EMS Medic", "med", {
+                "\textures\medic\EMS_LTB.paa"
             } }
         };
     };
