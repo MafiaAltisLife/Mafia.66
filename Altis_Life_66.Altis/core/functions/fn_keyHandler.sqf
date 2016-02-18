@@ -333,9 +333,9 @@ switch (_code) do {
 				if(_veh in life_vehicles && player distance _veh < 8) then {
 					if(EQUAL(_locked,2)) then {
 						if(local _veh) then {
-							_veh lock 0;
+							_veh lock 2;
 						} else {
-							[_veh,0] remoteExecCall ["life_fnc_lockVehicle",_veh];
+							[_veh,2] remoteExecCall ["life_fnc_lockVehicle",_veh];
 						};
 						systemChat localize "STR_MISC_VehUnlock";
 						 player say3D "car_unlock";
