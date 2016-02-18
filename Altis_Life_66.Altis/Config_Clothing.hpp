@@ -115,8 +115,8 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam", "Policial Uniforme", 25, { "", "textures\Cop\policia_roupa.paa", -1 } },
-            { "U_B_CombatUniform_mcam", "Policial Elite", 100 { "", "textures\Cop\elite.paa",  } }
+            { "U_B_CombatUniform_mcam", "Uniforme Policial", 25, { "", "textures\Cop\policia_roupa.paa", -1 } },
+            { "U_B_CombatUniform_mcam", "Uniforme Policial Elite", 100 { "", "textures\Cop\elite.paa",  } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -155,10 +155,11 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_Kitbag_cbr", "", 800, { "", "", -1 } },
-            { "B_FieldPack_cbr", "", 500, { "", "", -1 } },
+            { "B_FieldPack_blk", "", 500, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 700, { "", "", -1 } },
             { "B_Bergen_sgg", "", 2500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 3500, { "", "", -1 } }
+            { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
         };
     };
 
