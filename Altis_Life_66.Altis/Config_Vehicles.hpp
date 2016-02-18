@@ -88,9 +88,9 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", 5000, { "" }, { "", "offroad", -1 } },
-            { "C_SUV_01_F", 20000, { "" }, { "", "suv", -1 } },
-            { "C_Hatchback_01_sport_F", 30000, { "" }, { "life_coplevel", "SCALAR", -1 } },
+            { "C_Offroad_01_F", 5000, { "" }, { "", "OffroadPM", -1 } },
+            { "C_SUV_01_F", 20000, { "" }, { "", "SuvPM", -1 } },
+            { "C_Hatchback_01_sport_F", 30000, { "" }, { "life_coplevel", "HatchPM", -1 } },
             { "B_MRAP_01_F", 200000, { "" }, { "life_coplevel", "SCALAR", -1 } },
         };
     };
@@ -451,7 +451,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             } },
             { "Police", "cop", {
-                "textures\Cop\offroad.paa"
+                "textures\Cop\OffroadPM.paa"
             } }
         };
     };
@@ -518,7 +518,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             } },
             { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+                "textures\Cop\HatchPM.paa"
             } },
             { "Medic", "med", {
                 "textures\medic\SportSAMU.paa"
@@ -657,7 +657,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             } },
             { "Police", "cop", {
-                "textures\Cop\suv.paa"
+                "textures\Cop\SuvPM.paa"
             } },
        	    { "Medic", "med", {
                 "textures\medic\SUVSAMU.paa"
