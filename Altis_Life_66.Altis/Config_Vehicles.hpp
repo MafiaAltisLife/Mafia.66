@@ -520,8 +520,8 @@ class LifeCfgVehicles {
             { "Police", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
             } },
-        	{ "Medic", "med", {
-                "\textures\medic\SportSAMU.paa"
+            { "Medic", "med", {
+                "textures\medic\SportSAMU.paa"
             } }
         };
     };
@@ -659,8 +659,8 @@ class LifeCfgVehicles {
             { "Police", "cop", {
                 "textures\Cop\suv.paa"
             } },
-			{ "Medic", "med", {
-                "\textures\medic\SUVSAMU.paa"
+       	    { "Medic", "med", {
+                "textures\medic\SUVSAMU.paa"
             } }
         };
     };
@@ -761,7 +761,7 @@ class LifeCfgVehicles {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
             { "EMS Medic", "med", {
-                "\textures\medic\EMS_LTB.paa"
+                "textures\medic\EMS_LTB.paa"
             } }
         };
     };
