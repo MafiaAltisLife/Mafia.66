@@ -417,15 +417,15 @@ player createDiarySubject ["controles","Controles"];
 				3. Se itens ilegais forem encontrados durante a revista, você pode proceder com a prisão ou uma multa, como de costume.<br/>
 				5. Força letal só é autorizada como descritas em “Uso da força letal”.<br/>
 				6. Depois da área estar segura, os policiais devem deixar a área.<br/>
-				7. An area cannot be raided again for 20 minutes after a previous raid.<br/>
-				8. If the raid is a failure (All officers die), the 20 minute timer still applies to those officers.<br/>
-				9. Backup may be called in, but it may not consist of fallen officers (see 'New Life Rule').<br/><br/>
+				7. Uma área não pode ser invadida novamente por 20 minutos.<br/>
+				8. Se a incursão falhar (todos os policiais morrerem), o tempo de 20 minutos continua sendo aplicado para esses policiais.<br/>
+				9. Pode ser chamado reforço, mas este não pode ser constituido por policiais mortos (Veja a "Regra da nova vida").<br/><br/>
 
-				Camping is defined as the prolong stay of an officer in an area.<br/><br/>
+				Camperar é definido como uma permanência prolongada de um policial em uma área.<br/><br/>
 
-				1. Checkpoints are not considered camping. See Checkpoint section for a definition of proper checkpoint procedures.<br/>
-				2. See Bank Robbery and Agia Marina Protocol sections for more info on camping in the main town.<br/>
-				3. Camping of illegal areas is staying longer than needed after a raid, or if officers do not conduct a raid but continue to watch and take action against civilians entering the area.<br/><br/>
+				1. Pontos de verificação não são considerados camperar. Veja a seção "Ponto de verificação" para a definição dos procedimentos adequados para um ponto de verificação apropriado.<br/>
+				2. Veja as seções Roubo da Reserva Federal e protocolos de Agia Marina para mais informações sobre camperar nas cidades principais.<br/>
+				3. Camperar áreas ilegais é permanecer mais tempo que o necessário após uma incursão, ou se os policiais não conduzirem uma incurão, mas olhando continuamente e agindo contra civis que entrem na área.<br/><br/>
 				"
 		]
 	];
