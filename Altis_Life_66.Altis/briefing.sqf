@@ -472,7 +472,7 @@ player createDiarySubject ["controls","Controles"];
 	];
 
 // Illegal Items Section
-	player createDiaryRecord ["ilegais",
+	player createDiaryRecord ["illegalitems",
 		[
 			"Regras Rebeldes",
 				"
@@ -486,7 +486,7 @@ player createDiarySubject ["controls","Controles"];
 		]
 	];
 	
-	player createDiaryRecord ["ilegais",
+	player createDiaryRecord ["illegalitems",
 		[
 			"Regras de Gangues",
 				"
@@ -500,7 +500,7 @@ player createDiarySubject ["controls","Controles"];
 		]
 	];
 	
-	player createDiaryRecord ["ilegais",
+	player createDiaryRecord ["illegalitems",
 		[
 			"Veículos ilegais",
 				"
@@ -514,7 +514,7 @@ player createDiarySubject ["controls","Controles"];
 		]
 	];
 	
-	player createDiaryRecord ["ilegais",
+	player createDiaryRecord ["illegalitems",
 		[
 			"Armamentos ilegais",
 				"
@@ -533,7 +533,7 @@ player createDiarySubject ["controls","Controles"];
 		]
 	];
 	
-	player createDiaryRecord ["ilegais",
+	player createDiaryRecord ["illegalitems",
 		[
 			"Itens ilegais",
 				"
@@ -548,7 +548,7 @@ player createDiarySubject ["controls","Controles"];
 	];
 
 // Controls Section
-	player createDiaryRecord ["controles",
+	player createDiaryRecord ["controls",
 		[
 			"Controles",
 				"
