@@ -6,16 +6,16 @@ Description:
 Creates an intro on the bottom-right hand corner of the screen.
 */
 _onScreenTime = 7; //Zeit wie lange ein Text angezeigt wird
-_role1 = "Corleone, Digone e Adrianu"; //In Gelb
-_role1names = ["Projetistas"]; //In Weiß
-_role2 = "IMPERADOR, Adrianu e Corleone";
+_role1 = "Corleone, Digone"; //In Gelb
+_role1names = ["Diretores"]; //In Weiß
+_role2 = "Adrianu, Corleone, Digone e Imperador";
 _role2names = ["Script"]; 
 _role3 = "Corleone e Digone";
-_role3names = ["Diretor'"];
-_role4 = "Digone";
+_role3names = ["Projetistas'"];
+_role4 = "Digone e Gugone";
 _role4names = ["Design"];
 _role5 = "mafiaaltisbrasil.meuts3.com.br";
-_role5names = ["Ts Adress"];
+_role5names = ["Ts Endereco"];
 _role6 = "http://hostgamesmafia.forumeiros.com/forum";
 _role6names = ["Forum"];
 {
