@@ -222,7 +222,7 @@ player createDiarySubject ["controls","Controles"];
 		[
 			"A reserva Federal",
 				"
-				1. É ilegal a entrada de civis na Reserva Federal, a menos que eles tenham autorização. Se algum civil entrar sem a devida autorização, ele será escoltado para fora ou preso caso ele persista.
+				1. É ilegal a entrada de civis na Reserva Federal, a menos que eles tenham autorização. Se algum civil entrar sem a devida autorização, ele será escoltado para fora ou preso caso ele persista.<br/>
 				2. Helicópteros sobrevoando a Reserva Federal serão solicitados a deixarem o local. No caso de recusa, serão abatidos.<br/>
 				3. Se a Reserva Federal estiver sendo roubada, é recomendado que todos os policiais disponíveis dirijam-se até lá para evitar.<br/>
 				4. Oficiais na proximidade devem se dirigir imediatamente para a Reserva Federal para ajudar.  Nearby officers should immediately head to the Federal Reserve to assist. Pequenos delitos podem ser descartados durante um assalto.<br/>
