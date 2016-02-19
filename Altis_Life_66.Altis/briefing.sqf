@@ -491,14 +491,14 @@ player createDiarySubject ["controles","Controles"];
 	];
 	player createDiaryRecord ["illegalitems",
 		[
-			"Gang Rules",
+			"Regras de Gangues",
 				"
-				1. Being in a gang is not illegal. Only when illegal crimes are committed.<br/>
-				2. Being in a gang area is not illegal. Only when partaking in illegal activities.<br/>
-				3. Gangs may hold and control gang areas. Other gangs may attack a controlling gang to compete for control of a gang area.<br/>
-				4. To declare war on another gang, the leader must announce it in global and all gang members of both gangs must be notified. For a more long term gang war, a declaration should be made on the forums.<br/>
-				5. Gangs may not kill unarmed civilians, unless said civilian is part of a rival gang and in your gangs controlled area.<br/>
-				6. Gangs may not kill civilians, unless they are under threat. Killing unarmed civilians because they do not comply is considered RDM, but you can injure/damage.<br/><br/>
+				1. Estar em uma gangue não é ilegal. Somente quando crimes ilegais são cometidos.<br/>
+				2. Estar em uma gangue não é ilegal. Somente quando estiver participando de atividades ilegais.<br/>
+				3. Gangues podem deter e controlar esconderijos de gangues. Outros grupos podem atacar um grupo que tenha controle para competir pelo controle de um esconderijo de gangue.<br/>
+				4. Para declarar guerra contra outra gangue, o lider deve anunciá-la no global e todos os membros de ambas as gangues devem ser notificados. Para uma guerra de longo prazo, a declaração deverá ser feita no fórum.<br/>
+				5. Gangues não podem matar civis desarmados, a menos que este faça parte de uma gangue rival e esteja em um território controlado pela sua gangue.<br/>
+				6. Gangues não podem matar civis, a menos que estejam sob ameaça. Matar um civil desarmado porque ele não obedecer é considero Anti-roleplay, mas você pode machucar/causar dano.<br/><br/>
 				"
 		]
 	];
