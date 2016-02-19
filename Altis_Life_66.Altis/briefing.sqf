@@ -75,7 +75,7 @@ player createDiarySubject ["controls","Controles"];
 				2. Se suicidar para fugir do roleplay. Sair quando estiver eletrocutado, algemado, preso, na cadeia, etc. Se o log mostrar que você foi preso e então você morreu, você será banido. Não pagar a fiança e se suicidar para ter uma ida para casa facilitada.<br/>
 				3. Duplicar itens e/ou dinheiro. Se alguém te enviar uma quantia inalcançável de dinheiro assim que começar o jogo, reporte ao admin IMEDIATAMENTE e transfira o dinheiro enviado para um admin. Faça isso o mais rápido possível ou um admin pode baní-lo se ver que você tem muito dinheiro sem uma justificativa. <br/>
 				4. Usando claramente itens hackeados. Se um hacker vem e dá spawn em itens inalcançáveis, você pode ser banido por utilizá-los. Reporte os itens para os admins IMEDIATAMENTE e fique longe deles.<br/>
-				5. Abusar de bugs ou mecânicas do jogo para benefícios, Abusing bugs or game mechanics for gain. Existe replicação de arma em algum lugar? Reporte e esqueça o assunto. Se um admin pegar você abusando da falha, será banido. <br/><br/>
+				5. Abusar de bugs ou mecânicas do jogo para benefícios. Existe replicação de arma em algum lugar? Reporte e esqueça o assunto. Se um admin pegar você abusando da falha, será banido. <br/><br/>
 				"
 		]
 	];
