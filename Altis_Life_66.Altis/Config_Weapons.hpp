@@ -299,7 +299,7 @@ class WeaponShops {
         name = "Altis Sergeant Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 7, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
             { "arifle_sdar_F", "Taser Rifle", 5000, -1 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
