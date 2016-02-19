@@ -445,19 +445,17 @@ player createDiarySubject ["controles","Controles"];
 				6. !º Sargento > 2º Sargento > 3º Sargento<br/>
 				7. Cabo<br/>
 				8. Soldado<br/><br/>
-
-				Cops in game who are not enrolled/accepted into the SPD are the lowest tier and have no say in police operations.<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Use of Lethal Force",
+			"Uso de Força Letal",
 				"
-				1. Use of Lethal force is only permitted for the protection of your life, another officers life, or a civilians life, if and only if non-lethal force would not be effective.<br/>
-				2. Discharging of a weapon when not under threat or not during training exercises is not allowed. Officers caught in violation of this rule will be removed from the server and suspended from the SPD.<br/>
-				3. Failure to follow proper weapons discipline and procedure will get you removed from the server and suspended from the SPD.<br/><br/>
+				1. O uso de força letal só é permitido para proteção da sua vida, da vida de outro policial, ou a vida de um civil, se e somente se a força não-letal não tenha sido eficaz.<br/>
+				2. Descarga de arma quando não estiver sob ameaça ou não estiver em exercícios de treinamento não é permitido. Policiais pegos violando esta regra vão ser removidos do servidor e expulsos da corporação.<br/>
+				3. Falhar em seguir o procedimento e disciplina apropriada para armamentos, resultará na sua remoção do servidor e expulsão da corporação.<br/><br/>
 				"
 		]
 	];
