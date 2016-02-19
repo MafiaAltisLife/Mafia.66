@@ -6,10 +6,7 @@ player createDiarySubject ["changelog","Change Log"];
 player createDiarySubject ["serverrules","Regras Gerais"];
 player createDiarySubject ["policerules","Regras Policiais"];
 player createDiarySubject ["safezones","Zonas Seguras"];
-//player createDiarySubject ["civrules","Civilian Rules"];
 player createDiarySubject ["illegalitems","Atividades Ilegais"];
-//player createDiarySubject ["gangrules","Gang Rules"];
-//player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controls","Controles"];
 
 /*  Example
@@ -27,7 +24,10 @@ player createDiarySubject ["controls","Controles"];
 		[
 			"ArmaLife",
 				"
-					ArmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/><br/>
+					ArmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/>
+					
+					Edição: Digone, Corleone e Adrianu<br/>
+					Tradução: Adrianu<br/><br/>
 				"
 		]
 	];
