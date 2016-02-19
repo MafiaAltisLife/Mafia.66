@@ -33,13 +33,13 @@ switch(playerSide) do {
 		};
 	};
 	case west: {
-		if(uniform player == "U_B_CombatUniform_mcam") then {
-			player setObjectTextureGlobal [0, "textures\policia_roupaNPC.paa"];
+		if(uniform player == "U_Rangemaster") then {
+			player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"];
 		};
 	};
 	case independent: {
 		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\medic_uniformNPC.paa"];
+			player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
 		};
 	};
 };
