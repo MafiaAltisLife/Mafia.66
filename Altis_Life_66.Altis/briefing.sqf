@@ -7,10 +7,10 @@ player createDiarySubject ["serverrules","Regras Gerais"];
 player createDiarySubject ["policerules","Regras Policiais"];
 player createDiarySubject ["safezones","Zonas Seguras"];
 //player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["ilegais","Atividades Ilegais"];
+player createDiarySubject ["illegalitems","Atividades Ilegais"];
 //player createDiarySubject ["gangrules","Gang Rules"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
-player createDiarySubject ["controles","Controles"];
+player createDiarySubject ["controls","Controles"];
 
 /*  Example
 	player createDiaryRecord ["", //Container
@@ -471,8 +471,6 @@ player createDiarySubject ["controles","Controles"];
 		]
 	];
 
-
-
 // Illegal Items Section
 	player createDiaryRecord ["ilegais",
 		[
@@ -548,7 +546,6 @@ player createDiarySubject ["controles","Controles"];
 				"
 		]
 	];
-
 
 // Controls Section
 	player createDiaryRecord ["controles",
