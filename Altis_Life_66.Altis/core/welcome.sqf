@@ -6,7 +6,7 @@ Description:
 Creates an intro on the bottom-right hand corner of the screen.
 */
 _onScreenTime = 7; //Zeit wie lange ein Text angezeigt wird
-_role1 = "Corleone, Digone"; //In Gelb
+_role1 = "Corleone e Digone"; //In Gelb
 _role1names = ["Diretores"]; //In Weiß
 _role2 = "Adrianu, Corleone, Digone e Imperador";
 _role2names = ["Script"]; 
