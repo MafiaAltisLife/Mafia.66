@@ -551,7 +551,7 @@ player createDiarySubject ["controls","Controles"];
 
 
 // Controls Section
-	player createDiaryRecord ["Controls",
+	player createDiaryRecord ["controls",
 		[
 			"Controles",
 				"
