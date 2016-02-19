@@ -477,14 +477,14 @@ player createDiarySubject ["controles","Controles"];
 // Illegal Items Section
 	player createDiaryRecord ["illegalitems",
 		[
-			"Rebel Rules",
+			"Regras Rebeldes",
 				"
-				A rebel is one who rises in armed resistance against a government. In this case it would be the police. However, due to the small amount of police compared to the possible amount of rebels, do not attack the police without a reason, please be civil and use common sense, and don't take the word rebel literally, but instead how it will make this server fun for all.<br/><br/>
-				1. A rebel must first form a gang, and then declare intentions.<br/>
-				2. Resistance does not excuse RDMing (See RDMing in General Rules)<br/>
-				3. Resistance roleplay should be conducted in more ways than constantly robbing the bank or shooting police officers.<br/>
-				4. Resistance must be coordinated.<br/>
-				5. A PROPER reason must be behind each and every attack.<br/><br/>
+				Rebelde é aquele que ingressa na resistência armada contra um governo (neste caso seria a polícia). In this case it would be the police. No entanto, devido à pequena quantidade de policial comparada com a grande possibilidade de rebeldes, não pode atacar a polícia sem um motivo.<br/><br/>
+				1. Um Rebelde deve primeiramente montar uma gangue, e então declarar suas intenções.<br/>
+				2. A resistência não é desculpa para Anti-roleplay (Veja Anti-roleplay nas regras gerais)<br/>
+				3. O roleplay da Resistência deve ser conduzido de diferentes maneiras além de constantemente roubar a Reserva Federal ou atirar em policiais.<br/>
+				4. A Resistência deve ser coordenada.<br/>
+				5. Uma razão adequada deve estar por trás de cada um dos ataques.<br/><br/>
 				"
 		]
 	];
