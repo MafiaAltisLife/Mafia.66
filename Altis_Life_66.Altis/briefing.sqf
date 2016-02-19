@@ -3,11 +3,14 @@ if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","Regras Gerais"];
-player createDiarySubject ["policerules","Regras Policiais"];
-player createDiarySubject ["safezones","Zonas Seguras"];
-player createDiarySubject ["illegalitems","Atividades Ilegais"];
-player createDiarySubject ["controls","Controles"];
+player createDiarySubject ["serverrules","General Rules"];
+player createDiarySubject ["policerules","Police Procedures/Rules"];
+player createDiarySubject ["safezones","Safe Zones (No Killing)"];
+//player createDiarySubject ["civrules","Civilian Rules"];
+player createDiarySubject ["illegalitems","Illegal Activity"];
+//player createDiarySubject ["gangrules","Gang Rules"];
+//player createDiarySubject ["terrorrules","Terrorism Rules"];
+player createDiarySubject ["controles","Controles"];
 
 /*  Example
 	player createDiaryRecord ["", //Container
@@ -24,10 +27,7 @@ player createDiarySubject ["controls","Controles"];
 		[
 			"ArmaLife",
 				"
-					ArmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/>
-					
-					Edição: Digone, Corleone e Adrianu<br/>
-					Tradução: Adrianu<br/><br/>
+					ArmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/><br/>
 				"
 		]
 	];
@@ -62,7 +62,6 @@ player createDiarySubject ["controls","Controles"];
 		]
 	];
 
-
 		player createDiaryRecord ["serverrules",
 		[
 			"Levar vantagem",
@@ -73,7 +72,7 @@ player createDiarySubject ["controls","Controles"];
 				2. Se suicidar para fugir do roleplay. Sair quando estiver eletrocutado, algemado, preso, na cadeia, etc. Se o log mostrar que você foi preso e então você morreu, você será banido. Não pagar a fiança e se suicidar para ter uma ida para casa facilitada.<br/>
 				3. Duplicar itens e/ou dinheiro. Se alguém te enviar uma quantia inalcançável de dinheiro assim que começar o jogo, reporte ao admin IMEDIATAMENTE e transfira o dinheiro enviado para um admin. Faça isso o mais rápido possível ou um admin pode baní-lo se ver que você tem muito dinheiro sem uma justificativa. <br/>
 				4. Usando claramente itens hackeados. Se um hacker vem e dá spawn em itens inalcançáveis, você pode ser banido por utilizá-los. Reporte os itens para os admins IMEDIATAMENTE e fique longe deles.<br/>
-				5. Abusar de bugs ou mecânicas do jogo para benefícios. Existe replicação de arma em algum lugar? Reporte e esqueça o assunto. Se um admin pegar você abusando da falha, será banido. <br/><br/>
+				5. Abusar de bugs ou mecânicas do jogo para benefícios, Abusing bugs or game mechanics for gain. Existe replicação de arma em algum lugar? Reporte e esqueça o assunto. Se um admin pegar você abusando da falha, será banido. <br/><br/>
 				"
 		]
 	];
@@ -222,7 +221,7 @@ player createDiarySubject ["controls","Controles"];
 		[
 			"A reserva Federal",
 				"
-				1. É ilegal a entrada de civis na Reserva Federal, a menos que eles tenham autorização. Se algum civil entrar sem a devida autorização, ele será escoltado para fora ou preso caso ele persista.<br/>
+				1. É ilegal a entrada de civis na Reserva Federal, a menos que eles tenham autorização. Se algum civil entrar sem a devida autorização, ele será escoltado para fora ou preso caso ele persista.
 				2. Helicópteros sobrevoando a Reserva Federal serão solicitados a deixarem o local. No caso de recusa, serão abatidos.<br/>
 				3. Se a Reserva Federal estiver sendo roubada, é recomendado que todos os policiais disponíveis dirijam-se até lá para evitar.<br/>
 				4. Oficiais na proximidade devem se dirigir imediatamente para a Reserva Federal para ajudar.  Nearby officers should immediately head to the Federal Reserve to assist. Pequenos delitos podem ser descartados durante um assalto.<br/>
@@ -279,7 +278,7 @@ player createDiarySubject ["controls","Controles"];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Pontos de Verificação",
+			"Ponstos de Verificação",
 				"
 				Policiais podem montar pontos de verificação em áreas estratégicas para ajudar a combater as atividades ilegais e promover a segurança nas estradas.<br/><br/>
 
@@ -418,22 +417,22 @@ player createDiarySubject ["controls","Controles"];
 				3. Se itens ilegais forem encontrados durante a revista, você pode proceder com a prisão ou uma multa, como de costume.<br/>
 				5. Força letal só é autorizada como descritas em “Uso da força letal”.<br/>
 				6. Depois da área estar segura, os policiais devem deixar a área.<br/>
-				7. Uma área não pode ser invadida novamente por 20 minutos.<br/>
-				8. Se a incursão falhar (todos os policiais morrerem), o tempo de 20 minutos continua sendo aplicado para esses policiais.<br/>
-				9. Pode ser chamado reforço, mas este não pode ser constituido por policiais mortos (Veja a "Regra da nova vida").<br/><br/>
+				7. An area cannot be raided again for 20 minutes after a previous raid.<br/>
+				8. If the raid is a failure (All officers die), the 20 minute timer still applies to those officers.<br/>
+				9. Backup may be called in, but it may not consist of fallen officers (see 'New Life Rule').<br/><br/>
 
-				Camperar é definido como uma permanência prolongada de um policial em uma área.<br/><br/>
+				Camping is defined as the prolong stay of an officer in an area.<br/><br/>
 
-				1. Pontos de verificação não são considerados camperar. Veja a seção "Ponto de verificação" para a definição dos procedimentos adequados para um ponto de verificação apropriado.<br/>
-				2. Veja as seções Roubo da Reserva Federal e protocolos de Agia Marina para mais informações sobre camperar nas cidades principais.<br/>
-				3. Camperar áreas ilegais é permanecer mais tempo que o necessário após uma incursão, ou se os policiais não conduzirem uma incurão, mas olhando continuamente e agindo contra civis que entrem na área.<br/><br/>
+				1. Checkpoints are not considered camping. See Checkpoint section for a definition of proper checkpoint procedures.<br/>
+				2. See Bank Robbery and Agia Marina Protocol sections for more info on camping in the main town.<br/>
+				3. Camping of illegal areas is staying longer than needed after a raid, or if officers do not conduct a raid but continue to watch and take action against civilians entering the area.<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Cadeia de Comando",
+			"Cadeia de comando",
 				"
 				O policial de maior patente online está no comando da força policial, fora os admins online no momento. Ele deve seguir as regras e orientações da sua patente, e deve relatar para os admins casos onde alguma ação precise ser tomada.<br/><br/>
 
@@ -446,17 +445,19 @@ player createDiarySubject ["controls","Controles"];
 				6. !º Sargento > 2º Sargento > 3º Sargento<br/>
 				7. Cabo<br/>
 				8. Soldado<br/><br/>
+
+				Cops in game who are not enrolled/accepted into the SPD are the lowest tier and have no say in police operations.<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Uso de Força Letal",
+			"Use of Lethal Force",
 				"
-				1. O uso de força letal só é permitido para proteção da sua vida, da vida de outro policial, ou a vida de um civil, se e somente se a força não-letal não tenha sido eficaz.<br/>
-				2. Descarga de arma quando não estiver sob ameaça ou não estiver em exercícios de treinamento não é permitido. Policiais pegos violando esta regra vão ser removidos do servidor e expulsos da corporação.<br/>
-				3. Falhar em seguir o procedimento e disciplina apropriada para armamentos, resultará na sua remoção do servidor e expulsão da corporação.<br/><br/>
+				1. Use of Lethal force is only permitted for the protection of your life, another officers life, or a civilians life, if and only if non-lethal force would not be effective.<br/>
+				2. Discharging of a weapon when not under threat or not during training exercises is not allowed. Officers caught in violation of this rule will be removed from the server and suspended from the SPD.<br/>
+				3. Failure to follow proper weapons discipline and procedure will get you removed from the server and suspended from the SPD.<br/><br/>
 				"
 		]
 	];
@@ -471,12 +472,14 @@ player createDiarySubject ["controls","Controles"];
 		]
 	];
 
+
+
 // Illegal Items Section
 	player createDiaryRecord ["illegalitems",
 		[
 			"Regras Rebeldes",
 				"
-				Rebelde é aquele que ingressa na resistência armada contra um governo (neste caso seria a polícia). No entanto, devido à pequena quantidade de policial comparada com a grande possibilidade de rebeldes, não pode atacar a polícia sem um motivo.<br/><br/>
+				Rebelde é aquele que ingressa na resistência armada contra um governo (neste caso seria a polícia). In this case it would be the police. No entanto, devido à pequena quantidade de policial comparada com a grande possibilidade de rebeldes, não pode atacar a polícia sem um motivo.<br/><br/>
 				1. Um Rebelde deve primeiramente montar uma gangue, e então declarar suas intenções.<br/>
 				2. A resistência não é desculpa para Anti-roleplay (Veja Anti-roleplay nas regras gerais)<br/>
 				3. O roleplay da Resistência deve ser conduzido de diferentes maneiras além de constantemente roubar a Reserva Federal ou atirar em policiais.<br/>
@@ -485,7 +488,6 @@ player createDiarySubject ["controls","Controles"];
 				"
 		]
 	];
-	
 	player createDiaryRecord ["illegalitems",
 		[
 			"Regras de Gangues",
@@ -499,7 +501,6 @@ player createDiarySubject ["controls","Controles"];
 				"
 		]
 	];
-	
 	player createDiaryRecord ["illegalitems",
 		[
 			"Veículos ilegais",
@@ -513,7 +514,6 @@ player createDiarySubject ["controls","Controles"];
 				"
 		]
 	];
-	
 	player createDiaryRecord ["illegalitems",
 		[
 			"Armamentos ilegais",
@@ -532,7 +532,6 @@ player createDiarySubject ["controls","Controles"];
 				"
 		]
 	];
-	
 	player createDiaryRecord ["illegalitems",
 		[
 			"Itens ilegais",
@@ -547,8 +546,9 @@ player createDiarySubject ["controls","Controles"];
 		]
 	];
 
+
 // Controls Section
-	player createDiaryRecord ["controls",
+	player createDiaryRecord ["Controles",
 		[
 			"Controles",
 				"
