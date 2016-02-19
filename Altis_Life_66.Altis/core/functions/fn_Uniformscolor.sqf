@@ -15,7 +15,7 @@ if(side player == independent) then {
 };
 
 if(side player == WEST) then {
-	if ((uniform player) == "U_Rangemaster") then {
+	if ((uniform player) == "U_B_CombatUniform_mcam") then {
 		player setObjectTextureGlobal [0, "textures\police\clothing\cvgcad.jpg"]; 
 	};
 	if (uniform player == "U_BG_Guerilla2_1" && (FETCH_CONST(life_coplevel) >= 2)) then {
