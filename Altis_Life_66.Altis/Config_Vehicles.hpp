@@ -117,7 +117,6 @@ class CarShops {
 			{ "O_Heli_Transport_04_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
 			{ "O_Heli_Light_02_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
 			{ "I_Heli_light_03_F", 175000, { "cAir" }, { "", "", -1 } },
-			{ "B_Heli_Transport_01_camo_F", 175000, { "cAir" }, { "", "", -1 } },	
 			{ "B_Heli_Transport_03_unarmed_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }				
         };
     };
@@ -127,8 +126,6 @@ class CarShops {
         vehicles[] = {
             { "B_Boat_Transport_01_F", 3000, { "cg" }, { "", "", -1 } },
             { "C_Boat_Civil_01_police_F", 20000, { "cg" }, { "", "", -1 } },
-            { "B_Boat_Armed_01_minigun_F", 75000, { "cg" }, { "life_coplevel", "SCALAR", 3 } },
-			{ "O_Boat_Armed_01_hmg_F", 75000, { "cg" }, { "life_coplevel", "SCALAR", 7 } },
 			{ "B_SDV_01_F", 100000, { "cg" }, { "", "", -1 } }
         };
     };
