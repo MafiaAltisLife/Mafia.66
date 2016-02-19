@@ -432,20 +432,19 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Chain of Command",
+			"Cadeia de comando",
 				"
-				The highest ranking officer on duty is in charge of the police force outside of admins currently online. The high ranking officer is expected to follow the rules and guidelines of his/her rank, and must report to the admin in case any action need be taken.<br/><br/>
+				O policial de maior patente online está no comando da força policial, fora os admins online no momento. Ele deve seguir as regras e orientações da sua patente, e deve relatar para os admins casos onde alguma ação precise ser tomada.<br/><br/>
 
-				Police Chain of Command:<br/>
-				1. Chief<br/>
-				2. Deputy Chief<br/>
-				3. Superintendent<br/>
-				4. Captain<br/>
-				5. Lieutenant<br/>
-				6. Sergeant<br/>
-				7. Senior Patrol Officer<br/>
-				8. Patrol Officer<br/>
-				9. Cadet<br/><br/>
+				Cadeia de comando da polícia:<br/>
+				1. Coronel<br/>
+				2. Tenente Coronel<br/>
+				3. Majoir<br/>
+				4. Capitão<br/>
+				5. !º Tenente > 2º Tenente<br/>
+				6. !º Sargento > 2º Sargento > 3º Sargento<br/>
+				7. Cabo<br/>
+				8. Soldado<br/><br/>
 
 				Cops in game who are not enrolled/accepted into the SPD are the lowest tier and have no say in police operations.<br/><br/>
 				"
