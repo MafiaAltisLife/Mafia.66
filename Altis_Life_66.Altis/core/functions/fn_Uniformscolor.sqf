@@ -28,7 +28,7 @@ if(side player == WEST) then {
 		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
 	if (uniform player == "U_B_CombatUniform_mcam") then {
-		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg.jpg"]; 
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
 	if (backpack player == "B_Bergen_sgg") then {
 		backpackContainer player setObjectTextureGlobal [0, "textures\police\clothing\bergen_police.jpg"];
