@@ -29,8 +29,8 @@ player createDiarySubject ["controls","Controles"];
 				"
 					ArmaLife é um projeto que visa atualizar e continuar adicionando novas características para o "Altis Life RPG" original criado pelo Tonic.<br/><br/>
 					
-					Edição: Digone, Corleone e Adrianu
-					Tradução: Adrianu
+					Edição: Digone, Corleone e Adrianu<br/>
+					Tradução: Adrianu<br/><br/>
 				"
 		]
 	];
