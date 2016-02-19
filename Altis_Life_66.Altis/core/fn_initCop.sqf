@@ -48,4 +48,3 @@ while {true} do
 		waitUntil {uniform player != "U_B_CombatUniform_mcam"};
 	};
 };
-[] spawn
