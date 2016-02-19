@@ -43,7 +43,7 @@ if(side player == WEST && license_cop_mp) then {
 		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
 	if (uniform player == "U_B_CombatUniform_mcam") then {
-		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg'"]; 
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
 };
 
