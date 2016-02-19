@@ -16,7 +16,7 @@ if(life_blacklisted) exitWith {
 };
 
 //if(!(str(player) in ["cop_1","cop_2","cop_3","cop_4"])) then {
-	if((FETCH_CONST(life_coplevel) == 0) && (FETCH_CONST(life_adminlevel) == 0)) then {
+	if((FETCH_CONST(life_coplevel) < 1) && (FETCH_CONST(life_adminlevel) < 1)) then {
 		["NotWhitelisted",false,true] call BIS_fnc_endMission;
 		sleep 35;
 //	};
@@ -49,11 +49,3 @@ while {true} do
 	};
 };
 [] spawn
-{
-while {true} do
-    {
-		waitUntil {Backpack player == "B_Bergen_blk"};
-		(unitBackpack player) setObjectTextureGlobal [0,""];
-		waitUntil {Backpack player != "B_Bergen_blk"};		
-	};
-};
