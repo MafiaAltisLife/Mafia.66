@@ -439,7 +439,7 @@ player createDiarySubject ["controles","Controles"];
 				Cadeia de comando da polícia:<br/>
 				1. Coronel<br/>
 				2. Tenente Coronel<br/>
-				3. Majoir<br/>
+				3. Major<br/>
 				4. Capitão<br/>
 				5. !º Tenente > 2º Tenente<br/>
 				6. !º Sargento > 2º Sargento > 3º Sargento<br/>
