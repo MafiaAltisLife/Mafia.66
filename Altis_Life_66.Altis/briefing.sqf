@@ -480,7 +480,7 @@ player createDiarySubject ["controls","Controles"];
 		[
 			"Regras Rebeldes",
 				"
-				Rebelde é aquele que ingressa na resistência armada contra um governo (neste caso seria a polícia). In this case it would be the police. No entanto, devido à pequena quantidade de policial comparada com a grande possibilidade de rebeldes, não pode atacar a polícia sem um motivo.<br/><br/>
+				Rebelde é aquele que ingressa na resistência armada contra um governo (neste caso seria a polícia). No entanto, devido à pequena quantidade de policial comparada com a grande possibilidade de rebeldes, não pode atacar a polícia sem um motivo.<br/><br/>
 				1. Um Rebelde deve primeiramente montar uma gangue, e então declarar suas intenções.<br/>
 				2. A resistência não é desculpa para Anti-roleplay (Veja Anti-roleplay nas regras gerais)<br/>
 				3. O roleplay da Resistência deve ser conduzido de diferentes maneiras além de constantemente roubar a Reserva Federal ou atirar em policiais.<br/>
