@@ -16,19 +16,19 @@ if(side player == independent) then {
 
 if(side player == WEST) then {
 	if ((uniform player) == "U_B_CombatUniform_mcam") then {
-		player setObjectTextureGlobal [0, "textures\Cop\policia_roupa.jpg"]; 
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
-	if (uniform player == "U_BG_Guerilla2_1" && (FETCH_CONST(life_coplevel) >= 2)) then {
-		player setObjectTextureGlobal [0, "textures\police\clothing\cvgcop.jpg"]; 
+	if (uniform player == "U_B_CombatUniform_mcam" && (FETCH_CONST(life_coplevel) >= 2)) then {
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
-	if (uniform player == "U_B_CTRG_1" && (FETCH_CONST(life_coplevel) == 3)) then {
-		player setObjectTextureGlobal [0, "textures\police\clothing\cvgsergant.jpg"]; 
+	if (uniform player == "U_B_CombatUniform_mcam" && (FETCH_CONST(life_coplevel) == 3)) then {
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
-	if (uniform player == "U_B_CTRG_1" && (FETCH_CONST(life_coplevel) >= 4)) then {
-		player setObjectTextureGlobal [0, "textures\police\clothing\cvglieut.jpg"]; 
+	if (uniform player == "U_B_CombatUniform_mcam" && (FETCH_CONST(life_coplevel) >= 4)) then {
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
-	if (uniform player == "U_B_CTRG_3") then {
-		player setObjectTextureGlobal [0, "textures\police\clothing\cvgm90.jpg"]; 
+	if (uniform player == "U_B_CombatUniform_mcam") then {
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg.jpg"]; 
 	};
 	if (backpack player == "B_Bergen_sgg") then {
 		backpackContainer player setObjectTextureGlobal [0, "textures\police\clothing\bergen_police.jpg"];
@@ -39,11 +39,11 @@ if(side player == WEST) then {
 };
 
 if(side player == WEST && license_cop_mp) then {
-	if (uniform player == "U_B_CTRG_1") then {
-		player setObjectTextureGlobal [0, "textures\police\clothing\cvgm90.jpg"]; 
+	if (uniform player == "U_B_CombatUniform_mcam") then {
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg"]; 
 	};
-	if (uniform player == "U_B_CTRG_3") then {
-		player setObjectTextureGlobal [0, "textures\police\clothing\cvglieut.jpg"]; 
+	if (uniform player == "U_B_CombatUniform_mcam") then {
+		player setObjectTextureGlobal [0, "textures\Cop\policia_roupaPM.jpg'"]; 
 	};
 };
 
