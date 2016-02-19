@@ -3,12 +3,12 @@ if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
-//player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
-//player createDiarySubject ["gangrules","Gang Rules"];
+player createDiarySubject ["serverrules","Regras Gerais"];
+player createDiarySubject ["policerules","Procedimentos/Regras policiais"];
+player createDiarySubject ["safezones","Zonas Seguras (Proibido Matar)"];
+//player createDiarySubject ["civrules","Regras de Civis"];
+player createDiarySubject ["illegalitems","Atividades Ilegais"];
+//player createDiarySubject ["gangrules","Regras de Gangues"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controles","Controles"];
 
@@ -432,7 +432,7 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Cadeia de comando",
+			"Cadeia de Comando",
 				"
 				O policial de maior patente online está no comando da força policial, fora os admins online no momento. Ele deve seguir as regras e orientações da sua patente, e deve relatar para os admins casos onde alguma ação precise ser tomada.<br/><br/>
 
