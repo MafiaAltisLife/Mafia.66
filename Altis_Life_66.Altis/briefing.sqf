@@ -487,6 +487,7 @@ player createDiarySubject ["controls","Controles"];
 				"
 		]
 	];
+	
 	player createDiaryRecord ["illegalitems",
 		[
 			"Regras de Gangues",
@@ -500,6 +501,7 @@ player createDiarySubject ["controls","Controles"];
 				"
 		]
 	];
+	
 	player createDiaryRecord ["illegalitems",
 		[
 			"Veículos ilegais",
@@ -513,6 +515,7 @@ player createDiarySubject ["controls","Controles"];
 				"
 		]
 	];
+	
 	player createDiaryRecord ["illegalitems",
 		[
 			"Armamentos ilegais",
@@ -531,6 +534,7 @@ player createDiarySubject ["controls","Controles"];
 				"
 		]
 	];
+	
 	player createDiaryRecord ["illegalitems",
 		[
 			"Itens ilegais",
