@@ -10,7 +10,7 @@ player createDiarySubject ["safezones","Zonas Seguras"];
 player createDiarySubject ["illegalitems","Atividades Ilegais"];
 //player createDiarySubject ["gangrules","Gang Rules"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
-player createDiarySubject ["controls","Controles"];
+player createDiarySubject ["controles","Controles"];
 
 /*  Example
 	player createDiaryRecord ["", //Container
@@ -551,7 +551,7 @@ player createDiarySubject ["controls","Controles"];
 
 
 // Controls Section
-	player createDiaryRecord ["controls",
+	player createDiaryRecord ["controles",
 		[
 			"Controles",
 				"
