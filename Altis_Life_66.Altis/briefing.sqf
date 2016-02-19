@@ -279,7 +279,7 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Ponstos de Verificação",
+			"Pontos de Verificação",
 				"
 				Policiais podem montar pontos de verificação em áreas estratégicas para ajudar a combater as atividades ilegais e promover a segurança nas estradas.<br/><br/>
 
