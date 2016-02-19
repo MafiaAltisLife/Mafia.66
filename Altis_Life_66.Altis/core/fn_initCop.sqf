@@ -34,17 +34,17 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 while {true} do
     {
 		waitUntil {uniform player == "U_B_CombatUniform_mcam"};
-		if ((call life_coplevel) == 1) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 2) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 3) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 4) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 5) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 6) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 7) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 8) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 9) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 10) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
-		if ((call life_coplevel) == 11) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.jpg"];};
+		if ((call life_coplevel) == 1) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 2) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 3) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 4) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 5) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 6) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 7) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 8) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 9) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 10) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
+		if ((call life_coplevel) == 11) then {player setObjectTextureGlobal [0,"textures\Cop\policia_roupaPM.paa"];};
 		waitUntil {uniform player != "U_B_CombatUniform_mcam"};
 	};
 };
