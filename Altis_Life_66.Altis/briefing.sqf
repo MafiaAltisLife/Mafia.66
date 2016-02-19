@@ -464,10 +464,10 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Teamspeak Rule",
+			"Regras do Teamspeak",
 				"
-				1. All cops must be on Teamspeak 3 in a designated cop channel. Failure to be on Teamspeak during an admin check will result in your immediate dismissal from the server.<br/>
-				2. Please join Teamspeak BEFORE you spawn in as a cop, heck, join Teamspeak before you even join the server.<br/><br/>
+				1. Todos os policiais devem ter o Teamspeak e entrar no canal destinado à polícia.<br/>
+				2. Por favor, entre no Teamspeak ANTES de entrar no jogo como policial.<br/><br/>
 				"
 		]
 	];
