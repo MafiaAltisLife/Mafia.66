@@ -50,7 +50,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "B_Heli_Light_01_F", 30000, { "mAir" }, { "", "EMS_LTB", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 40000, { "mAir" }, { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", 40000, { "mAir" }, { "", "orca_med", -1 } }
         };
     };
 
@@ -814,7 +814,7 @@ class LifeCfgVehicles {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
             { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+                "textures\medic\orca_med.paa"
             } }
         };
     };
