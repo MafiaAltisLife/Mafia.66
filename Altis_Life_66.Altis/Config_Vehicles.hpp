@@ -697,8 +697,8 @@ class LifeCfgVehicles {
         chopShop = 15000;
         textures[] = {
             { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+                "textures\Cop\HunterBackPM.paa",
+                "textures\Cop\HunterFrontPM.paa"
             } }
         };
     };
