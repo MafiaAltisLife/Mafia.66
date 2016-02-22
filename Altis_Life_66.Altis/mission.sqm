@@ -170,13 +170,14 @@ class Mission
 	randomSeed=2004553;
 	class Intel
 	{
+		briefingName="[BR] Mafia Altis Life ";
+		overviewText="[BR] Mafia Altis Life  TS: mafiaaltisbrasil.meuts3.com.br ";
+		resistanceEast=1;
 		startWeather=0;
 		startWind=0;
 		forecastWeather=0;
 		forecastWind=0;
 		forecastWaves=0;
-		wavesForced=1;
-		windForced=1;
 		year=2016;
 		month=2;
 		day=20;
@@ -2219,7 +2220,7 @@ class Mission
 				{
 					position[]={14027.133,26.969978,18703.957};
 					azimut=-25.8384;
-					offsetY=0.5;
+					offsetY=0.69999999;
 					special="NONE";
 					id=100;
 					side="CIV";
@@ -2255,8 +2256,7 @@ class Mission
 				class Item6
 				{
 					position[]={14042.346,24.351183,18787.68};
-					azimut=-174.51674;
-					offsetY=0.5;
+					azimut=-174.517;
 					special="NONE";
 					id=103;
 					side="CIV";
@@ -3061,9 +3061,9 @@ class Mission
 				};
 				class Item75
 				{
-					position[]={14075.289,23.405972,18559.758};
-					azimut=-329.14673;
-					offsetY=0.30000001;
+					position[]={13980.606,24.633881,18674.709};
+					azimut=-509.194;
+					offsetY=0.69999999;
 					special="NONE";
 					id=172;
 					side="CIV";
@@ -3109,8 +3109,8 @@ class Mission
 				class Item79
 				{
 					position[]={13947.68,22.936253,18663.887};
-					azimut=48.979736;
-					offsetY=0.5;
+					azimut=48.979698;
+					offsetY=0.72000003;
 					special="NONE";
 					id=176;
 					side="CIV";
@@ -3143,8 +3143,8 @@ class Mission
 				};
 				class Item82
 				{
-					position[]={14473.48,19.16485,17753.891};
-					azimut=-207.7077;
+					position[]={14059.848,23.992701,18831.01};
+					azimut=-53.542141;
 					special="NONE";
 					id=179;
 					side="CIV";
@@ -4177,7 +4177,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3593;
+		items=3595;
 		class Item0
 		{
 			position[]={8456.1416,49.214363,12762.685};
@@ -7234,7 +7234,7 @@ class Mission
 		{
 			position[]={14026.541,26.913677,18704.83};
 			azimut=152.694;
-			offsetY=0.5;
+			offsetY=0.69999999;
 			id=548;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
@@ -7327,9 +7327,9 @@ class Mission
 		};
 		class Item313
 		{
-			position[]={13948.376,23.116005,18665.617};
-			azimut=-138.34399;
-			offsetY=0.1;
+			position[]={14042.253,24.387939,18786.578};
+			azimut=-355.84299;
+			offsetY=0.5;
 			id=557;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
@@ -40792,6 +40792,28 @@ class Mission
 			skill=0.60000002;
 			init="this allowDamage false;";
 		};
+		class Item3593
+		{
+			position[]={13948.415,23.026918,18664.494};
+			azimut=-138.34399;
+			offsetY=0.68000001;
+			id=3837;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item3594
+		{
+			position[]={13979.988,24.549126,18673.803};
+			azimut=-327.65701;
+			offsetY=0.69999999;
+			id=3838;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
 	};
 	class Markers
 	{
@@ -41701,11 +41723,12 @@ class Mission
 		};
 		class Item115
 		{
-			position[]={14074.721,23.343645,18559.061};
+			position[]={13981.189,24.693302,18675.328};
 			name="Gen_3_4_1";
 			text="@STR_MAR_Bruce_Outfits";
 			type="c_unknown";
 			colorName="ColorGreen";
+			angle=-0.40107727;
 		};
 		class Item116
 		{
@@ -41936,18 +41959,18 @@ class Mission
 		};
 		class Item144
 		{
-			position[]={14476.976,19.342848,17749.266};
+			position[]={14054.688,23.958855,18833.662};
 			name="car_g_3";
 			type="Empty";
-			angle=511.55499;
+			angle=665.72052;
 		};
 		class Item145
 		{
-			position[]={14473.113,19.164511,17754.678};
+			position[]={14060.515,23.992584,18830.461};
 			name="civ_gar_1_3";
 			text="@STR_MAR_Garage";
 			type="o_service";
-			angle=136.74835;
+			angle=290.91373;
 		};
 		class Item146
 		{
@@ -43078,7 +43101,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=8;
+		items=7;
 		class Item0
 		{
 			position[]={15685.677,14.723008,17472.623};
@@ -43129,12 +43152,12 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={3646.1392,10.191652,13112.801};
-			a=300;
-			b=300;
-			activationBy="CIV";
-			type="SWITCH";
+			position[]={16768.758,21.916197,12735.135};
+			a=125;
+			b=125;
+			interruptable=1;
 			age="UNKNOWN";
+			name="fronteira_1_1";
 			expCond="(player distance fronteira_1) < 200;";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
@@ -43144,27 +43167,27 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={3646.1392,10.191652,13112.801};
+			position[]={3646.1831,10.192717,13112.88};
 			a=300;
 			b=300;
-			activationBy="CIV";
-			type="SWITCH";
+			interruptable=1;
 			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint parseText ""<t color='#5984d8' size='2' align='center'>Atenção</t><br/>Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
-			expDesactiv=" hint parseText ""<t color='#81bd41' size='2' align='center'>Atenção</t><br/>Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			name="fronteira_1_1_1";
+			expCond="(player distance fronteira_1) < 200;";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
 			class Effects
 			{
 			};
 		};
 		class Item5
 		{
-			position[]={16768.709,21.888697,12735.399};
+			position[]={14035.873,26.347742,18731.953};
 			a=125;
 			b=125;
-			activationBy="CIV";
-			type="SWITCH";
+			interruptable=1;
 			age="UNKNOWN";
+			name="fronteira_1_1_2";
 			expCond="(player distance fronteira_1) < 200;";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
@@ -43174,27 +43197,12 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={25682.01,20.740356,21368.053};
+			position[]={25682.029,20.742785,21368.285};
 			a=125;
 			b=125;
-			activationBy="CIV";
-			type="SWITCH";
+			interruptable=1;
 			age="UNKNOWN";
-			expCond="(player distance fronteira_1) < 200;";
-			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
-			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
-			class Effects
-			{
-			};
-		};
-		class Item7
-		{
-			position[]={14035.832,26.339458,18732.168};
-			a=125;
-			b=125;
-			activationBy="CIV";
-			type="SWITCH";
-			age="UNKNOWN";
+			name="fronteira_1_1_3";
 			expCond="(player distance fronteira_1) < 200;";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
