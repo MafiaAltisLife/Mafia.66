@@ -109,7 +109,7 @@ class drugdealer_D {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "diamond_uncut", "diamond_cut" };
+        items[] = { "diamond_cut" };
     };
 
     class salt {
