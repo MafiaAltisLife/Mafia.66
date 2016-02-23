@@ -34,7 +34,7 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord["Preçosdosfarms",
 		[
-			"Altis Life Change Log",
+			"Preços Dos Farms",
 				"
 					The official change log can be found in ArmaLife github.<br/><br/>
 
