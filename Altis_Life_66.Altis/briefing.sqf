@@ -57,8 +57,8 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Farms",
 				"
-				                   Farms Legais
-					Barras de ouro - 95.000.<br/><br/>
+				                  "Farms Legais",
+					
 				        Petroleo/Oleo  - 3.200.<br/><br/>
 				        Cobre          - 1.500.<br/><br/>
 				        Metal          - 3.200.<br/><br/>
@@ -66,13 +66,19 @@ player createDiarySubject ["controles","Controles"];
 				        Cimento        - 1.950.<br/><br/>
 				        Diamante Legal - 3.500.<br/><br/>
 				              
-				                   Farms Ilegais
+				                  "Farms Ilegais",
+				                   
 				        Heroina        - 3.500.<br/><br/>
 				        Maconha        - 2.800.<br/><br/>
 				        Cocaina        - 5.000.<br/><br/>
 				        Diamante ilegal- 6.800.<br/><br/>
+				        
+				       "A barra de ouro, e somente em assalto, a reserva federal!",
 				      
-	               Mercado: News, o farm de diamante ilegal, está em alta no mercado, aproveitem!
+				       Barras de ouro - 95.000.<br/><br/>
+				 
+				      
+	               Mercado: News, o farm de diamante ilegal, está em alta no mercado, aproveitem!.<br/><br/>
 				"
 		]
 	];
