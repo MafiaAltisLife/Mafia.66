@@ -3,11 +3,11 @@ if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["farms","Precos dos farms"];
-player createDiarySubject ["serverrules","Regras gerais"];
-player createDiarySubject ["policerules","Regras policiais"];
-player createDiarySubject ["safezones","Zonas seguras"];
+player createDiarySubject ["serverrules","General Rules"];
+player createDiarySubject ["policerules","Police Procedures/Rules"];
+player createDiarySubject ["safezones","Safe Zones (No Killing)"];
 //player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Itens ilegais"];
+player createDiarySubject ["illegalitems","Illegal Activity"];
 //player createDiarySubject ["gangrules","Gang Rules"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controles","Controles"];
@@ -119,7 +119,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Botes",
 				"
-				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Repetidamente empurrar botes sem permissão.<br/>
 				2. Empurrar um bote com a intenção de machucar ou matar alguém. Isto não é Roleplay, é apenas uma falha na mecânica.<br/>
@@ -132,7 +132,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Aviação",
 				"
-				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Propositalmente jogar um helicóptero em qualquer coisa. Outros helicópteros, veículos, construções, etc.<br/>
 				2. Voar abaixo de 150m sobre a cidade constantemente. Mais do que ilegal, você corre o risco de colidir com a cidade, e indo assim contra as regras do servidor.<br/>
@@ -145,7 +145,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Veículos",
 				"
-				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Propositalmente atropelar outros jogadores. Sabemos que acidentes acontecem.<br/>
 				2. Propositalmente se jogar na frente de veículos tentando prejudicar outros jogadores.<br/>
@@ -162,7 +162,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Regras de Comunicação",
 				"
-				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Canal de lado não pode ser usado para tocar música ou qualquer outro tipo de micspam.<br/>
 				2. Spam em qualquer canal de comunicaçãoresultará na sua remoção do servidor.<br/>
@@ -175,7 +175,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			" Anti roleplay (Anti-RP)",
 				"
-				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Matar alguém sem motivo justificado no roleplay.<br/>
 				2. Declarar uma rebelião não é motivo para alguém, até mesmo policiais.<br/>
@@ -197,7 +197,7 @@ player createDiarySubject ["controles","Controles"];
 				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Se você morreu, deverá aguardar 15 minutos antes de voltar para o local da sua morte.<br/>
-				2. Se você morreu durante o roleplay, seus crimes passados serão perdoados, mas você não pode buscar por vingança.<br/><br/>
+				2. Se você morreu para a polícia durante o roleplay, seus crimes passados serão perdoados, mas você não pode buscar por vingança.<br/><br/>
 				"
 		]
 	];
@@ -411,9 +411,9 @@ player createDiarySubject ["controles","Controles"];
 				3. Se itens ilegais forem encontrados durante a revista, você pode proceder com a prisão ou uma multa, como de costume.<br/>
 				5. Força letal só é autorizada como descritas em “Uso da força letal”.<br/>
 				6. Depois da área estar segura, os policiais devem deixar a área.<br/>
-				7. Uma área não pode ser invadida novamente por 20 minutos.<br/>
-				8. Se a invassão falhar (todos os policiais morrerem), o tempo de 20 minutos continua valendo para esses policiais.<br/>
-				9. Pode ser chamado reforço, mas este não pode ser constituido por policiais mortos (veja "a regra da nova vida").<br/><br/>
+				7. An area cannot be raided again for 20 minutes after a previous raid.<br/>
+				8. If the raid is a failure (All officers die), the 20 minute timer still applies to those officers.<br/>
+				9. Backup may be called in, but it may not consist of fallen officers (see 'New Life Rule').<br/><br/>
 
 				Camping is defined as the prolong stay of an officer in an area.<br/><br/>
 
@@ -435,21 +435,23 @@ player createDiarySubject ["controles","Controles"];
 				2. Tenente Coronel<br/>
 				3. Major<br/>
 				4. Capitão<br/>
-				5. 1º Tenente > 2º Tenente<br/>
-				6. 1º Sargento > 2º Sargento > 3º Sargento<br/>
+				5. !º Tenente > 2º Tenente<br/>
+				6. !º Sargento > 2º Sargento > 3º Sargento<br/>
 				7. Cabo<br/>
 				8. Soldado<br/><br/>
+
+				Cops in game who are not enrolled/accepted into the SPD are the lowest tier and have no say in police operations.<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Uso de forca letal",
+			"Use of Lethal Force",
 				"
-				1. O uso de força letal só é permitido para proteção da sua vida, da vida de outro policial, ou a vida de um civil, se e somente se a força não-letal tenha sido ineficaz.<br/>
-				2. Não é permitida a descarga de arma quando não estiver sob ameaça ou em exercícios de treinamento.Policiais pegos violando esta regra vão ser removido do servidor e expulso da corporação.<br/>
-				3. Falhar em seguir o procedimento e manter a disciplina apropriada para armamentos, resultará na remoção da corporação.<br/><br/>
+				1. Use of Lethal force is only permitted for the protection of your life, another officers life, or a civilians life, if and only if non-lethal force would not be effective.<br/>
+				2. Discharging of a weapon when not under threat or not during training exercises is not allowed. Officers caught in violation of this rule will be removed from the server and suspended from the SPD.<br/>
+				3. Failure to follow proper weapons discipline and procedure will get you removed from the server and suspended from the SPD.<br/><br/>
 				"
 		]
 	];
@@ -502,7 +504,7 @@ player createDiarySubject ["controles","Controles"];
 				1. Ifrit<br/>
 				2. Lancha<br/>
 				3. Hunter<br/>
-				4. Veículos da polícia/socorrista<br/>
+				4. Offroad (polícia/socorrista)<br/>
 				"
 		]
 	];
