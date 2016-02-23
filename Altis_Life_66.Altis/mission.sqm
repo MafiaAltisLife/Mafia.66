@@ -170,8 +170,8 @@ class Mission
 	randomSeed=2004553;
 	class Intel
 	{
-		briefingName="[BR] Mafia Altis Life ";
-		overviewText="[BR] Mafia Altis Life  TS: mafiaaltisbrasil.meuts3.com.br ";
+		briefingName="Mafia Altis Life | TS: mafiaaltisbrasil.meuts3.com.br ";
+		overviewText="Mafia Altis Life | TS: mafiaaltisbrasil.meuts3.com.br ";
 		resistanceEast=1;
 		startWeather=0;
 		startWind=0;
