@@ -52,12 +52,12 @@ player createDiarySubject ["controles","Controles"];
 				        Cocaina        - 5.000.<br/>
 				        Diamante ilegal- 6.800.<br/><br/>
 				        
-				       "A barra de ouro, e somente em assalto, a reserva federal!",
+				       "A barra de ouro é adquirda somente em assalto à reserva federal!",
 				      
 				       Barras de ouro - 95.000.<br/><br/>
 				 
 				      
-	               Mercado: News, o farm de diamante ilegal, está em alta no mercado, aproveitem!.<br/><br/>
+	               Mercado: News: O farm de diamante ilegal está em alta no mercado, aproveitem!.<br/><br/>
 				"
 		]
 	];
