@@ -435,8 +435,8 @@ player createDiarySubject ["controles","Controles"];
 				2. Tenente Coronel<br/>
 				3. Major<br/>
 				4. Capitão<br/>
-				5. !º Tenente > 2º Tenente<br/>
-				6. !º Sargento > 2º Sargento > 3º Sargento<br/>
+				5. 1º Tenente > 2º Tenente<br/>
+				6. 1º Sargento > 2º Sargento > 3º Sargento<br/>
 				7. Cabo<br/>
 				8. Soldado<br/><br/>
 				"
@@ -445,11 +445,11 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Use of Lethal Force",
+			"Uso de forca letal",
 				"
-				1. Use of Lethal force is only permitted for the protection of your life, another officers life, or a civilians life, if and only if non-lethal force would not be effective.<br/>
-				2. Discharging of a weapon when not under threat or not during training exercises is not allowed. Officers caught in violation of this rule will be removed from the server and suspended from the SPD.<br/>
-				3. Failure to follow proper weapons discipline and procedure will get you removed from the server and suspended from the SPD.<br/><br/>
+				1. O uso de força letal só é permitido para proteção da sua vida, da vida de outro policial, ou a vida de um civil, se e somente se a força não-letal tenha sido ineficaz.<br/>
+				2. Não é permitida a descarga de arma quando não estiver sob ameaça ou em exercícios de treinamento.Policiais pegos violando esta regra vão ser removido do servidor e expulso da corporação.<br/>
+				3. Falhar em seguir o procedimento e manter a disciplina apropriada para armamentos, resultará na remoção da corporação.<br/><br/>
 				"
 		]
 	];
