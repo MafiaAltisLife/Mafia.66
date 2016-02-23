@@ -3446,7 +3446,7 @@ class Mission
 				};
 				class Item109
 				{
-					position[]={3308.0859,12.680939,14142.578};
+					position[]={3638.2898,8.2477312,14580.081};
 					azimut=-57.2556;
 					special="NONE";
 					id=206;
@@ -42445,7 +42445,7 @@ class Mission
 		};
 		class Item204
 		{
-			position[]={3307.8906,12.716581,14142.727};
+			position[]={3638.0945,8.2172985,14580.229};
 			name="turle_dealer_1";
 			text="@STR_MAR_Turtle_Dealer";
 			type="mil_dot";
