@@ -43,7 +43,7 @@ player createDiarySubject ["controles","Controles"];
 				        Metal          - 3.200.<br/>
 				        Sal            - 1.450.<br/>
 				        Cimento        - 1.950.<br/>
-				        Diamante Legal - 3.500.<br/>
+				        Diamante Legal - 3.500.<br/><br/>
 				              
 				                  "Farms Ilegais",
 				                   
