@@ -32,10 +32,6 @@ player createDiarySubject ["controles","Controles"];
 		]
 	];
 
-
-		]
-	];
-
 	player createDiaryRecord["Preçosdosfarms",
 		[
 			"Farms",
