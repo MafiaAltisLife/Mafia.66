@@ -207,20 +207,28 @@ class Clothing {
         license = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } }
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "U_I_G_Story_Protagonist_F", "Worn Combat Fatigues (Kerry)", 5000, {"", "", -1} },
+            { "U_IG_Guerrilla_6_1", "", 5000, {"Guerilla Apparel", "", -1} }
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, { "", "", -1 } }
+            { "NONE", "Remove Hat", 0, { "", "", -1 } },
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, { "", "", -1 } }
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+            { "G_Balaclava_blk", "", 150, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 1900, { "", "", -1 } }
+            { "V_Chestrig_khk", "Chest Rig (Khaki)", 6000, { "", "", -1 } },
+            { "V_Chestrig_blk", "Fighter Chestrig (Black)", 6000, { "", "", -1 } },
+            { "V_TacVest_khk", "Tactical Vest (Khaki)", 6000, { "", "", -1 } },
+            { "V_TacVest_blk", "Tactical Vest (Black)", 6000, { "", "", -1 } }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, { "", "", -1 } }
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "B_Carryall_khk", "", 6500, { "", "", -1 } },
+            { "B_Carryall_cbr", "", 6500, { "", "", -1 } }
         };
     };
 
