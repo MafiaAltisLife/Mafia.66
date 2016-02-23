@@ -2,7 +2,7 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
-player createDiarySubject ["Preçosdosfarms","Farms Preços"];
+player createDiarySubject ["farms","Preços dos farms"];
 player createDiarySubject ["serverrules","General Rules"];
 player createDiarySubject ["policerules","Police Procedures/Rules"];
 player createDiarySubject ["safezones","Safe Zones (No Killing)"];
@@ -31,38 +31,32 @@ player createDiarySubject ["controles","Controles"];
 				"
 		]
 	];
-
-	player createDiaryRecord["Preçosdosfarms",
+	
+	player createDiaryRecord ["farms",
 		[
-			"Farms",
+			"Preço dos farms",
 				"
-				                  "Farms Legais",
-					
-				        Petroleo/Oleo  - 3.200.<br/>
-				        Cobre          - 1.500.<br/>
-				        Metal          - 3.200.<br/>
-				        Sal            - 1.450.<br/>
-				        Cimento        - 1.950.<br/>
-				        Diamante Legal - 3.500.<br/><br/>
-				              
-				                  "Farms Ilegais",
-				                   
-				        Heroina        - 3.500.<br/>
-				        Maconha        - 2.800.<br/>
-				        Cocaina        - 5.000.<br/>
-				        Diamante ilegal- 6.800.<br/><br/>
-				        
-				       "A barra de ouro é adquirda somente em assalto à reserva federal!",
-				      
-				       Barras de ouro - 95.000.<br/><br/>
-				 
-				      
-	               Mercado: News: O farm de diamante ilegal está em alta no mercado, aproveitem!.<br/><br/>
+				Farms Legais<br/><br/>
+				1. Petroleo e oleo: 3200<br/>
+				2. Cobre: 1500<br/>
+				3. Metal: 3200<br/>
+				4. Sal: 1450<br/>
+				5. Cimento: 1950<br/>
+				6. Diamante Legal: 3500<br/><br/>
+				Farms Ilegais<br/><br/>
+				1.Heroina: 3500<br/>
+				2.Maconha: 2800<br/>
+				3.Cocaina: 5000<br/>
+				4.Diamante Ilegal: 6800<br/>
+				5.Tartaruga: <br/><br/>
+				A barra de ouro só é adquirida em assalto à reserva.<br/><br/>
+				Barra de Ouro: 95000<br/><br/>
+				NEWS: O MERCADO DO DIAMANTE ILEGAL ESTÁ EM ALTA. aPROVEITEM!<br/><br/>
 				"
 		]
 	];
-
-		player createDiaryRecord ["serverrules",
+	
+	player createDiaryRecord ["serverrules",
 		[
 			"Levar vantagem",
 				"
