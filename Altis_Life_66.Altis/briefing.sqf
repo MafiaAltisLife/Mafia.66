@@ -50,11 +50,11 @@ player createDiarySubject ["controles","Controles"];
 				        Heroina        - 3.500.<br/>
 				        Maconha        - 2.800.<br/>
 				        Cocaina        - 5.000.<br/>
-				        Diamante ilegal- 6.800.<br/>
+				        Diamante ilegal- 6.800.<br/><br/>
 				        
 				       "A barra de ouro, e somente em assalto, a reserva federal!",
 				      
-				       Barras de ouro - 95.000.<br/>
+				       Barras de ouro - 95.000.<br/><br/>
 				 
 				      
 	               Mercado: News, o farm de diamante ilegal, está em alta no mercado, aproveitem!.<br/><br/>
