@@ -32,24 +32,7 @@ player createDiarySubject ["controles","Controles"];
 		]
 	];
 
-	player createDiaryRecord["Preçosdosfarms",
-		[
-			"Preços Dos Farms",
-				"
-					The official change log can be found in ArmaLife github.<br/><br/>
 
-					v4.3 release 4!<br/>
-					by: danielstuart14<br/>
-					31. January 2016<br/><br/>
-
-					v4.3.2 release!<br/>
-					by: danielstuart14<br/>
-					22. January 2016<br/><br/>
-
-					v4.3.1 release!<br/>
-					by: danielstuart14<br/>
-					19. January 2016<br/><br/>
-				"
 		]
 	];
 
