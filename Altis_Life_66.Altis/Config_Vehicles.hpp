@@ -208,7 +208,7 @@ class LifeCfgVehicles {
         vItemSpace = 200;
         storageFee[] = { 0, 50000, 0, 0 };
         garageSell[] = { 0, 85000, 0, 0 };
-        insurance = 16000;
+        insurance = 5000;
         chopShop = 45000;
         textures[] = {};
     };
@@ -286,7 +286,7 @@ class LifeCfgVehicles {
         vItemSpace = 350;
         storageFee[] = { 95000, 0, 0, 0 };
         garageSell[] = { 185000, 0, 0, 0 };
-        insurance = 25000;
+        insurance = 2500;
         chopShop = 225000;
         textures[] = { };
     };
@@ -332,7 +332,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 4000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 100000;
+        chopShop = 5000;
         textures[] = { };
     };
 
@@ -377,7 +377,7 @@ class LifeCfgVehicles {
         storageFee[] = { 35000, 0, 0, 0 };
         garageSell[] = { 150000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 175000;
+        chopShop = 5000;
         textures[] = { };
     };
 
@@ -386,7 +386,7 @@ class LifeCfgVehicles {
         storageFee[] = { 25650, 0, 0, 0 };
         garageSell[] = { 135000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 127500;
+        chopShop = 5000;
         textures[] = { };
     };
 
@@ -395,7 +395,7 @@ class LifeCfgVehicles {
         storageFee[] = { 45000, 0, 0, 0 };
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 75000;
+        chopShop = 5000;
         textures[] = { };
     };
 
@@ -560,7 +560,7 @@ class LifeCfgVehicles {
         storageFee[] = { 14500, 0, 0, 0 };
         garageSell[] = { 62000, 0, 0, 0 };
         insurance = 6500;
-        chopShop = 50000;
+        chopShop = 5000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -577,7 +577,7 @@ class LifeCfgVehicles {
         storageFee[] = { 12000, 0, 0, 0 };
         garageSell[] = { 49800, 3500, 0, 0 };
         insurance = 6500;
-        chopShop = 37500;
+        chopShop = 5000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -594,7 +594,7 @@ class LifeCfgVehicles {
         storageFee[] = { 25000, 0, 0, 0 };
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 125000;
+        chopShop = 5000;
         textures[] = {};
     };
 
@@ -637,7 +637,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
         insurance = 2500;
-        chopShop = 15000;
+        chopShop = 5000;
         textures[] = {
             { "Dark Red", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
@@ -662,7 +662,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 25000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 22500;
+        chopShop = 5000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -678,7 +678,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 35000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 30000;
+        chopShop = 5000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -694,7 +694,7 @@ class LifeCfgVehicles {
         storageFee[] = { 0, 7500, 0, 0 };
         garageSell[] = { 0, 10000, 0, 0 };
         insurance = 2500;
-        chopShop = 15000;
+        chopShop = 5000;
         textures[] = {
             { "Black", "cop", {
                 "textures\Cop\HunterBackPM.paa",
@@ -708,7 +708,7 @@ class LifeCfgVehicles {
         storageFee[] = { 45000, 19500, 0, 0 };
         garageSell[] = { 57000, 35000, 0, 0 };
         insurance = 2500;
-        chopShop = 125000;
+        chopShop = 5000;
         textures[] = {
             { "Police", "cop", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
@@ -762,8 +762,8 @@ class LifeCfgVehicles {
         vItemSpace = 875;
         storageFee[] = { 7500, 0, 0, 0 };
         garageSell[] = { 12500, 0, 0, 0 };
-        insurance = 25000;
-        chopShop = 50000;
+        insurance = 5000;
+        chopShop = 10000;
         textures[] = {};
     };
 	
@@ -771,8 +771,8 @@ class LifeCfgVehicles {
         vItemSpace = 275;
         storageFee[] = { 7500, 0, 0, 0 };
         garageSell[] = { 12500, 0, 0, 0 };
-        insurance = 25000;
-        chopShop = 50000;
+        insurance = 5000;
+        chopShop = 10000;
         textures[] = {};
     };
 	
@@ -780,8 +780,8 @@ class LifeCfgVehicles {
         vItemSpace = 275;
         storageFee[] = { 7500, 0, 0, 0 };
         garageSell[] = { 12500, 0, 0, 0 };
-        insurance = 25000;
-        chopShop = 50000;
+        insurance = 5000;
+        chopShop = 10000;
         textures[] = {};
     };
 	
@@ -789,8 +789,8 @@ class LifeCfgVehicles {
         vItemSpace = 575;
         storageFee[] = { 7500, 0, 0, 0 };
         garageSell[] = { 12500, 0, 0, 0 };
-        insurance = 25000;
-        chopShop = 50000;
+        insurance = 5000;
+        chopShop = 10000;
         textures[] = {};
     };
 	
@@ -798,9 +798,8 @@ class LifeCfgVehicles {
         vItemSpace = 210;
         storageFee[] = { 55000, 0, 22000, 0 };
         garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 375000;
-        textures[] = {
+        insurance = 5000;
+        chopShop = 1000
             { "Black", "cop", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
@@ -824,8 +823,8 @@ class LifeCfgVehicles {
         vItemSpace = 275;
         storageFee[] = { 75000, 0, 0, 0 };
         garageSell[] = { 125000, 0, 0, 0 };
-        insurance = 25000;
-        chopShop = 50000;
+        insurance = 5000;
+        chopShop = 10000;
         textures[] = {};
     };
 	
@@ -854,7 +853,7 @@ class LifeCfgVehicles {
         storageFee[] = { 37500, 10000, 0, 0 };
         garageSell[] = { 75000, 50000, 0, 0 };
         insurance = 2500;
-        chopShop = 75000;
+        chopShop = 5000;
         textures[] = {};
     };
 };
