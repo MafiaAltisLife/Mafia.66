@@ -91,7 +91,7 @@ class CarShops {
             { "C_Offroad_01_F", 5000, { "" }, { "", "OffroadPM", -1 } },
             { "C_SUV_01_F", 20000, { "" }, { "", "SuvPM", -1 } },
             { "C_Hatchback_01_sport_F", 30000, { "" }, { "life_coplevel", "HatchPM", -1 } },
-            { "B_MRAP_01_F", 200000, { "" }, { "life_coplevel", "SCALAR", -1 } },
+            { "B_MRAP_01_F", 200000, { "" }, { "life_coplevel", "SCALAR", -1 } }
         };
     };
 
@@ -100,7 +100,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", 500000, { "pilot" }, { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } },
-            { "I_Heli_light_03_F", 15000000, { "pilot" }, { "", "", -1 } },
+            { "I_Heli_light_03_F", 15000000, { "pilot" }, { "", "", -1 } }
         };
     };
 
@@ -108,11 +108,9 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "B_Heli_Light_01_F", 7500, { "cAir" }, { "", "", -1 } },
-            { "B_Heli_Transport_01_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
-            { "O_Heli_Transport_04_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
-            { "O_Heli_Light_02_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
-            { "I_Heli_light_03_F", 175000, { "cAir" }, { "", "", -1 } },
-            { "B_Heli_Transport_03_unarmed_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }				
+            { "B_Heli_Transport_01_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", -1 } },
+            { "O_Heli_Transport_04_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", -1 } },
+            { "O_Heli_Light_02_F", 20000, { "cAir" }, { "life_coplevel", "SCALAR", -1 } }
         };
     };
 
