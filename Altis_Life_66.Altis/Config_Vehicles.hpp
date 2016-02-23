@@ -791,32 +791,7 @@ class LifeCfgVehicles {
         chopShop = 10000;
         textures[] = {};
     };
-	
-    class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-        garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 5000;
-        chopShop = 1000
-            { "Black", "cop", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
-            } },
-            { "White / Blue", "civ", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
-            } },
-            { "Digi Green", "civ", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa"
-            } },
-            { "Desert Digi", "reb", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
-            } },
-            { "EMS White", "med", {
-                "textures\medic\orca_med.paa"
-            } }
-        };
-    };
-
-	
+    
 	class O_Heli_Transport_04_F{
         vItemSpace = 275;
         storageFee[] = { 75000, 0, 0, 0 };
