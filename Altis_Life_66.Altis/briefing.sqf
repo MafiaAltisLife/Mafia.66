@@ -3,11 +3,11 @@ if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["farms","Precos dos farms"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
+player createDiarySubject ["serverrules","Regras gerais"];
+player createDiarySubject ["policerules","Procedimentos policiais"];
 player createDiarySubject ["safezones","Zonas seguras"];
 //player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Atividades Ilegais"];
+player createDiarySubject ["illegalitems","Atividades ilegais"];
 //player createDiarySubject ["gangrules","Gang Rules"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controles","Controles"];
