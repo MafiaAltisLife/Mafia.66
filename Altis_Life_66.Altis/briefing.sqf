@@ -197,7 +197,7 @@ player createDiarySubject ["controles","Controles"];
 				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Se você morreu, deverá aguardar 15 minutos antes de voltar para o local da sua morte.<br/>
-				2. Se você morreu para a polícia durante o roleplay, seus crimes passados serão perdoados, mas você não pode buscar por vingança.<br/><br/>
+				2. Se você morreu durante o roleplay, seus crimes passados serão perdoados, mas você não pode buscar por vingança.<br/><br/>
 				"
 		]
 	];
