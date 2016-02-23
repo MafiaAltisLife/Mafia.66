@@ -411,9 +411,9 @@ player createDiarySubject ["controles","Controles"];
 				3. Se itens ilegais forem encontrados durante a revista, você pode proceder com a prisão ou uma multa, como de costume.<br/>
 				5. Força letal só é autorizada como descritas em “Uso da força letal”.<br/>
 				6. Depois da área estar segura, os policiais devem deixar a área.<br/>
-				7. An area cannot be raided again for 20 minutes after a previous raid.<br/>
-				8. If the raid is a failure (All officers die), the 20 minute timer still applies to those officers.<br/>
-				9. Backup may be called in, but it may not consist of fallen officers (see 'New Life Rule').<br/><br/>
+				7. Uma área não pode ser invadida novamente por 20 minutos.<br/>
+				8. Se a invassão falhar (todos os policiais morrerem), o tempo de 20 minutos continua valendo para esses policiais.<br/>
+				9. Pode ser chamado reforço, mas este não pode ser constituido por policiais mortos (veja "a regra da nova vida").<br/><br/>
 
 				Camping is defined as the prolong stay of an officer in an area.<br/><br/>
 
@@ -439,8 +439,6 @@ player createDiarySubject ["controles","Controles"];
 				6. !º Sargento > 2º Sargento > 3º Sargento<br/>
 				7. Cabo<br/>
 				8. Soldado<br/><br/>
-
-				Cops in game who are not enrolled/accepted into the SPD are the lowest tier and have no say in police operations.<br/><br/>
 				"
 		]
 	];
@@ -504,7 +502,7 @@ player createDiarySubject ["controles","Controles"];
 				1. Ifrit<br/>
 				2. Lancha<br/>
 				3. Hunter<br/>
-				4. Offroad (polícia/socorrista)<br/>
+				4. Veículos da polícia/socorrista<br/>
 				"
 		]
 	];
