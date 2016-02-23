@@ -2,7 +2,7 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
-player createDiarySubject ["Preços dos farms","Farms Preços"];
+player createDiarySubject ["Preçosdosfarms","Farms Preços"];
 player createDiarySubject ["serverrules","General Rules"];
 player createDiarySubject ["policerules","Police Procedures/Rules"];
 player createDiarySubject ["safezones","Safe Zones (No Killing)"];
@@ -32,7 +32,7 @@ player createDiarySubject ["controles","Controles"];
 		]
 	];
 
-	player createDiaryRecord["Preços dos farms",
+	player createDiaryRecord["Preçosdosfarms",
 		[
 			"Altis Life Change Log",
 				"
@@ -53,29 +53,29 @@ player createDiarySubject ["controles","Controles"];
 		]
 	];
 
-	player createDiaryRecord["Preços dos farms",
+	player createDiaryRecord["Preçosdosfarms",
 		[
 			"Farms",
 				"
 				                  "Farms Legais",
 					
-				        Petroleo/Oleo  - 3.200.<br/><br/>
-				        Cobre          - 1.500.<br/><br/>
-				        Metal          - 3.200.<br/><br/>
-				        Sal            - 1.450.<br/><br/>
-				        Cimento        - 1.950.<br/><br/>
-				        Diamante Legal - 3.500.<br/><br/>
+				        Petroleo/Oleo  - 3.200.<br/>
+				        Cobre          - 1.500.<br/>
+				        Metal          - 3.200.<br/>
+				        Sal            - 1.450.<br/>
+				        Cimento        - 1.950.<br/>
+				        Diamante Legal - 3.500.<br/>
 				              
 				                  "Farms Ilegais",
 				                   
-				        Heroina        - 3.500.<br/><br/>
-				        Maconha        - 2.800.<br/><br/>
-				        Cocaina        - 5.000.<br/><br/>
-				        Diamante ilegal- 6.800.<br/><br/>
+				        Heroina        - 3.500.<br/>
+				        Maconha        - 2.800.<br/>
+				        Cocaina        - 5.000.<br/>
+				        Diamante ilegal- 6.800.<br/>
 				        
 				       "A barra de ouro, e somente em assalto, a reserva federal!",
 				      
-				       Barras de ouro - 95.000.<br/><br/>
+				       Barras de ouro - 95.000.<br/>
 				 
 				      
 	               Mercado: News, o farm de diamante ilegal, está em alta no mercado, aproveitem!.<br/><br/>
