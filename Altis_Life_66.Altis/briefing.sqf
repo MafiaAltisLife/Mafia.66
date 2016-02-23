@@ -2,7 +2,7 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
-player createDiarySubject ["farms","Preços dos farms"];
+player createDiarySubject ["farms","Precos dos farms"];
 player createDiarySubject ["serverrules","General Rules"];
 player createDiarySubject ["policerules","Police Procedures/Rules"];
 player createDiarySubject ["safezones","Safe Zones (No Killing)"];
@@ -34,7 +34,7 @@ player createDiarySubject ["controles","Controles"];
 	
 	player createDiaryRecord ["farms",
 		[
-			"Preço dos farms",
+			"Preco dos farms",
 				"
 				Farms Legais<br/><br/>
 				1. Petroleo e oleo: 3200<br/>
@@ -51,7 +51,7 @@ player createDiarySubject ["controles","Controles"];
 				5.Tartaruga: <br/><br/>
 				A barra de ouro só é adquirida em assalto à reserva.<br/><br/>
 				Barra de Ouro: 95000<br/><br/>
-				NEWS: O MERCADO DO DIAMANTE ILEGAL ESTÁ EM ALTA. aPROVEITEM!<br/><br/>
+				NEWS: O MERCADO DO DIAMANTE ILEGAL ESTÁ EM ALTA. APROVEITEM!<br/><br/>
 				"
 		]
 	];
