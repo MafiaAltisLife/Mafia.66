@@ -148,6 +148,9 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "", 2500, 1250 },
             { "hgun_ACPC2_F", "", 4500, -1 },
             { "hgun_PDW2000_F", "", 9500, -1 },
+            { "arifle_MXC_Black_F", "", 240000, 115000 },
+            { "arifle_MX_Black_F", "", 240000, 115000 },
+            { "arifle_MXM_Black_F", "", 240000, 115000 },
         
             { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
