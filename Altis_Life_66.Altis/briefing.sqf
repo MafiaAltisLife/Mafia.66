@@ -2,7 +2,7 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["credits","Credits"];
-player createDiarySubject ["changelog","Change Log"];
+player createDiarySubject ["Preços dos farms","Farms Preços"];
 player createDiarySubject ["serverrules","General Rules"];
 player createDiarySubject ["policerules","Police Procedures/Rules"];
 player createDiarySubject ["safezones","Safe Zones (No Killing)"];
@@ -32,7 +32,7 @@ player createDiarySubject ["controles","Controles"];
 		]
 	];
 
-	player createDiaryRecord["changelog",
+	player createDiaryRecord["Preços dos farms",
 		[
 			"Altis Life Change Log",
 				"
