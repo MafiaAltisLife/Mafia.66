@@ -53,11 +53,26 @@ player createDiarySubject ["controles","Controles"];
 		]
 	];
 
-	player createDiaryRecord["changelog",
+	player createDiaryRecord["Preços dos farms",
 		[
-			"Server Change Log",
+			"Farms",
 				"
-					This section is meant for people doing their own edits to the mission, DO NOT REMOVE THE ABOVE.<br/><br/>
+				                   Farms Legais
+					Barras de ouro - 95.000.<br/><br/>
+				        Petroleo/Oleo  - 3.200.<br/><br/>
+				        Cobre          - 1.500.<br/><br/>
+				        Metal          - 3.200.<br/><br/>
+				        Sal            - 1.450.<br/><br/>
+				        Cimento        - 1.950.<br/><br/>
+				        Diamante Legal - 3.500.<br/><br/>
+				              
+				                   Farms Ilegais
+				        Heroina        - 3.500.<br/><br/>
+				        Maconha        - 2.800.<br/><br/>
+				        Cocaina        - 5.000.<br/><br/>
+				        Diamante ilegal- 6.800.<br/><br/>
+				      
+	               Mercado: News, o farm de diamante ilegal, está em alta no mercado, aproveitem!
 				"
 		]
 	];
