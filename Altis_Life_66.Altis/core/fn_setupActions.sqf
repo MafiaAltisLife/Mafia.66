@@ -16,7 +16,7 @@ switch (playerSide) do {
 };
 
 
-
+switch (playerSide) do {
 	case cop:{
 		//CopEnter - Driver Seat
 		life_actions = life_actions + [player addAction[localize "STR_pAct_DriverSeat",life_fnc_copEnter,"driver",200,false,false,"",'
@@ -30,4 +30,5 @@ switch (playerSide) do {
  		//CopEnter - Exit
 		life_actions = life_actions + [player addAction[localize "STR_pAct_GoOut",life_fnc_copEnter,"exit",100,false,false,"",'
 		(vehicle player != player) && (locked(vehicle player)==2)']];
-		};
+	};
+};
