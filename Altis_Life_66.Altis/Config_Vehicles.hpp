@@ -702,7 +702,7 @@ class LifeCfgVehicles {
     };
 
     class B_Heli_Light_01_F {
-        vItemSpace = 90;
+        vItemSpace = 50;
         storageFee[] = { 45000, 19500, 0, 0 };
         garageSell[] = { 57000, 35000, 0, 0 };
         insurance = 2500;
@@ -757,7 +757,7 @@ class LifeCfgVehicles {
     };
 
 	class B_Heli_Transport_03_unarmed_F{
-        vItemSpace = 875;
+        vItemSpace = 500;
         storageFee[] = { 7500, 0, 0, 0 };
         garageSell[] = { 12500, 0, 0, 0 };
         insurance = 5000;
@@ -766,7 +766,7 @@ class LifeCfgVehicles {
     };
 	
 	class B_Heli_Transport_01_camo_F {
-        vItemSpace = 275;
+        vItemSpace = 150;
         storageFee[] = { 7500, 0, 0, 0 };
         garageSell[] = { 12500, 0, 0, 0 };
         insurance = 5000;
@@ -775,7 +775,7 @@ class LifeCfgVehicles {
     };
 	
 	class I_Heli_light_03_F {
-        vItemSpace = 275;
+        vItemSpace = 150;
         storageFee[] = { 7500, 0, 0, 0 };
         garageSell[] = { 12500, 0, 0, 0 };
         insurance = 5000;
@@ -784,7 +784,7 @@ class LifeCfgVehicles {
     };
 	
 	class O_Heli_Light_02_F {
-        vItemSpace = 575;
+        vItemSpace = 300;
         storageFee[] = { 7500, 0, 0, 0 };
         garageSell[] = { 12500, 0, 0, 0 };
         insurance = 5000;
@@ -793,7 +793,7 @@ class LifeCfgVehicles {
     };
     
 	class O_Heli_Transport_04_F{
-        vItemSpace = 275;
+        vItemSpace = 150;
         storageFee[] = { 75000, 0, 0, 0 };
         garageSell[] = { 125000, 0, 0, 0 };
         insurance = 5000;
@@ -802,7 +802,7 @@ class LifeCfgVehicles {
     };
 	
     class I_Heli_Transport_02_F {
-        vItemSpace = 975;
+        vItemSpace = 400;
         storageFee[] = { 75000, 0, 0, 0 };
         garageSell[] = { 125000, 0, 0, 0 };
         insurance = 2500;
