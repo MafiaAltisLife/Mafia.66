@@ -14,7 +14,7 @@ _uiDisp = uiNamespace getVariable "life_nlrtimer";
 
 _timer = _uiDisp displayCtrl 38301;
 
-_time = time + (10 * 60); 
+_time = time + (15 * 60); 
 
 life_nlrtimer_running = true;
 
