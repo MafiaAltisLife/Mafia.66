@@ -208,11 +208,22 @@ class VirtualItems {
         weight = 10;
         buyPrice = 2500;
         sellPrice = 1200;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_spikestrip.paa";
     };
 
+    class ziptie {
+        variable = "ziptie";
+        displayName = "Algemas";
+        weight = 5;
+        buyPrice = 40000;
+        sellPrice = 10000;
+        illegal = true;
+        edible = -1;
+        icon = "icons\ico_lockpick.paa";
+    };
+    
     class lockpick {
         variable = "lockpick";
         displayName = "STR_Item_Lockpick";
