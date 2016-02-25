@@ -4,7 +4,7 @@ this allowDamage false;
 this addAction[localize"STR_MAR_W_E_Vehicle Shop",life_fnc_vehicleShopMenu,["reb_car",civilian,"reb_v_2","reb","Rebel Motorpool - Western Side"],0,false,false,"",'license_civ_donator'];
 
 this addAction[localize"STR_MAR_Rebel_Market",life_fnc_virt_menu,"rebel"];
-this addAction[localize "Loja de Roupas",life_fnc_clothingMenu,"Doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];
-this addAction[localize "Loja de Armas",life_fnc_weaponShopMenu,"Doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];
-this addAction[format["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "Donator" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "Donator" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"Donator",0,false,false,"",' !license_civ_donator && playerSide == civilian '];
+this addAction[localize "Loja de Roupas",life_fnc_clothingMenu,"doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];
+this addAction[localize "Loja de Armas",life_fnc_weaponShopMenu,"doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];
+this addAction[format["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "donator" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "Donator" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"Donator",0,false,false,"",' !license_civ_donator && playerSide == civilian '];
 this addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,FALSE,FALSE,"",' vehicle player == player && player distance _target < 4 '];
