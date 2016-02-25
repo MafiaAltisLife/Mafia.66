@@ -1,7 +1,7 @@
 removeallWeapons this;
 this enableSimulation false;
 this allowDamage false;
-this addAction[localize"Loja de Veiculos",life_fnc_vehicleShopMenu,["vip_car",civilian,"vip_v_2","reb","Rebel Motorpool - Western Side"],0,false,false,"",'license_civ_donator'];
+this addAction[localize"Loja de Veiculos",life_fnc_vehicleShopMenu,["vip_car",civilian,"vip_v_2","reb","Loja de veiculos MAFIA"],0,false,false,"",'license_civ_donator'];
 
 this addAction[localize"Mercado",life_fnc_virt_menu,"doador"];
 this addAction[localize "Loja de Roupas",life_fnc_clothingMenu,"Doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];
