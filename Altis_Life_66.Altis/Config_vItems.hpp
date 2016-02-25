@@ -73,7 +73,7 @@ class VirtualShops {
     };
     
 class drugdealer_D {
-        name = "Mercado Negro";
+        name = "STR_Mercado Negro";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
