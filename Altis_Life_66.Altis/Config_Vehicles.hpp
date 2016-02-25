@@ -71,10 +71,10 @@ class CarShops {
     class reb_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
-            { "B_G_Offroad_01_F", 12500, { "" }, { "", "", -1 } },
+            { "B_Quadbike_01_F", 5000, { "" }, { "", "", -1 } },
+            { "B_G_Offroad_01_F", 25000, { "" }, { "", "", -1 } },
             { "B_Heli_Light_01_F", 325000, { "" }, { "", "", -1 } },
-            { "B_G_Offroad_01_armed_F", 750000, { "rebel" }, { "", "", -1 } },
+            { "B_G_Offroad_01_armed_F", 200000, { "rebel" }, { "", "", -1 } },
 			
 			{ "O_MRAP_02_F", 3750000, { "rebel" }, { "", "", -1 } },
 			{ "I_MRAP_03_F", 3750000, { "rebel" }, { "", "", -1 } },
@@ -88,10 +88,10 @@ class CarShops {
     class vip_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", 1250, { "" }, { "", "", -1 } },
-            { "B_G_Offroad_01_F", 6250, { "" }, { "", "", -1 } },
+            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
+            { "B_G_Offroad_01_F", 50050, { "" }, { "", "", -1 } },
             { "B_Heli_Light_01_F", 162500, { "" }, { "", "", -1 } },
-            { "B_G_Offroad_01_armed_F", 375000, { "rebel" }, { "", "", -1 } },
+            { "B_G_Offroad_01_armed_F", 1000000, { "rebel" }, { "", "", -1 } },
 			
 			{ "O_MRAP_02_F", 1875000, { "rebel" }, { "", "", -1 } },
 			{ "I_MRAP_03_F", 1875000, { "rebel" }, { "", "", -1 } },
