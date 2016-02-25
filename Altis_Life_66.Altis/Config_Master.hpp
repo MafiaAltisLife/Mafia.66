@@ -31,7 +31,7 @@ class Life_Settings {
 
     /* Gang related settings */
     gang_price = 520000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
-    gang_upgradeBase = 2500; //The base cost for upgrading slots in a gang
+    gang_upgradeBase = 250000; //The base cost for upgrading slots in a gang
     gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
     /* Player-related systems */
