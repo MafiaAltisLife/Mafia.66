@@ -85,6 +85,23 @@ class CarShops {
         };
     };
 
+ class reb_car {
+        side = "civ";
+        vehicles[] = {
+            { "B_Quadbike_01_F", 1250, { "" }, { "", "", -1 } },
+            { "B_G_Offroad_01_F", 6250, { "" }, { "", "", -1 } },
+            { "B_Heli_Light_01_F", 162500, { "" }, { "", "", -1 } },
+            { "B_G_Offroad_01_armed_F", 375000, { "rebel" }, { "", "", -1 } },
+			
+			{ "O_MRAP_02_F", 1875000, { "rebel" }, { "", "", -1 } },
+			{ "I_MRAP_03_F", 1875000, { "rebel" }, { "", "", -1 } },
+			{ "I_Heli_Transport_02_F", 1875000, { "pilot" }, { "", "", -1 } },
+			{ "O_Heli_Transport_04_F", 875000, { "pilot" }, { "", "", -1 } },
+			{ "O_Heli_Light_02_F", 750000, { "pilot" }, { "", "", -1 } },
+			{ "B_Heli_Transport_03_unarmed_F", 3750000, { "pilot" }, { "", "", -1 } }
+        };
+    };
+			
     class cop_car {
         side = "cop";
         vehicles[] = {
