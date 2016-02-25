@@ -56,6 +56,14 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
+            { "Binocular", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 },
+            
             { "hgun_Rook40_F", "", 25000, 7500 },
             { "hgun_Pistol_heavy_02_F", "", 35000, 7500 },
             { "hgun_ACPC2_F", "", 45000, 12500 },
@@ -92,7 +100,7 @@ class WeaponShops {
             { "srifle_DMR_06_camo_F", "", 550000, 195000},
             { "srifle_DMR_06_olive_F", "", 550000, 195000},
 
-           { "optic_Hamr", "", 1000, 500 },
+            { "optic_Hamr", "", 1000, 500 },
             { "optic_ACO_grn_smg", "", 4000, 100 },
             { "optic_MRCO", "", 4000, 1000 },
             { "optic_SOS", "", 10000, 1500 },
@@ -107,7 +115,7 @@ class WeaponShops {
             { "bipod_01_F_tan", "", 4000, 1000 }
         };
         mags[] = {
-             { "16Rnd_9x21_Mag", "", 100 },
+            { "16Rnd_9x21_Mag", "", 100 },
             { "11Rnd_45ACP_Mag", "", 140 },
             { "6Rnd_45ACP_Cylinder", "", 200 },
             { "9Rnd_45ACP_Mag", "", 180 },
@@ -139,6 +147,14 @@ class Doador {
         license = "donator";
         level[] = { "", "", -1, "" };
         items[] = {
+            { "Binocular", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 },
+           
             { "hgun_Rook40_F", "", 12500, 5000 },
             { "hgun_Pistol_heavy_02_F", "", 17500, 7000 },
             { "hgun_ACPC2_F", "", 22500, 8000 },
@@ -222,6 +238,14 @@ class Doador {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
+            { "Binocular", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 },
+           
             { "hgun_Rook40_F", "", 25000, 7500 },
             { "hgun_Pistol_heavy_02_F", "", 35000, 7500 },
             { "hgun_ACPC2_F", "", 45000, 12500 },
@@ -356,6 +380,15 @@ class Doador {
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "MineDetector", "", 1000, 500 },
             
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 },
+            
             { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_MRCO", "", 1200, 600 },
@@ -398,6 +431,13 @@ class Doador {
             { "srifle_DMR_02_F", "", 14000, -1 },
             
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 },
             
             { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
