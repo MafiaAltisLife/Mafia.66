@@ -42,7 +42,6 @@ player createDiarySubject ["controles","Controles"];
 				3. Metal: 3200<br/>
 				4. Sal: 1450<br/>
 				5. Cimento: 1950<br/>
-				6. Diamante Legal: 1800<br/><br/>
 				Farms Ilegais<br/><br/>
 				1.Heroina: 3500<br/>
 				2.Maconha: 2800<br/>
