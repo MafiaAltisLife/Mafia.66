@@ -221,7 +221,7 @@ class VirtualItems {
         sellPrice = 10000;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_ziptie.paa";
+        icon = "icons\ziptie.paa";
     };
     
     class lockpick {
