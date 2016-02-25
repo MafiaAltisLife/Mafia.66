@@ -134,7 +134,7 @@ class WeaponShops {
     };
     
 class Doador {
-        name = "Mohammed's Jihadi Shop";
+        name = "Loja de Armas";
         side = "civ";
         license = "donator";
         level[] = { "", "", -1, "" };
