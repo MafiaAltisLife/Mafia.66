@@ -85,7 +85,7 @@ class CarShops {
         };
     };
 
- class reb_car {
+    class vip_car {
         side = "civ";
         vehicles[] = {
             { "B_Quadbike_01_F", 1250, { "" }, { "", "", -1 } },
