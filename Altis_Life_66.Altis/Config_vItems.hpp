@@ -25,7 +25,7 @@ class VirtualShops {
     };
     
     class doador {
-        name = "Mercado";
+        name = "STR_Shops_Doador";
         side = "civ";
         license = "donator";
         level[] = { "", "", -1, "" };
@@ -215,7 +215,7 @@ class VirtualItems {
 
     class ziptie {
         variable = "ziptie";
-        displayName = "Algemas";
+        displayName = "STR_Item_ziptie";
         weight = 5;
         buyPrice = 40000;
         sellPrice = 10000;
