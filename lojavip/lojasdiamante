@@ -1,0 +1,3 @@
+this allowDamage false; this enableSimulation false; this addAction[localize"STR_MAR_Diamond_Trader",life_fnc_virt_menu,"diamond"];
+
+removeAllWeapons this;this allowDamage false;this enableSimulation false;this addAction[localize"STR_MAR_Mercado Negro",life_fnc_virt_menu,"drugdealer_D",0,false,false,"",' vehicle player == player && player distance _target < 5 && playerSide == civilian '];this addAction[localize"STR_MAR_Mercado Negro",life_fnc_questionDealer,"",0,false,false,"",' vehicle player == player && player distance _target < 5 && playerSide == west && !life_action_inUse '];
