@@ -1,13 +1,4 @@
-removeallWeapons this;
-this enableSimulation false;
-this allowDamage false;
-this addAction[localize"Loja de Veiculos",life_fnc_vehicleShopMenu,["vip_car",civilian,"vip_v_2","reb","Loja de veiculos MAFIA"],0,false,false,"",'license_civ_donator'];
-
-this addAction[localize"Mercado",life_fnc_virt_menu,"doador"];
-this addAction[localize "Loja de Roupas",life_fnc_clothingMenu,"Doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];
-this addAction[localize "Loja de Armas",life_fnc_weaponShopMenu,"Doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];
-this addAction[format["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "donator" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "donator" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"donator",0,false,false,"",' !license_civ_donator && playerSide == civilian '];
-this addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,FALSE,FALSE,"",' vehicle player == player && player distance _target < 4 '];
+removeallWeapons this;this enableSimulation false;this allowDamage false;this addAction[localize"Loja de Veiculos",life_fnc_vehicleShopMenu,["vip_car",civilian,"vip_v_2","reb","Loja de veiculos MAFIA"],0,false,false,"",'license_civ_donator'];this addAction[localize"Mercado",life_fnc_virt_menu,"doador"];this addAction[localize "Loja de Roupas",life_fnc_clothingMenu,"Doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];this addAction[localize "Loja de Armas",life_fnc_weaponShopMenu,"Doador",0,false,false,"",' license_civ_donator && playerSide == civilian'];this addAction[format["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "donator" >> "displayName")), [(getNumber(missionConfigFile >> "Licenses" >> "donator" >> "price"))] call life_fnc_numberText],life_fnc_buyLicense,"donator",0,false,false,"",' !license_civ_donator && playerSide == civilian '];this addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,FALSE,FALSE,"",' vehicle player == player && player distance _target < 4 '];
 
 
 this enableSimulation false; this allowDamage false; this addAction[localize"STR_Garage_Title",  {   [getPlayerUID player,playerSide,"Car", "Air" player] remoteExecCall ["TON_fnc_getVehicles",2]; life_garage_type = "Car", "Air";  createDialog "Life_impound_menu";   disableSerialization;   ctrlSetText[2802,"Fetching Vehicles...."];   life_garage_sp = "vip_v_2";  }]; this addAction[localize"STR_MAR_Store_vehicle_in_Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store'];
