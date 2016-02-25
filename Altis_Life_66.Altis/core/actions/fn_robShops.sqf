@@ -25,13 +25,25 @@ Idea developed by PEpwnzya v1.0
         {
         hint "You can't rob this register, there aren't any police online!";
   };
-        if(side _robber == west) exitWith { hint "What do you think you're doing?" };
+        if(side _robber == west) exitWith
+        { 
+        hint "What do you think you're doing?"
+        };
         
-        if(side _robber == independent) exitWith { hint "Don't you have bigger fish to fry?" };
+        if(side _robber == independent) exitWith
+        {
+        hint "Don't you have bigger fish to fry?"
+        };
         
-        if(_robber distance _shop > 5) exitWith { hint "You need to be within 5m of the cash register to rob it!" };
+        if(_robber distance _shop > 5) exitWith
+        { 
+        hint "You need to be within 5m of the cash register to rob it!"
+        };
         
-        if (vehicle player != _robber) exitWith { hint "Get out of your vehicle!" };
+        if (vehicle player != _robber) exitWith
+        {
+        hint "Get out of your vehicle!"
+        };
         
         if !(_kassa) then { _kassa = 1000; };
         
@@ -93,48 +105,54 @@ Idea developed by PEpwnzya v1.0
       if(life_interrupted) exitWith {};
   };
   
-      if!(alive _robber) exitWith { deleteMarker _marker;
-      
-     _rip = false;
-     _shop switchMove "";
-     
-  5 cutText ["","PLAIN"];
-  };
+      if!(alive _robber) exitWith
+      {
+      deleteMarker _marker;
+       _rip = false;
+       _shop switchMove "";
+      5 cutText ["","PLAIN"];
+      };
   
-      if(_robber distance _shop > 5.1) exitWith { deleteMarker _marker; _shop switchMove "";
-  hint "You moved away from the register - it has been locked!";
-  5 cutText ["","PLAIN"];
-    _rip = false;
-  [[getPlayerUID _robber,name _robber,"211A"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-  };
-  if(_robber getVariable "restrained") exitWith { deleteMarker _marker;
-    _rip = false;
-    _shop switchMove "";
-   hint "You were arrested!";
-   5 cutText ["","PLAIN"];
-  };
+      if(_robber distance _shop > 5.1) exitWith
+      { 
+      deleteMarker _marker; _shop switchMove "";
+      hint "You moved away from the register - it has been locked!";
+      5 cutText ["","PLAIN"];
+       _rip = false;
+       [[getPlayerUID _robber,name _robber,"211A"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+       };
+  if(_robber getVariable "restrained") exitWith
+       {
+       deleteMarker _marker;
+       _rip = false;
+       _shop switchMove "";
+       hint "You were arrested!";
+       5 cutText ["","PLAIN"];
+       };
   
-      if(life_istazed) exitWith { deleteMarker _marker;
-    _rip = false;
-    _shop switchMove "";
-  hint "You were tazed!";
-  5 cutText ["","PLAIN"];
-  };
+      if(life_istazed) exitWith
+      {
+      deleteMarker _marker;
+      _rip = false;
+      _shop switchMove "";
+      hint "You were tazed!";
+      5 cutText ["","PLAIN"];
+      };
   
   5 cutText ["","PLAIN"];
   titleText[format["You have stolen $%1, now get away before the cops arrive!",[_kassa] call life_fnc_numberText],"PLAIN"];
   deleteMarker _marker;
   
   // by ehno delete marker
-  life_cash = life_cash + _kassa;
+       life_cash = life_cash + _kassa;
       _rip = false;
-  life_use_atm = false;
-  sleep (30 + random(180));
-  life_use_atm = true;
-  [[getPlayerUID _robber,name _robber,"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-  };
-  sleep 600;
-    _action = _shop addAction["Rob Cash Register",life_fnc_robShops];
-    _shop switchMove "";
+      life_use_atm = false;
+       sleep (30 + random(180));
+      life_use_atm = true;
+      [[getPlayerUID _robber,name _robber,"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+       };
+       sleep 600;
+       _action = _shop addAction["Rob Cash Register",life_fnc_robShops];
+       _shop switchMove "";
   
   
