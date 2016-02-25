@@ -21,7 +21,9 @@ Idea developed by PEpwnzya v1.0
   //Can you guess? Alright, it's the player, or the "caller". The object is 0, the person activating the object is 1_action = [_this,2] call BIS_fnc_param;
   //Action name_cops = (west countSide playableUnits);
   
-        if(_cops < 1) exitWith {hint "You can't rob this register, there aren't any police online!";
+        if(_cops < 1) exitWith 
+        {
+        hint "You can't rob this register, there aren't any police online!";
   };
         if(side _robber == west) exitWith { hint "What do you think you're doing?" };
         
