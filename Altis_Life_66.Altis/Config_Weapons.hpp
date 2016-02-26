@@ -29,13 +29,7 @@ class WeaponShops {
             { "SMG_01_F", "", 70000, 20000 },
             { "SMG_02_F", "", 80000, 25000 },
             
-            { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
-            { "optic_MRCO", "", 1200, 600 },
-            { "optic_SOS", "", 1500, 750 },
-            { "optic_DMS", "", 1800, 900 },
-            { "optic_AMS_snd", "", 3000, 1500 },
-            { "optic_Arco", "", 2000, 1000 },
             { "optic_Holosight_smg", "", 500, 250 }						
         };
         mags[] = {
@@ -152,7 +146,6 @@ class Doador {
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
-            { "muzzle_snds_L", "", 650, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 1000, 450 },
             { "NVGoggles", "", 2000, 980 },
@@ -257,15 +250,10 @@ class Doador {
             { "hgun_PDW2000_F", "", 55000, 15000 },
             { "SMG_01_F", "", 70000, 20000 },
             { "SMG_02_F", "", 80000, 25000 },
+            { "arifle_MXC_F", "", 180000, 70000 },
         
             { "optic_Hamr", "", 950, 250 },
             { "optic_ACO_grn_smg", "", 950, 250 },
-            { "optic_MRCO", "", 1200, 600 },
-            { "optic_SOS", "", 1500, 750 },
-            { "optic_DMS", "", 1800, 900 },
-            { "optic_AMS_snd", "", 3000, 1500 },
-            { "optic_Arco", "", 2000, 1000 },
-            { "optic_Holosight_smg", "", 500, 250 },
             
             { "bipod_01_F_blk", "", 800, 400 },
             { "bipod_01_F_mtp", "", 800, 400 },
@@ -280,7 +268,9 @@ class Doador {
             { "30Rnd_9x21_Mag", "", 75 },
             { "30Rnd_45ACP_Mag_SMG_01", "", 100 },
             { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100 },
-            { "30Rnd_9x21_Mag", "", 110 }
+            { "30Rnd_9x21_Mag", "", 110 },
+            { "30Rnd_65x39_caseless_mag", "", 110 },
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 110 }
         };
     };
 
@@ -346,7 +336,6 @@ class Doador {
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
-            { "muzzle_snds_L", "", 650, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 1000, 450 },
             { "NVGoggles", "", 2000, 980 },
@@ -389,7 +378,6 @@ class Doador {
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
-            { "muzzle_snds_L", "", 650, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 1000, 450 },
             { "NVGoggles", "", 2000, 980 },
@@ -439,7 +427,6 @@ class Doador {
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
-            { "muzzle_snds_L", "", 650, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 1000, 450 },
             { "NVGoggles", "", 2000, 980 },
