@@ -18,12 +18,12 @@ class CarShops {
     class civ_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
-            { "C_Hatchback_01_F", 9500, { "driver" }, { "", "", -1 } },
-            { "C_Offroad_01_F", 12500, { "driver" }, { "", "", -1 } },
+            { "B_Quadbike_01_F", 5000, { "" }, { "", "", -1 } },
+            { "C_Hatchback_01_F", 15000, { "driver" }, { "", "", -1 } },
+            { "C_Offroad_01_F", 20000, { "driver" }, { "", "", -1 } },
             { "C_SUV_01_F", 30000, { "driver" }, { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", 40000, { "driver" }, { "", "", -1 } },
-            { "C_Van_01_transport_F", 45000, { "driver" }, { "", "", -1 } }
+            { "C_Hatchback_01_sport_F", 25000, { "driver" }, { "", "", -1 } },
+            { "C_Van_01_transport_F", 60000, { "driver" }, { "", "", -1 } }
         };
     };
 
