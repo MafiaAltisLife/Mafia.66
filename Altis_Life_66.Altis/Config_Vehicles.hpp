@@ -57,14 +57,14 @@ class CarShops {
     class civ_truck {
         side = "civ";
         vehicles[] = {
-            { "C_Van_01_box_F", 60000, { "trucking" }, { "", "", -1 } },
-            { "I_Truck_02_transport_F", 75000, { "trucking" }, { "", "", -1 } },
-            { "I_Truck_02_covered_F", 100000, { "trucking" }, { "", "", -1 } },
-            { "B_Truck_01_transport_F", 275000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_transport_F", 200000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_covered_F", 250000, { "trucking" }, { "", "", -1 } },
-            { "B_Truck_01_box_F", 350000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_device_F", 4500000, { "trucking" }, { "", "", -1 } }
+            { "C_Van_01_box_F", 100000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_transport_F", 150000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_covered_F", 200000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_transport_F", 250000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_covered_F", 280000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_transport_F", 300000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_box_F", 450000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_device_F", 10000000, { "trucking" }, { "", "", -1 } }
         };
     };
 
@@ -76,11 +76,11 @@ class CarShops {
             { "B_Heli_Light_01_F", 325000, { "" }, { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", 200000, { "rebel" }, { "", "", -1 } },
 			
-			{ "O_MRAP_02_F", 3750000, { "rebel" }, { "", "", -1 } },
-			{ "I_MRAP_03_F", 3750000, { "rebel" }, { "", "", -1 } },
-			{ "I_Heli_Transport_02_F", 3500000, { "pilot" }, { "", "", -1 } },
-			{ "O_Heli_Transport_04_F", 1750000, { "pilot" }, { "", "", -1 } },
-			{ "B_Heli_Transport_03_unarmed_F", 7500000, { "pilot" }, { "", "", -1 } }
+	    { "O_MRAP_02_F", 3750000, { "rebel" }, { "", "", -1 } },
+	    { "I_MRAP_03_F", 3750000, { "rebel" }, { "", "", -1 } },
+	    { "I_Heli_Transport_02_F", 3500000, { "pilot" }, { "", "", -1 } },
+	    { "O_Heli_Transport_04_F", 1750000, { "pilot" }, { "", "", -1 } },
+	    { "B_Heli_Transport_03_unarmed_F", 7500000, { "pilot" }, { "", "", -1 } }
         };
     };
 
@@ -91,12 +91,21 @@ class CarShops {
             { "B_G_Offroad_01_F", 50050, { "" }, { "", "", -1 } },
             { "B_Heli_Light_01_F", 162500, { "" }, { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", 1000000, { "rebel" }, { "", "", -1 } },
+            
+            { "C_Van_01_box_F", 50000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_transport_F", 75000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_covered_F", 100000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_transport_F", 125000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_covered_F", 140000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_transport_F", 150000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_box_F", 225000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_device_F", 5000000, { "trucking" }, { "", "", -1 } },
 			
-			{ "O_MRAP_02_F", 1875000, { "rebel" }, { "", "", -1 } },
-			{ "I_MRAP_03_F", 1875000, { "rebel" }, { "", "", -1 } },
-			{ "I_Heli_Transport_02_F", 1875000, { "pilot" }, { "", "", -1 } },
-			{ "O_Heli_Transport_04_F", 875000, { "pilot" }, { "", "", -1 } },
-			{ "B_Heli_Transport_03_unarmed_F", 3750000, { "pilot" }, { "", "", -1 } }
+	    { "O_MRAP_02_F", 1875000, { "rebel" }, { "", "", -1 } },
+	    { "I_MRAP_03_F", 1875000, { "rebel" }, { "", "", -1 } },
+	    { "I_Heli_Transport_02_F", 1875000, { "pilot" }, { "", "", -1 } },
+	    { "O_Heli_Transport_04_F", 875000, { "pilot" }, { "", "", -1 } },
+	    { "B_Heli_Transport_03_unarmed_F", 3750000, { "pilot" }, { "", "", -1 } }
         };
     };
 			
