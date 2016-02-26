@@ -221,7 +221,7 @@ class Doador {
             { "30Rnd_65x39_caseless_mag", "", 260 },
             { "30Rnd_65x39_caseless_mag_Tracer", "", 260 },
             { "10Rnd_338_Mag", "", 400 },
-            { "10Rnd_127x54_Mag", "", 480 }
+            { "10Rnd_127x54_Mag", "", 480 },
             { "150Rnd_762x54_Box", "", 505 },
             { "150Rnd_762x54_Box_Tracer", "", 505 },
             { "20Rnd_762x51_Mag", "", 220 },
