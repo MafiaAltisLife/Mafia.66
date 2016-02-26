@@ -80,7 +80,7 @@ class CarShops {
 			{ "I_MRAP_03_F", 3750000, { "rebel" }, { "", "", -1 } },
 			{ "I_Heli_Transport_02_F", 3500000, { "pilot" }, { "", "", -1 } },
 			{ "O_Heli_Transport_04_F", 1750000, { "pilot" }, { "", "", -1 } },
-			{ "B_Heli_Transport_03_unarmed_F", 7500000, { "pilot" }, { "", "", -1 }
+			{ "B_Heli_Transport_03_unarmed_F", 7500000, { "pilot" }, { "", "", -1 } }
         };
     };
 
