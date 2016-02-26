@@ -59,7 +59,6 @@ class WeaponShops {
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
-            { "muzzle_snds_L", "", 650, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 1000, 450 },
             { "NVGoggles", "", 2000, 980 },
@@ -136,8 +135,10 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 520 },
             { "30Rnd_65x39_caseless_mag_Tracer", "", 520 },
             { "10Rnd_338_Mag", "", 800 },
-            { "20Rnd_762x51_Mag", "", 880 },
-            { "10Rnd_127x54_Mag", "", 960 }
+            { "10Rnd_127x54_Mag", "", 960 },
+            { "150Rnd_762x54_Box", "", 960 },
+            { "150Rnd_762x54_Box_Tracer", "", 960 },
+            { "20Rnd_762x51_Mag", "", 440 }
         };
     };
     
@@ -227,8 +228,10 @@ class Doador {
             { "30Rnd_65x39_caseless_mag", "", 260 },
             { "30Rnd_65x39_caseless_mag_Tracer", "", 260 },
             { "10Rnd_338_Mag", "", 400 },
-            { "20Rnd_762x51_Mag", "", 440 },
             { "10Rnd_127x54_Mag", "", 480 }
+            { "150Rnd_762x54_Box", "", 505 },
+            { "150Rnd_762x54_Box_Tracer", "", 505 },
+            { "20Rnd_762x51_Mag", "", 220 }
         };
     };
     
