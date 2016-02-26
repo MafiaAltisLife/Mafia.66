@@ -61,11 +61,11 @@ player createDiarySubject ["controles","Controles"];
 				"
 				Os uso dos artifícios abaixo são considerados “levar vantagem” e você será banido.<br/><br/>
 
-				1. Escapar da prisão utilizando qualquer outro meio que não seja pagando a fiança ou escapando de helicóptero.<br/>
-				2. Se suicidar para fugir do roleplay. Sair quando estiver eletrocutado, algemado, preso, na cadeia, etc. Se o log mostrar que você foi preso e então você morreu, você será banido. Não pagar a fiança e se suicidar para ter uma ida para casa facilitada.<br/>
-				3. Duplicar itens e/ou dinheiro. Se alguém te enviar uma quantia inalcançável de dinheiro assim que começar o jogo, reporte ao admin IMEDIATAMENTE e transfira o dinheiro enviado para um admin. Faça isso o mais rápido possível ou um admin pode baní-lo se ver que você tem muito dinheiro sem uma justificativa. <br/>
-				4. Usando claramente itens hackeados. Se um hacker vem e dá spawn em itens inalcançáveis, você pode ser banido por utilizá-los. Reporte os itens para os admins IMEDIATAMENTE e fique longe deles.<br/>
-				5. Abusar de bugs ou mecânicas do jogo para benefícios, Abusing bugs or game mechanics for gain. Existe replicação de arma em algum lugar? Reporte e esqueça o assunto. Se um admin pegar você abusando da falha, será banido. <br/><br/>
+				1. Proibido utilizar  Anti-VDM a recuperar a saúde total.<br/>
+				2. Não será permitido, prayers usarem cheating, hacking, exploiting e ataques DDOS qualquer programa cheating.<br/>
+				3. Bullying não e aceitavel em nosso servidor. <br/>
+				4. Proibido assedio sexual.<br/>
+				5. Proibido o combate log no jogo, em qualquer ponto onde você esteja no Role-Play.<br/><br/>
 				"
 		]
 	];
@@ -91,10 +91,10 @@ player createDiarySubject ["controles","Controles"];
 				"
 				Considere este seu primeiro e único aviso.<br/><br/>
 
-				1. Hackear<br/>
-				2. Trapacear<br/>
-				3. Levar vantagem (ver 'Levar vantagem')<br/>
-				4. Ser kickado 3 ou mais vezes.<br/><br/>
+				1. Matar sem chip.<br/>
+				2. Matar sem aviso<br/>
+				3. Descobrir bugs, e não avisar os adm.<br/>
+				4. Atingir numero de kiks, de 1 mes ban permanente.<br/><br/>
 				"
 		]
 	];
@@ -105,10 +105,10 @@ player createDiarySubject ["controles","Controles"];
 				"
 				Itens nesta lista podem resultar em seu afastamento do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
-				1. Civis podem ser presos por olhar as mochilas/veículos dos policiais. Fazer isso constantemente resultará no seu afastamento do servidor.<br/>
-				2. Civis podem ser presos por seguir policiais no jogo com o objetivo de passar sua posição para terceiros.<br/>
-				3. Civis ou Rebeldes que pegar armas para matar policiais na cidade ou em outro lugar sem uma razão para o Roleplay, será considerado Anti roleplay. Veja a seção “Anti roleplay”.<br/>
-				4. Seguir, perturbar ou assediar policiais por longos períodos de tempo será considerada infração e poderá ser preso. Caso persista, resultará na sua remoção do servidor.<br/>
+				1. Em zonas seguras, e estritamente proibido, assaltos, assasinatos, e confrontos, Com excessão, de perseguições, caso o policial encontre, o Rebelde, em uma zona segura, não será permitido, o uso da força, terá que aborda, e prender, ( Rebelde não poderá reagir, caso reaja, será permitido o uso da força, mais será tomado medidas pela adiministração, para a punição do Rebelde, e para cops, caso não cumpram o padrão de abordagem).<br/>
+				2. Será entendido como ordem de parada, qualquer viatura, com giroflex ligado, caso não pare, ou não demostre, reação, de que vá parar, será permitido o uso da força, para forçar a abordagem, Mesmo sendo civil, priorizando os pneus.<br/>
+				3. Rebeldes, e policiais, poderão, se matar, caso veja o outro a vista, exceto, em safe zones,  o policial, será obrigado a aborda, caso o rebelde, esteja desarmado.<br/>
+				4. E proibido, civis com armas civis, ou armas rebeldes (Sem roupa), atacar policiais, aleatoriamente, (Caso não tenha nada  a esconder, e atirar por que quer).<br/>
 				5. Impedir propositalmente os policiais de realizar suas atividades será considerada infração e poderá ser preso. Ocorrendo de forma constante, resultará na sua remoção do servidor.<br/><br/>
 				"
 		]
