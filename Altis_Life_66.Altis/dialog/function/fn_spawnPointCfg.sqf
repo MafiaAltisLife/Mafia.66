@@ -38,10 +38,11 @@ switch (_side) do
 
 		if(license_civ_rebel && playerSide == civilian) then {
 		_return = [
+			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["reb_spawn_1","Rebelde 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["reb_spawn_2","Rebelde 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["reb_spawn_3","Rebelde 3","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["reb_spawn_5","Rebelde 3","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		};
 		
