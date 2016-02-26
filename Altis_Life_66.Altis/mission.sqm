@@ -46030,7 +46030,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=280;
+		items=281;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -48033,15 +48033,15 @@ class Mission
 		};
 		class Item247
 		{
-			position[]={16768.662,21.887814,12735.352};
+			position[]={10816.896,14.715311,10556.851};
 			name="area verde_1";
 			text="13";
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorGreen";
 			fillName="DiagGrid";
-			a=125;
-			b=125;
+			a=50;
+			b=50;
 		};
 		class Item248
 		{
@@ -48343,16 +48343,28 @@ class Mission
 			type="Empty";
 			angle=1039.87;
 		};
+		class Item280
+		{
+			position[]={16768.662,21.887814,12735.352};
+			name="area verde_1_2";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="DiagGrid";
+			a=125;
+			b=125;
+		};
 	};
 	class Sensors
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
 			position[]={14794.004,5.4812794,10776.826};
 			a=90;
 			b=90;
-			angle=512.65039;
+			angle=512.65002;
 			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
@@ -48382,13 +48394,11 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={16768.758,21.916197,12735.135};
-			a=125;
-			b=125;
+			position[]={10816.87,14.717472,10556.922};
 			interruptable=1;
 			age="UNKNOWN";
 			name="fronteira_1_1";
-			expCond="(player distance fronteira_1) < 200;";
+			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
 			class Effects
@@ -48403,7 +48413,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="fronteira_1_1_1";
-			expCond="(player distance fronteira_1) < 200;";
+			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
 			class Effects
@@ -48418,7 +48428,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="fronteira_1_1_2";
-			expCond="(player distance fronteira_1) < 200;";
+			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
 			class Effects
@@ -48433,7 +48443,22 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="fronteira_1_1_3";
-			expCond="(player distance fronteira_1) < 200;";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={16768.758,21.916197,12735.135};
+			a=125;
+			b=125;
+			interruptable=1;
+			age="UNKNOWN";
+			name="fronteira_1_1_4";
+			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
 			class Effects
