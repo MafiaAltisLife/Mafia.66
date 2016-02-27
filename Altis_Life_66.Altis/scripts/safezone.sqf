@@ -8,7 +8,7 @@
     Edit the #defines below.
 */
 
-#define SAFETY_ZONES [["safe_area_1", 250],["safe_area_2", 35],["safe_area_3", 100],["safe_area_4", 50],["safe_area_5", 45],["safe_area_6", 50],["safe_area_7", 150],["safe_area_8", 60]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
+#define SAFETY_ZONES [["safe_area_1", 250],["safe_area_2", 125],["safe_area_3", 125],["safe_area_4", 125],["safe_area_5", 90],["safe_area_6", 50],["safe_area_7", 150],["safe_area_8", 60]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
 #define MESSAGE "Você está em uma safe zone, é proibido atirar, matar ou cometer crimes aqui, passível de BAN!"
 
      if (isDedicated) exitWith {};
