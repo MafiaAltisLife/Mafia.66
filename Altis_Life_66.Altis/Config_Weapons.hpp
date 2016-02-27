@@ -51,6 +51,7 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -143,6 +144,7 @@ class Doador {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -236,6 +238,7 @@ class Doador {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
@@ -281,6 +284,7 @@ class Doador {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
             { "ItemCompass", "", 50, 25 },
@@ -303,6 +307,7 @@ class Doador {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "", 750, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 500, 45 },
             { "ItemMap", "", 250, 35 },
             { "ItemCompass", "", 250, 25 },
@@ -333,6 +338,7 @@ class Doador {
             
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -375,6 +381,7 @@ class Doador {
             
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -424,6 +431,7 @@ class Doador {
             
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -462,6 +470,7 @@ class Doador {
         items[] = {
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 300, -1 },
             { "ItemMap", "", 50, 35 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
