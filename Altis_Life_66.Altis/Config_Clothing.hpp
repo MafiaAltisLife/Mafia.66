@@ -418,7 +418,7 @@ class Clothing {
     };
 };
  class Doador {
-        title = "doador";
+        title = "Loja do Doador";
         license = "donator";
         side = "civ";
         uniforms[] = {
