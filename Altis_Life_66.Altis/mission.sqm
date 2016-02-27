@@ -3279,13 +3279,14 @@ class Mission
 				class Item94
 				{
 					position[]={17489.746,12.866241,13269.766};
-					azimut=314.63974;
+					azimut=314.64001;
+					offsetY=0.74000001;
 					special="NONE";
 					id=191;
 					side="WEST";
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_Shops_Market"",life_fnc_virt_menu,""market""];this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
 				};
 				class Item95
 				{
@@ -3302,7 +3303,7 @@ class Mission
 				class Item96
 				{
 					position[]={15520.887,18.826864,17164.695};
-					azimut=132.02304;
+					azimut=132.02299;
 					special="NONE";
 					id=193;
 					side="WEST";
@@ -4075,14 +4076,14 @@ class Mission
 				class Item0
 				{
 					position[]={15518.92,18.686304,17162.889};
-					azimut=145.43874;
+					azimut=145.439;
 					special="NONE";
 					id=236;
 					side="CIV";
 					vehicle="C_man_polo_3_F";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Medical_Assistance"",life_fnc_healHospital];";
+					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Medical_Assistance"",life_fnc_healHospital];this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
 				};
 			};
 		};
@@ -4136,7 +4137,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="reb_1_1_2";
-					init="removeallWeapons this; this enableSimulation false;this allowDamage false; this addAction[localize""Loja de Veiculos"",life_fnc_vehicleShopMenu,[""vip_car"",civilian,[""vip_v_2""],""donator"",""Loja de veiculos MAFIA""],0,false,false,"""",'license_civ_donator']; this addAction[""Mercado"",life_fnc_virt_menu,""doador""]; this addAction[""Loja de Roupas"",life_fnc_clothingMenu,""Doador"",0,false,false,"""",'license_civ_donator && playerSide == civilian']; this addAction[""Loja de Armas"",life_fnc_weaponShopMenu,""Doador"",0,false,false,"""",'license_civ_donator && playerSide == civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""donator"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""donator"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""donator"",0,false,false,"""",' !license_civ_donator && playerSide == civilian ']; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this setVariable[""realname"", ""Loja Vip""];";
+					init="removeallWeapons this; this enableSimulation false;this allowDamage false; this addAction[localize""Loja de Veiculos"",life_fnc_vehicleShopMenu,[""vip_car"",civilian,[""vip_v_2""],""donator"",""Loja de veiculos MAFIA""],0,false,false,"""",'license_civ_donator']; this addAction[""Mercado"",life_fnc_virt_menu,""doador""]; this addAction[""Loja de Roupas"",life_fnc_clothingMenu,""Doador"",0,false,false,"""",'license_civ_donator && playerSide == civilian']; this addAction[""Loja de Armas"",life_fnc_weaponShopMenu,""doador"",0,false,false,"""",'license_civ_donator && playerSide == civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""donator"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""donator"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""donator"",0,false,false,"""",' !license_civ_donator && playerSide == civilian ']; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this setVariable[""realname"", ""Loja Vip""];";
 				};
 			};
 		};
@@ -4465,7 +4466,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					leader=1;
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_Shops_Market"",life_fnc_virt_menu,""market""];this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
 				};
 			};
 		};
@@ -4478,14 +4479,14 @@ class Mission
 				class Item0
 				{
 					position[]={15522.563,18.809479,17165.906};
-					azimut=137.97906;
+					azimut=137.979;
 					special="NONE";
 					id=256;
 					side="WEST";
 					vehicle="B_RangeMaster_F";
 					leader=1;
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_Shops_Market"",life_fnc_virt_menu,""market""];this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
 		};
