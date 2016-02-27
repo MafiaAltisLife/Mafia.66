@@ -7,7 +7,6 @@ enableSaving[false,false];
 
 [] execVM "scripts\fastrope.sqf"; //Toss ropes
 [] execVM "scripts\fn_disableSnakes.sqf"; //disable snakes ingame
-[] execVM "scripts\safezone.sqf";
 
 StartProgress = true;
 
