@@ -74,4 +74,5 @@ _target SVAR ["Revive",TRUE,TRUE];
 titleText[format[localize "STR_Medic_RevivePayReceive",_targetName,[_reviveCost] call life_fnc_numberText],"PLAIN"];
 
 sleep .6;
+[] execVM "scripts\fn_statusBar.sqf";
 player reveal _target;
