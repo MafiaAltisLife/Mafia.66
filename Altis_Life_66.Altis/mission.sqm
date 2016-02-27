@@ -3314,7 +3314,7 @@ class Mission
 				class Item97
 				{
 					position[]={9169.5967,14.40571,21655.717};
-					azimut=123.00767;
+					azimut=123.008;
 					special="NONE";
 					id=194;
 					side="EAST";
@@ -4137,7 +4137,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="reb_1_1_2";
-					init="removeallWeapons this; this enableSimulation false;this allowDamage false; this addAction[localize""Loja de Veiculos"",life_fnc_vehicleShopMenu,[""vip_car"",civilian,[""vip_v_2""],""donator"",""Loja de veiculos MAFIA""],0,false,false,"""",'license_civ_donator']; this addAction[""Mercado"",life_fnc_virt_menu,""doador""]; this addAction[""Loja de Roupas"",life_fnc_clothingMenu,""Doador"",0,false,false,"""",'license_civ_donator && playerSide == civilian']; this addAction[""Loja de Armas"",life_fnc_weaponShopMenu,""doador"",0,false,false,"""",'license_civ_donator && playerSide == civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""donator"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""donator"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""donator"",0,false,false,"""",' !license_civ_donator && playerSide == civilian ']; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this setVariable[""realname"", ""Loja Vip""];";
+					init="removeallWeapons this; this enableSimulation false;this allowDamage false; this addAction[""Loja de veiculos"",life_fnc_vehicleShopMenu,[""reb_car1"",civilian,[""vip_v_2""],""reb"",""Loja de veiculos""],0,false,false,"""",'license_civ_donator'];this addAction[""Mercado"",life_fnc_virt_menu,""doador""]; this addAction[""Loja de Roupas"",life_fnc_clothingMenu,""Doador"",0,false,false,"""",'license_civ_donator && playerSide == civilian']; this addAction[""Loja de Armas"",life_fnc_weaponShopMenu,""doador"",0,false,false,"""",'license_civ_donator && playerSide == civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""donator"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""donator"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""donator"",0,false,false,"""",' !license_civ_donator && playerSide == civilian ']; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this setVariable[""realname"", ""Loja Vip""];";
 				};
 			};
 		};
@@ -45438,7 +45438,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=285;
+		items=286;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -47793,6 +47793,13 @@ class Mission
 			text="@STR_MAR_Market";
 			type="c_unknown";
 			colorName="ColorGreen";
+		};
+		class Item285
+		{
+			position[]={14771.551,3.1048157,10815.547};
+			name="vip_v_2";
+			type="Empty";
+			angle=734.159;
 		};
 	};
 	class Sensors
