@@ -418,7 +418,7 @@ class Clothing {
     };
 };
  class Doador {
-        title = "STR_Shops_C_Doador";
+        title = "doador";
         license = "donator";
         side = "civ";
         uniforms[] = {
