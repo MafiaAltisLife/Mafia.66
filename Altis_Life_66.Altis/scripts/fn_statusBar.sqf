@@ -19,6 +19,6 @@ systemChat format["[HeadShot] Carregando informações do servidor...", _rscLaye
 	{
 		sleep 1;
 		_counter = _counter - 1;
-		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["FPS: %1 | Cops: %2 | Civis: %3 | Medicos: %4 | Dinheiro: %5 | Banco: %6 | GPS: %7 | HS |", round diag_fps, west countSide playableUnits, civilian countSide playableUnits, independent countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmbank] call life_fnc_numberText,mapGridPosition player, _counter];
+		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["FPS: %1 | Cops: %2 | Civis: %3 | Medicos: %4 | Dinheiro: %5 | Banco: %6 | GPS: %7 | MAFIA |", round diag_fps, west countSide playableUnits, civilian countSide playableUnits, independent countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmbank] call life_fnc_numberText,mapGridPosition player, _counter];
 	}; 
 };
