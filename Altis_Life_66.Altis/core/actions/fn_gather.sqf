@@ -43,17 +43,6 @@ switch(true) do {
         case (_zone in ["logging_1","logging_2"]): {_gather = ["logsu",5];_tool = "chainsaw
 	default {""};
 };
- //Mine Zones
-        case (_zone in ["lead_1"]): {_gather = ["copper_unrefined",3];_tool = "pickaxe";};
-        case (_zone in ["iron_1"]): {_gather = ["iron_unrefined",3];_tool = "pickaxe";};
-        case (_zone in ["salt_1"]): {_gather = ["salt_unrefined",5];_tool = "pickaxe";};
-        case (_zone in ["sand_1","sand_2"]): {_gather = ["sand",5];_tool = "pickaxe";};
-        case (_zone in ["diamond_1","diamond_2"]): {_gather = ["diamond_uncut",3];_tool = "pickaxe";};
-        case (_zone in ["oil_1","oil_2"]): {_gather = ["oil_unprocessed",4];_tool = "pickaxe";};
-        case (_zone in ["rock_1","rock_2"]): {_gather = ["rock",3];_tool = "pickaxe";};
-        case (_zone in ["oil_rig_1","oil_rig_1"]): {_gather = ["oil_unprocessed",4];_tool = "pickaxe";};
-        case (_zone in ["logging_1","logging_2"]): {_gather = ["logsu",5];_tool = "chainsaw
-    };
 //gather check??
 if(vehicle player != player) exitWith {};
 
