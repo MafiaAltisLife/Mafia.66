@@ -4,7 +4,7 @@ enableSaving[false,false];
 
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
-
+[] execVM "scripts\safezone.sqf";
 [] execVM "scripts\fastrope.sqf"; //Toss ropes
 [] execVM "scripts\fn_disableSnakes.sqf"; //disable snakes ingame
 
