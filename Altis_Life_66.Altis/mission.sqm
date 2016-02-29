@@ -47436,7 +47436,7 @@ class Mission
 		class Item246
 		{
 			position[]={10816.896,14.715311,10556.851};
-			name="area verde_1";
+			name="safe_area_14";
 			text="13";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -47953,8 +47953,8 @@ class Mission
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
-			text="safe_area_6";
-			name="safe_area_6";
+			text="msgfronteira";
+			name="msgfronteira";
 			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
