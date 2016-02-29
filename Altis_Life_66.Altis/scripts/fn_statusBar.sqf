@@ -9,7 +9,7 @@ disableSerialization;
 */
 _rscLayer = "osefStatusBar" call BIS_fnc_rscLayer;
 _rscLayer cutRsc["osefStatusBar","PLAIN"];
-systemChat format["[HeadShot] Carregando informações do servidor...", _rscLayer];
+systemChat format["[Mafia] Carregando informações do servidor...", _rscLayer];
 
 [] spawn {
 	sleep 5;
