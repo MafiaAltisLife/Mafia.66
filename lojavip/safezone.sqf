@@ -9,7 +9,17 @@
     Edit the #defines below.
 */
 
-#define SAFETY_ZONES [["safe_kavala", 300], ["safe_athira", 200], ["safe_vip", 70], ["safe_rebelde_1", 70], ["safe_rebelde_2", 100], ["safe_hqkavala", 100], ["safe_hqathira", 50]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
+#define SAFETY_ZONES [
+["safe_kavala", 300], 
+["safe_athira", 200], 
+["safe_vip", 70], 
+["safe_rebelde_1", 70],
+["safe_rebelde_2", 100],
+["safe_hqkavala", 100], 
+["safe_hqathira", 50]] 
+
+// Exemplo: [["marker1", radius1], ["marker2", radius2], ...]
+
 #define MESSAGE "Você está em uma safe zone, é proibido cometer crimes aqui!"
 
      if (isDedicated) exitWith {};
