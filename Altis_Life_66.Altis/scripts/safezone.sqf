@@ -1,14 +1,3 @@
-/*
-    GrenadeStop v0.8 for ArmA 3 Alpha by Bake (tweaked slightly by Rarek)
-    
-    DESCRIPTION:
-    Stops players from throwing grenades in safety zones.
-    
-    CONFIGURATION:
-    Edit the #defines below.
-*/
-
-
 #include <macro.h>
 /*
     GrenadeStop v0.8 for ArmA 3 Alpha by Bake (tweaked slightly by Rarek)
