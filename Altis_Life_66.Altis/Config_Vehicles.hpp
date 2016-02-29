@@ -88,19 +88,19 @@ class CarShops {
  class reb_car1 {
          side = "civ";
          vehicles[] = {
-             { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
-             { "B_G_Offroad_01_F", 50050, { "" }, { "", "", -1 } },
-             { "B_Heli_Light_01_F", 162500, { "" }, { "", "", -1 } },
-             { "B_G_Offroad_01_armed_F", 1000000, { "rebel" }, { "", "", -1 } },
+            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
+            { "B_G_Offroad_01_F", 50050, { "" }, { "", "", -1 } },
+            { "B_Heli_Light_01_F", 162500, { "" }, { "", "", -1 } },
+            { "B_G_Offroad_01_armed_F", 1000000, { "rebel" }, { "", "", -1 } },
              
-             { "C_Van_01_box_F", 50000, { "trucking" }, { "", "", -1 } },
-             { "I_Truck_02_transport_F", 75000, { "trucking" }, { "", "", -1 } },
-             { "I_Truck_02_covered_F", 100000, { "trucking" }, { "", "", -1 } },
-             { "O_Truck_03_transport_F", 125000, { "trucking" }, { "", "", -1 } },
-             { "O_Truck_03_covered_F", 140000, { "trucking" }, { "", "", -1 } },
-             { "B_Truck_01_transport_F", 150000, { "trucking" }, { "", "", -1 } },
-             { "B_Truck_01_box_F", 225000, { "trucking" }, { "", "", -1 } },
-             { "O_Truck_03_device_F", 5000000, { "trucking" }, { "", "", -1 } },
+            { "C_Van_01_box_F", 50000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_transport_F", 75000, { "trucking" }, { "", "", -1 } },
+            { "I_Truck_02_covered_F", 100000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_transport_F", 125000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_covered_F", 140000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_transport_F", 150000, { "trucking" }, { "", "", -1 } },
+            { "B_Truck_01_box_F", 225000, { "trucking" }, { "", "", -1 } },
+            { "O_Truck_03_device_F", 5000000, { "trucking" }, { "", "", -1 } },
  			
  	    { "O_MRAP_02_F", 1875000, { "rebel" }, { "", "", -1 } },
  	    { "I_MRAP_03_F", 1875000, { "rebel" }, { "", "", -1 } },
