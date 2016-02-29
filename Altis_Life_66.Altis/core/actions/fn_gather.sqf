@@ -37,7 +37,7 @@ switch(true) do {
         case (_zone in ["salt_mine"]): {_gather = ["salt_unrefined",5];_tool = "pickaxe";};
         case (_zone in ["sand_mine"]): {_gather = ["sand",5];_tool = "pickaxe";};
         case (_zone in ["diamond_mine"]): {_gather = ["diamond_uncut",4];_tool = "pickaxe";};
-        case (_zone in ["oil_field_2"]): {_gather = ["oil_unprocessed",4];_tool = "pickaxe";};
+        case (_zone in ["oil_field_2","oil_field_1_1"]): {_gather = ["oil_unprocessed",4];_tool = "pickaxe";};
         case (_zone in ["rock_quarry"]): {_gather = ["rock",3];_tool = "pickaxe";};
        	default {""};
 };
