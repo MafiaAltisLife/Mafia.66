@@ -8149,7 +8149,7 @@ class Mission
 		};
 		class Item361
 		{
-			position[]={3244.22,2.099546,12972.3};
+			position[]={3244.0354,2.1007738,12972.115};
 			azimut=182.05299;
 			offsetY=2.3841901e-007;
 			id=618;
@@ -8182,7 +8182,7 @@ class Mission
 		};
 		class Item364
 		{
-			position[]={3246.8201,2.0846105,12974.3};
+			position[]={3246.6355,2.0858424,12974.115};
 			azimut=357.54599;
 			offsetY=0.00099849701;
 			id=621;
@@ -10467,7 +10467,7 @@ class Mission
 		};
 		class Item580
 		{
-			position[]={3237.5718,2.1637061,12972.022};
+			position[]={3237.3872,2.1683824,12971.838};
 			azimut=330;
 			offsetY=-0.0048148599;
 			id=837;
@@ -10478,7 +10478,7 @@ class Mission
 		};
 		class Item581
 		{
-			position[]={3244.1714,2.1000817,12972.198};
+			position[]={3243.9868,2.1013103,12972.014};
 			azimut=182;
 			offsetY=2.3841901e-007;
 			id=838;
@@ -10511,7 +10511,7 @@ class Mission
 		};
 		class Item584
 		{
-			position[]={3242.0146,2.1000395,12973.646};
+			position[]={3241.8301,2.1012681,12973.462};
 			azimut=350;
 			offsetY=0.0010128;
 			id=841;
@@ -10522,7 +10522,7 @@ class Mission
 		};
 		class Item585
 		{
-			position[]={3246.928,2.084729,12974.198};
+			position[]={3246.7434,2.0859613,12974.014};
 			azimut=357.54599;
 			offsetY=0.00099849701;
 			id=842;
@@ -10725,7 +10725,7 @@ class Mission
 		};
 		class Item604
 		{
-			position[]={3234.5552,2.162787,12957.565};
+			position[]={3234.3706,2.1645098,12957.381};
 			id=861;
 			side="EMPTY";
 			vehicle="Land_ClutterCutter_small_F";
@@ -11681,7 +11681,7 @@ class Mission
 		};
 		class Item696
 		{
-			position[]={3233.7688,2.160691,12968.898};
+			position[]={3233.5842,2.1579926,12968.714};
 			azimut=310;
 			offsetY=-0.0048148599;
 			id=953;
@@ -11692,7 +11692,7 @@ class Mission
 		};
 		class Item697
 		{
-			position[]={3230.9382,2.1570241,12964.805};
+			position[]={3230.7537,2.1585019,12964.62};
 			azimut=300;
 			offsetY=-0.0048148599;
 			id=954;
@@ -11703,7 +11703,7 @@ class Mission
 		};
 		class Item698
 		{
-			position[]={3228.1311,2.2511864,12960.563};
+			position[]={3227.9465,2.2590332,12960.379};
 			azimut=305;
 			offsetY=-0.0048148599;
 			id=955;
@@ -11714,7 +11714,7 @@ class Mission
 		};
 		class Item699
 		{
-			position[]={3225.4011,2.295969,12956.28};
+			position[]={3225.2166,2.2964575,12956.096};
 			azimut=300;
 			offsetY=-0.0048148599;
 			id=956;
@@ -45438,7 +45438,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=286;
+		items=294;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -46193,7 +46193,7 @@ class Mission
 		};
 		class Item95
 		{
-			position[]={3244.9341,2.1102631,12960.808};
+			position[]={3244.7495,2.111001,12960.623};
 			name="cop_car_1";
 			type="Empty";
 			angle=-181.36848;
@@ -47271,14 +47271,15 @@ class Mission
 		class Item227
 		{
 			position[]={14794.083,5.49441,10776.248};
-			name="SafeVIP";
+			name="safe_area_5";
+			text="safe_area_5";
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorGreen";
 			fillName="FDiagonal";
 			a=90;
 			b=90;
-			angle=153.37697;
+			angle=153.377;
 		};
 		class Item228
 		{
@@ -47421,15 +47422,16 @@ class Mission
 		};
 		class Item245
 		{
-			position[]={3646.4458,10.196472,13112.861};
-			name="area verde";
+			position[]={3263.509,-0.0076181865,12925.971};
+			name="safe_area_6";
 			text="13";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
+			colorName="ColorBlue";
 			fillName="DiagGrid";
-			a=300;
-			b=300;
+			a=60;
+			b=130;
+			angle=77.872902;
 		};
 		class Item246
 		{
@@ -47445,15 +47447,16 @@ class Mission
 		};
 		class Item247
 		{
-			position[]={25681.98,20.741528,21368.066};
-			name="area verde_1_1";
+			position[]={23528.008,12.976059,19938.74};
+			name="safe_area_8";
 			text="13";
-			markerType="ELLIPSE";
+			markerType="RECTANGLE";
 			type="Empty";
-			colorName="ColorGreen";
+			colorName="ColorBlue";
 			fillName="DiagGrid";
-			a=125;
-			b=125;
+			a=40;
+			b=35;
+			angle=145.476;
 		};
 		class Item248
 		{
@@ -47473,15 +47476,15 @@ class Mission
 		};
 		class Item250
 		{
-			position[]={14035.909,26.353619,18731.803};
-			name="area verde_1_1_1";
+			position[]={13798.099,20.293541,18952.781};
+			name="safe_area_7";
 			text="13";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
+			colorName="ColorBlue";
 			fillName="DiagGrid";
-			a=125;
-			b=125;
+			a=60;
+			b=60;
 		};
 		class Item251
 		{
@@ -47738,15 +47741,16 @@ class Mission
 		};
 		class Item278
 		{
-			position[]={16768.662,21.887814,12735.352};
-			name="area verde_1_2";
+			position[]={20081.604,101.15335,6723.6733};
+			name="safe_area_10";
 			text="13";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
+			colorName="ColorEAST";
 			fillName="DiagGrid";
-			a=125;
-			b=125;
+			a=30;
+			b=30;
+			angle=-433.923;
 		};
 		class Item279
 		{
@@ -47801,10 +47805,110 @@ class Mission
 			type="Empty";
 			angle=734.159;
 		};
+		class Item286
+		{
+			position[]={3646.4458,10.196472,13112.861};
+			name="safe_area_1";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="DiagGrid";
+			a=300;
+			b=300;
+		};
+		class Item287
+		{
+			position[]={14035.64,26.350149,18731.893};
+			name="safe_area_2";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="DiagGrid";
+			a=125;
+			b=125;
+		};
+		class Item288
+		{
+			position[]={25681.98,20.741528,21368.066};
+			name="safe_area_4";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="DiagGrid";
+			a=125;
+			b=125;
+		};
+		class Item289
+		{
+			position[]={16768.662,21.887814,12735.352};
+			name="safe_area_3";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="DiagGrid";
+			a=125;
+			b=125;
+		};
+		class Item290
+		{
+			position[]={16596.516,11.013762,12767.339};
+			name="safe_area_9";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="DiagGrid";
+			a=70;
+			b=50;
+			angle=-433.923;
+		};
+		class Item291
+		{
+			position[]={9177.3477,14.398381,21663.258};
+			name="safe_area_12";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorEAST";
+			fillName="DiagGrid";
+			a=40;
+			b=40;
+			angle=-473.14801;
+		};
+		class Item292
+		{
+			position[]={12291.867,123.97568,8894.6924};
+			name="safe_area_11";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorEAST";
+			fillName="DiagGrid";
+			a=60;
+			b=40;
+			angle=-473.14801;
+		};
+		class Item293
+		{
+			position[]={14173.27,19.58,16271.586};
+			name="safe_area_13";
+			text="13";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="DiagGrid";
+			a=70;
+			b=50;
+			angle=-229.108;
+		};
 	};
 	class Sensors
 	{
-		items=7;
+		items=15;
 		class Item0
 		{
 			position[]={14794.004,5.4812794,10776.826};
@@ -47817,10 +47921,10 @@ class Mission
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
-			text="safe_area_5";
-			name="safe_area_5";
+			text="msg vip";
+			name="msgvip";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Bem vindo a Area VIP. Para ser vip contate um admin e adquira ja seu VIP""";
+			expActiv="hint ""Bem vindo a Area VIP. Para ser um vip contate um admin e adquira ja seu VIP""";
 			class Effects
 			{
 			};
@@ -47860,16 +47964,17 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={3646.1831,10.192717,13112.88};
-			a=300;
-			b=300;
+			position[]={3263.2859,-0.0072245481,12926.074};
+			a=60;
+			b=130;
+			angle=77.872902;
 			activationBy="CIV";
 			activationType="CIV D";
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
-			text="safe_area_1";
-			name="safe_area_1";
+			text="msgkavala1";
+			name="msgkavala1";
 			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
@@ -47879,16 +47984,16 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={14035.873,26.347742,18731.953};
-			a=125;
-			b=125;
+			position[]={13798.061,20.297428,18952.887};
+			a=60;
+			b=60;
 			activationBy="CIV";
 			activationType="CIV D";
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
-			text="safe_area_2";
-			name="safe_area_2";
+			text="msgathira1";
+			name="msgathira1";
 			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
@@ -47898,16 +48003,18 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={25682.029,20.742785,21368.285};
-			a=125;
-			b=125;
+			position[]={23528.008,12.975854,19938.701};
+			a=40;
+			b=35;
+			angle=145.476;
+			rectangular=1;
 			activationBy="CIV";
 			activationType="CIV D";
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
-			text="safe_area_3";
-			name="safe_area_3";
+			text="msgsofia1";
+			name="msgsofia1";
 			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
@@ -47917,6 +48024,83 @@ class Mission
 		};
 		class Item6
 		{
+			position[]={20081.523,101.15511,6723.6411};
+			a=30;
+			b=30;
+			angle=-433.923;
+			activationBy="CIV";
+			activationType="CIV D";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			text="msgrebel";
+			name="msgrebel";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item7
+		{
+			position[]={3646.1831,10.192717,13112.88};
+			a=300;
+			b=300;
+			activationBy="CIV";
+			activationType="CIV D";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			text="msgkavala";
+			name="msgkavala_1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item8
+		{
+			position[]={14035.607,26.347742,18731.953};
+			a=125;
+			b=125;
+			activationBy="CIV";
+			activationType="CIV D";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			text="msgathira";
+			name="msgathira_1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item9
+		{
+			position[]={25682.037,20.73629,21367.816};
+			a=125;
+			b=125;
+			activationBy="CIV";
+			activationType="CIV D";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			text="msgsofia";
+			name="msgsofia_1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item10
+		{
 			position[]={16768.758,21.916197,12735.135};
 			a=125;
 			b=125;
@@ -47925,8 +48109,86 @@ class Mission
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
-			text="safe_area_4";
-			name="safe_area_4";
+			text="msgpyrgos";
+			name="msgpyrgos_1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item11
+		{
+			position[]={16596.465,11.013413,12767.47};
+			a=70;
+			angle=-433.923;
+			activationBy="CIV";
+			activationType="CIV D";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			text="msgpyrgos1";
+			name="msgpyrgos1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item12
+		{
+			position[]={9177.3359,14.398352,21663.279};
+			a=40;
+			b=40;
+			angle=-472.548;
+			activationBy="CIV";
+			activationType="CIV D";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			text="msgrebel2";
+			name="msgrebel2";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item13
+		{
+			position[]={12291.785,123.97381,8894.7236};
+			a=60;
+			b=40;
+			angle=-472.548;
+			activationBy="CIV";
+			activationType="CIV D";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			text="msgrebel1";
+			name="msgrebel1_1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
+			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
+			class Effects
+			{
+			};
+		};
+		class Item14
+		{
+			position[]={14173.264,19.58,16271.447};
+			a=70;
+			angle=-229.108;
+			activationBy="CIV";
+			activationType="CIV D";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			text="msgaeroporto";
+			name="msgaeroporto";
 			expCond="this && (local player) && (vehicle player in thisList)";
 			expActiv="hint ""Você entrou em uma Zona Segura, aqui é proíbido qualquer tipo de crime ou ação que posso prejudicar outros players, sujeito a BAN!"";";
 			expDesactiv="hint ""Você saiu da Zona Segura, tenha cuidado, você pode ser roubado, sequestrado ou até mesmo morto!"";";
