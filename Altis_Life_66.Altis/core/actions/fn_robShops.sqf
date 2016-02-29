@@ -115,7 +115,7 @@ deletemarker _marker;
 life_use_atm = false;
 sleep (60 + random(180));
 life_use_atm = true;
-[[1,format["NEWS: Um posto de gasolina foi roubado em um total de $%1", [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
+[[1,format["MAFIA NEWS: Um posto de gasolina foi roubado em um total de $%1", [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
 
 [_shop] spawn
 {
