@@ -1,158 +1,84 @@
 /*
-file: fn_robShops.sqfAuthor: 
-MrKraken, modded by Teej
-- Added randomized marker name
-- Various fixes & string changes 
-- Added attempted robbery 
-- Added abort for being restrained 
-- Added abort for being arrested 
-- Added fix for being killed Made from MrKrakens bare-bones shop robbing tutorial on www.altisliferpg.com forumsDescription:
-Executes the rob shop action!
-Idea developed by PEpwnzya v1.0
+   fn_robShops.sqf
+   Author: LIONS
 */
 
-      private["_robber","_shop","_kassa","_ui","_progress","_pgText","_cP","_rip","_Pos","_rndmrk","_mrkstring"];
-      
-   _shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-  
-  //The object that has the action attached to it is_this. ,0, is the index of object, ObjNull is the default should there be nothing in the parameter or it's 
-  broken_robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param;
-  
-  //Can you guess? Alright, it's the player, or the "caller". The object is 0, the person activating the object is 1_action = [_this,2] call BIS_fnc_param;
-  //Action name_cops = (west countSide playableUnits);
-  
-        if(_cops < 1) exitWith 
-        {
-        hint "You can't rob this register, there aren't any police online!";
-  };
-        if(side _robber == west) exitWith
-        { 
-        hint "What do you think you're doing?"
-        };
-        
-        if(side _robber == independent) exitWith
-        {
-        hint "Don't you have bigger fish to fry?"
-        };
-        
-        if(_robber distance _shop > 5) exitWith
-        { 
-        hint "You need to be within 5m of the cash register to rob it!"
-        };
-        
-        if (vehicle player != _robber) exitWith
-        {
-        hint "Get out of your vehicle!"
-        };
-        
-        if !(_kassa) then { _kassa = 1000; };
-        
-        if (_rip) exitWith { hint "Robbery already in progress!" };
-        
-        if (currentWeapon _robber == "") exitWith { hint "You do not threaten me! Get out of here!" };
-        
-        if !(alive _robber) exitWith {};
-        
-        if (_kassa == 0) exitWith { hint "There is no cash in the register!" };
-        
-    _rip = true;
-    _kassa = 10000 + round(random 10000);
-    _shop removeAction _action;
-    _shop switchMove "AmovPercMstpSsurWnonDnon";
-    _chance = random(100);
-    
-        if(_chance >= 85) then { hint "The cashier hit the silent alarm, police have been alerted!";
-        
-    [[1,format["ALARM! - Store: %1 is being robbed!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
-  };
-  
-  disableSerialization;
-  
-  5 cutRsc ["life_progress","PLAIN"];
-  
-    _ui = uiNameSpace getVariable "life_progress";
-    _progress = _ui displayCtrl 38201;
-    _pgText = _ui displayCtrl 38202;
-    _pgText ctrlSetText format["Robbery in Progress, stay within 5m (1%1)...","%"];
-    _progress progressSetPosition 0.01;_cP = 0.01;
-    
-       if(_rip) then{   _rndmrk = random(1000);
-       
-    _mrkstring = format ["wrgMarker%1", _rndmrk];
-    _Pos = position player;
-    
-  // by ehno: get player pos
-    _marker = createMarker [_mrkstring, _Pos];
-    
-  //by ehno: Place a Marker on the map
-    _marker setMarkerColor "ColorRed";
-    _marker setMarkerText "!ATTENTION! Robbery in Progress !ATTENTION!";
-    _marker setMarkerType "mil_warning";
-    
-   [[1,"A store is being robbed!"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-   
-  // General broadcast alert to everyone, uncomment for testing, or if you want it anyway.
-      while{true} do   {      sleep 2.00;
-      
-    _cP = _cP + 0.01;
-    _progress progressSetPosition _cP;
-    _pgText ctrlSetText format["Robbery in Progress, stay within 5m (%1%2)...",round(_cP * 100),"%"];
-    
-      if(_cP >= 1 OR !alive _robber) exitWith {};
-      if(_robber distance _shop > 5.1) exitWith { };
-      if((_robber getVariable["restrained",false])) exitWith {};
-      if(life_istazed) exitWith {} ;
-      if(life_interrupted) exitWith {};
-  };
-  
-      if!(alive _robber) exitWith
-      {
-      deleteMarker _marker;
-       _rip = false;
-       _shop switchMove "";
-      5 cutText ["","PLAIN"];
-      };
-  
-      if(_robber distance _shop > 5.1) exitWith
-      { 
-      deleteMarker _marker; _shop switchMove "";
-      hint "You moved away from the register - it has been locked!";
-      5 cutText ["","PLAIN"];
-       _rip = false;
-       [[getPlayerUID _robber,name _robber,"211A"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-       };
-  if(_robber getVariable "restrained") exitWith
-       {
-       deleteMarker _marker;
-       _rip = false;
-       _shop switchMove "";
-       hint "You were arrested!";
-       5 cutText ["","PLAIN"];
-       };
-  
-      if(life_istazed) exitWith
-      {
-      deleteMarker _marker;
-      _rip = false;
-      _shop switchMove "";
-      hint "You were tazed!";
-      5 cutText ["","PLAIN"];
-      };
-  
-  5 cutText ["","PLAIN"];
-  titleText[format["You have stolen $%1, now get away before the cops arrive!",[_kassa] call life_fnc_numberText],"PLAIN"];
-  deleteMarker _marker;
-  
-  // by ehno delete marker
-       life_cash = life_cash + _kassa;
-      _rip = false;
-      life_use_atm = false;
-       sleep (30 + random(180));
-      life_use_atm = true;
-      [[getPlayerUID _robber,name _robber,"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-       };
-       sleep 600;
-       _action = _shop addAction["Rob Cash Register",life_fnc_robShops];
-       _shop switchMove "";
-  
-  
+private["_robber","_shop","_kassa","_ui","_progress","_pgText","_cP","_rip","_pos","_lastrobbed"];
+_shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param; //The object that has the action attached to it is _this. ,0, is the index of object, ObjNull is the default should there be nothing in the parameter or it's broken
+_robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param; //Can you guess? Alright, it's the player, or the "caller". The object is 0, the person activating the object is 1
+_action = [_this,2] call BIS_fnc_param;//Action name
+_pos = GetPos player;
+
+if({side _x == west} count playableUnits < 1) exitWith {hint "There must be an officer online for you to initiate a robbery!";};
+if(vehicle player != _robber) exitWith { hint "You need to exit your vehicle!"; };
+if !(alive _robber) exitWith { hint "The Gas Station dude is dead!"; };
+if (currentWeapon _robber == "" || currentWeapon _robber  == "Binocular" || currentWeapon _robber  == "Rangefinder") exitWith { hint "You need a gun to intimidate me!"; };
+if (playerSide == west) exitWith { hint "You Dirty Pig"; };
+if (playerSide == independent) exitWith { hint "Dont you have people to save?"; };
+hint "Interrogating clerk...";
+
+sleep round(random 5);
+if(_shop getVariable "rip") exitWith
+{
+   hint "This shop is already being robbed!";
+};
+_shop setVariable["rip",true,true];
+_rip = true;
+_kassa = 4000 + round(random 8000); //setting the money in the registry, anywhere from 4000 to 12000.
+[[_shop,_robber,_action,-1],"TON_fnc_shopState",false,false] spawn life_fnc_MP; //sending information to the server so the animations and removeaction can be performed for all players if the checks clear.
+
+_Pos = position player;
+            _marker = createMarker ["Marker200", _Pos];
+            "Marker200" setMarkerColor "ColorRed";
+            "Marker200" setMarkerText "!DANGER! Robbery in progess !DANGER!";
+            "Marker200" setMarkerType "mil_warning";
+
+[[3, format["<t size='3'><t color='#FF0000'>ROBBERY</t></t> <br/><t size = '1.5'>%1 is robbing a store. Check your map for the location!", name player]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+
+//Setup our progress bar.
+
+//_cops = (west countSide playableUnits);
+//if(_cops < 2) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "There isnt enough Police to rob gas station!";};
+disableSerialization;
+5 cutRsc ["life_progress","PLAIN"];
+_ui = uiNameSpace getVariable "life_progress";
+_progress = _ui displayCtrl 38201;
+_pgText = _ui displayCtrl 38202;
+_pgText ctrlSetText format["Robbery in Progress, stay close (5m) (1%1)...","%"];
+_progress progressSetPosition 0.01;
+_cP = 0.01;
+
+if(_rip) then
+{
+    while{true} do
+    {
+      _shop removeAction _action;
+        sleep  2.50;
+        _cP = _cP + 0.01;
+        _progress progressSetPosition _cP;
+        _pgText ctrlSetText format["Robbery in Progress, stay close (15m) (%1%2)...",round(_cP * 100),"%"];
+        if(_cP >= 1) exitWith {};
+        if(_robber distance _shop > 17) exitWith { };
+        if!(alive _robber) exitWith {};
+      playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", player];
+    }; // the loop continues til the progressbar is full, distance is exceeded or robber dies.
+
+
+   deleteMarker "Marker200";
+    if!(alive _robber) exitWith { _rip = false; };
+    if(_robber distance _shop > 17) exitWith { hint "You need to stay within 15m to Rob registry! - Now the registry is locked."; 5 cutText ["","PLAIN"]; _rip = false; };
+    5 cutText ["","PLAIN"];
+    titleText[format["You have stolen $%1, now get away before the cops arrive!",[_kassa] call life_fnc_numberText],"PLAIN"];
+    life_cash = life_cash + _kassa;
+    _rip = false;
+    life_use_atm = false;
+   [[getPlayerUID _robber,name _robber,"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+    sleep (30 + random(180)); //Clerk in the store takes between 30-210 seconds before he manage to warn the police about the robbery.
+    life_use_atm = true; // Robber can not use the ATM at this point.
+    if!(alive _robber) exitWith {};
+
+};
+sleep 900;
+_shop setVariable["rip",false,true];
+_action = _shop addAction["Rob the Gas Station",life_fnc_robShops];
+[[_shop,_robber,_action,0],"TON_fnc_shopState",false,false] spawn life_fnc_MP;
