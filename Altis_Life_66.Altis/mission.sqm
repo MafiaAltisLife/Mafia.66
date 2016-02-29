@@ -45524,7 +45524,7 @@ class Mission
 		};
 		class Item12
 		{
-			position[]={19856.078,62.778057,17895.051};
+			position[]={6401.0322,228.96097,12368.473};
 			name="iron_mine";
 			text="@STR_MAR_Iron_Mine";
 			type="mil_triangle";
