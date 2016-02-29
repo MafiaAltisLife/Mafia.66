@@ -40,7 +40,7 @@ switch (_side) do
 			["reb_spawn_1","Rebelde 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["reb_spawn_2","Rebelde 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["reb_spawn_3","Rebelde 3","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["reb_spawn_5","Fronteira Rebelde","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["reb_spawn_4","Fronteira Rebelde","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		};
 		
