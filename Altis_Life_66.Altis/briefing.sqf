@@ -375,9 +375,9 @@ player createDiarySubject ["controles","Controles"];
 				3. ACP-C2<br/>
 				4. Zubr<br/>
 				5. 4-five<br/>
-				5. PDW2000<br/>
-				5. Sting 9 mm<br/>
-				6. Vermin SMG .45 ACP<br/><br/>
+				6. PDW2000<br/>
+				7. Sting 9 mm<br/>
+				8. Vermin SMG .45 ACP<br/><br/>
 
 				Qualquer outra arma [incluindo uma P07 silenciada Arma considerada da polícia)] é ilegal.<br/><br/>
 
@@ -411,15 +411,15 @@ player createDiarySubject ["controles","Controles"];
 				3. Se itens ilegais forem encontrados durante a revista, você pode proceder com a prisão ou uma multa, como de costume.<br/>
 				5. Força letal só é autorizada como descritas em “Uso da força letal”.<br/>
 				6. Depois da área estar segura, os policiais devem deixar a área.<br/>
-				7. An area cannot be raided again for 20 minutes after a previous raid.<br/>
-				8. If the raid is a failure (All officers die), the 20 minute timer still applies to those officers.<br/>
-				9. Backup may be called in, but it may not consist of fallen officers (see 'New Life Rule').<br/><br/>
+				7. Uma área não pode ser invadida novamente por 15 minutos.<br/>
+				8. Se a incusão falhar (todos os policiais morrerem), o tempo de 15 minutos continua sendo aplicado para esses policiais.<br/>
+				9. Pode ser chamado reforço, mas este não pode ser constituido pelos policiais mortos.<br/><br/>
 
-				Camping is defined as the prolong stay of an officer in an area.<br/><br/>
+				Camperar é definido como a permanência prolongada de um policial em uma área.<br/><br/>
 
-				1. Checkpoints are not considered camping. See Checkpoint section for a definition of proper checkpoint procedures.<br/>
-				2. See Bank Robbery and Agia Marina Protocol sections for more info on camping in the main town.<br/>
-				3. Camping of illegal areas is staying longer than needed after a raid, or if officers do not conduct a raid but continue to watch and take action against civilians entering the area.<br/><br/>
+				1. Pontos de verificação não são considerados camperar.<br/>
+				2. Veja as seções Roubo da Reserva Federal e protocolos de Agia Marina para mais informações sobre camperar nas cidades principais.<br/>
+				3. Camperar áreas ilegais é permanecer mais tempos que o necessário após uma incursão, ou se os policiais não conduzirem uma incursão e ficarem vigiando continuamente e agindo contra civis que entrarem na área.<br/><br/>
 				"
 		]
 	];
@@ -439,19 +439,17 @@ player createDiarySubject ["controles","Controles"];
 				6. !º Sargento > 2º Sargento > 3º Sargento<br/>
 				7. Cabo<br/>
 				8. Soldado<br/><br/>
-
-				Cops in game who are not enrolled/accepted into the SPD are the lowest tier and have no say in police operations.<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Use of Lethal Force",
+			"Uso de força letal",
 				"
-				1. Use of Lethal force is only permitted for the protection of your life, another officers life, or a civilians life, if and only if non-lethal force would not be effective.<br/>
-				2. Discharging of a weapon when not under threat or not during training exercises is not allowed. Officers caught in violation of this rule will be removed from the server and suspended from the SPD.<br/>
-				3. Failure to follow proper weapons discipline and procedure will get you removed from the server and suspended from the SPD.<br/><br/>
+				1. O uso de força letal só é permitido para a proteção da sua vida, da vida de outro policial ou civil, se e somente se a força não-letal não tiver sido efetiva.<br/>
+				2. Não é permitido atirar sem estar sob ameaça ou durante um exercício de treinamentos. Policiais que forem pegos violando esta regra serão removidos da corporação.<br/>
+				3. Falhar em seguir os procedimentos e disciplina apropriados para o uso dos armamentos, ocasionará na sua remoção da corporação.<br/><br/>
 				"
 		]
 	];
@@ -504,7 +502,7 @@ player createDiarySubject ["controles","Controles"];
 				1. Ifrit<br/>
 				2. Lancha<br/>
 				3. Hunter<br/>
-				4. Offroad (polícia/socorrista)<br/>
+				4. Veículos (polícia/socorrista)<br/>
 				"
 		]
 	];
