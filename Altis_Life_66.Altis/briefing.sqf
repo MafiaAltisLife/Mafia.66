@@ -38,19 +38,19 @@ player createDiarySubject ["controles","Controles"];
 				"
 				Farms Legais<br/><br/>
 				1. Petroleo e oleo: 3200<br/>
-				2. Cobre: 1500<br/>
+				2. Cobre: 2000<br/>
 				3. Metal: 3200<br/>
 				4. Sal: 1450<br/>
 				5. Cimento: 1950<br/>
 				Farms Ilegais<br/><br/>
-				1.Heroina: 3500<br/>
-				2.Maconha: 2800<br/>
-				3.Cocaina: 5000<br/>
-				4.Diamante Ilegal: 6800<br/>
+				1.Heroina: 4000<br/>
+				2.Maconha: 3800<br/>
+				3.Cocaina: 45000<br/>
+				4.Diamante Ilegal: 6000<br/>
 				5.Tartaruga: <br/><br/>
 				A barra de ouro só é adquirida em assalto à reserva.<br/><br/>
 				Barra de Ouro: 95000<br/><br/>
-				NEWS: O MERCADO DO DIAMANTE ILEGAL ESTÁ EM ALTA. APROVEITEM!<br/><br/>
+				NEWS: O MERCADO DE COCAINA ESTÁ EM ALTA. APROVEITEM!<br/><br/>
 				"
 		]
 	];
@@ -74,7 +74,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Safe Zones",
 				"
-					Se bombardear (bombardear pode ser explodir um veículo intencionalmente), roubar, ficar atropelando, ou matando nessas áreas, será punido com banimento.<br/><br/>
+					Se bombardear (bombardear pode ser explodir um veículo intencionalmente), roubar, ficar atropelando, ou atirando nessas áreas, será punido com banimento.<br/><br/>
 
 					Qualquer spawn de veículo (loja ou garagem)<br/>
 					Todos batalhões policiais<br/>
@@ -91,10 +91,10 @@ player createDiarySubject ["controles","Controles"];
 				"
 				Considere este seu primeiro e único aviso.<br/><br/>
 
-				1. Matar sem chip.<br/>
-				2. Matar sem aviso<br/>
-				3. Descobrir bugs, e não avisar os adm.<br/>
-				4. Atingir numero de kiks, de 1 mes ban permanente.<br/><br/>
+				1. Matar sem RolePlay.<br/>
+				2. Matar sem Esperar o cumprimento das ordens.<br/>
+				3. Se aproveitar de bugs, sem avisar a administração.<br/>
+				4. Ban de 1 mês, poderá pagar o valor de 30 reias, para retirar o Ban (Segunda vez, com 1 mês de ban, Ban eterno.<br/><br/>
 				"
 		]
 	];
@@ -105,7 +105,7 @@ player createDiarySubject ["controles","Controles"];
 				"
 				Itens nesta lista podem resultar em seu afastamento do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
-				1. Em zonas seguras, e estritamente proibido, assaltos, assasinatos, e confrontos, Com excessão, de perseguições, caso o policial encontre, o Rebelde, em uma zona segura, não será permitido, o uso da força, terá que aborda, e prender, ( Rebelde não poderá reagir, caso reaja, será permitido o uso da força, mais será tomado medidas pela adiministração, para a punição do Rebelde, e para cops, caso não cumpram o padrão de abordagem).<br/>
+				1. Em zonas seguras, e estritamente proibido, assaltos, tiroteios, e hueragem, Rebeldes que fugirem, para uma safe, poderá ser abordado pela policia, sem poder reagir. Obs:Não poderáo ser revistados, caso não tenham sido perseguidos.<br/>
 				2. Será entendido como ordem de parada, qualquer viatura, com giroflex ligado, caso não pare, ou não demostre, reação, de que vá parar, será permitido o uso da força, para forçar a abordagem, Mesmo sendo civil, priorizando os pneus.<br/>
 				3. Rebeldes, e policiais, poderão, se matar, caso veja o outro a vista, exceto, em safe zones,  o policial, será obrigado a aborda, caso o rebelde, esteja desarmado.<br/>
 				4. E proibido, civis com armas civis, ou armas rebeldes (Sem roupa), atacar policiais, aleatoriamente, (Caso não tenha nada  a esconder, e atirar por que quer).<br/>
@@ -163,8 +163,8 @@ player createDiarySubject ["controles","Controles"];
 				"
 				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
-				1. Canal de lado não pode ser usado para tocar música ou qualquer outro tipo de micspam.<br/>
-				2. Spam em qualquer canal de comunicaçãoresultará na sua remoção do servidor.<br/>
+				1. Canal direto não pode ser usado para tocar música ou qualquer outro tipo de micspam.<br/>
+				2. Spam em qualquer canal de comunicação resultará na sua remoção do servidor.<br/>
 				4. Os canais do Teamspeak são divididos em áreas por uma razão. Policiais devem permanecer nos canais policiais todo o tempo.<br/><br/>
 								"
 		]
@@ -181,9 +181,9 @@ player createDiarySubject ["controles","Controles"];
 				3. Policiais e Civis/Rebeldes só podem começar um tiroteio se tiverem razões relacionadas a algum crime.<br/>
 				4. Se você morreu em fogo cruzado de um tiroteio, não é Anti roleplay.<br/>
 				5. Matar alguém na tentativa de proteger a si mesmo ou terceiros não é Anti roleplay.<br/>
-				6. Atirar em um jogador sem dar um tempo razoável para ele seguir suas ordens é considerado Anti roleplay.<br/><br/>
+				6. Atirar em um jogador sem dar um tempo razoável para ele seguir suas ordens é considerado Anti roleplay. Obs: Regra dos 5 segundos.<br/><br/>
 
-				Todos os casos serão julgados pelo admins. Baseados caso a caso.<br/><br/>
+				Todos os casos serão julgados pelo admins. As punições serão aplicadas de acordo com a gravidade do delito.<br/><br/>
 				"
 		]
 	];
@@ -206,7 +206,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Negociação de Crises",
 				"
-				Negociação de crises devem ser conduzidas por um Sargento. Se nenhum sargento estiver disponível, a pessoa com a próxima patente mais alta deverá conduzir a situação.<br/><br/>
+				Negociação de crises devem ser conduzidas por um Sub-Tenente. Se nenhum Sub-Tenente estiver disponível, a pessoa com a próxima patente mais alta deverá conduzir a situação.<br/><br/>
 				"
 		]
 	];
@@ -271,7 +271,7 @@ player createDiarySubject ["controles","Controles"];
 
 	player createDiaryRecord ["policerules",
 		[
-			"Ponstos de Verificação",
+			"Pontos de Verificação",
 				"
 				Policiais podem montar pontos de verificação em áreas estratégicas para ajudar a combater as atividades ilegais e promover a segurança nas estradas.<br/><br/>
 
@@ -334,8 +334,7 @@ player createDiarySubject ["controles","Controles"];
 				2. Policiais podem parar perto da loja de carros para se assegurarem de que não tem nenhum carro que precisa ser apreendido.<br/>
 				3. Policiais não poderão ficar ou permanecer por muito tempo no centro das cidades.<br/>
 				4. Policiais poderão entrar na cidade em grande número quando ocorrer um ato rebelde. Depois que a situação estiver sob controle, eles precisam deixar a cidade novamente.<br/>
-				5. Lei marcial não pode ser declarada a qualquer momento.<br/>
-				6. Os Batalhões de policia são de entrada ilegal para civis que não tenham autorização, entretanto, não é ilegal os civis permanecerem nas proximidades dos batalhões, a menos que estejam perturbando.<br/><br/>
+				5. Os Batalhões de policia são de entrada ilegal para civis que não tenham autorização, entretanto, não é ilegal os civis permanecerem nas proximidades dos batalhões, a menos que estejam perturbando.<br/><br/>
 				"
 		]
 	];
@@ -376,7 +375,9 @@ player createDiarySubject ["controles","Controles"];
 				3. ACP-C2<br/>
 				4. Zubr<br/>
 				5. 4-five<br/>
-				6. PDW2000<br/><br/>
+				5. PDW2000<br/>
+				5. Sting 9 mm<br/>
+				6. Vermin SMG .45 ACP<br/><br/>
 
 				Qualquer outra arma [incluindo uma P07 silenciada Arma considerada da polícia)] é ilegal.<br/><br/>
 
@@ -488,7 +489,7 @@ player createDiarySubject ["controles","Controles"];
 				1. Estar em uma gangue não é ilegal. Somente quando crimes ilegais são cometidos.<br/>
 				2. Estar em uma gangue não é ilegal. Somente quando estiver participando de atividades ilegais.<br/>
 				3. Gangues podem deter e controlar esconderijos de gangues. Outros grupos podem atacar um grupo que tenha controle para competir pelo controle de um esconderijo de gangue.<br/>
-				4. Para declarar guerra contra outra gangue, o lider deve anunciá-la no global e todos os membros de ambas as gangues devem ser notificados. Para uma guerra de longo prazo, a declaração deverá ser feita no fórum.<br/>
+				4. Para declarar guerra contra outra gangue, o lider deve anunciá-la e todos os membros de ambas as gangues devem ser notificados. Para uma guerra de longo prazo, a declaração deverá ser feita no fórum.<br/>
 				5. Gangues não podem matar civis desarmados, a menos que este faça parte de uma gangue rival e esteja em um território controlado pela sua gangue.<br/>
 				6. Gangues não podem matar civis, a menos que estejam sob ameaça. Matar um civil desarmado porque ele não obedecer é considero Anti-roleplay, mas você pode machucar/causar dano.<br/><br/>
 				"
@@ -519,7 +520,6 @@ player createDiarySubject ["controles","Controles"];
 				4. Mk.20 Series<br/>
 				5. Mk.18 ABR<br/>
 				6. Rifle SDAR<br/>
-				7. Sting SMG<br/>
 				8. P07 silenciada (Taser)<br/>
 				9. Qualquer explosivo<br/><br/>
 				"
@@ -549,8 +549,8 @@ player createDiarySubject ["controles","Controles"];
 				U: Trancar e destrancar veículos e casas<br/>
 				F: Sirene policial (Se policial)<br/>
 				T: Inventário do veículo<br/>
-				Shift esquerdo + B: Render-se<br/>
-				Shift esquerdo + R: Algemar (Somente policial)<br/>
+				TAB: Render-se<br/>
+				Shift esquerdo + R: Algemar<br/>
 				Shift esquerdo + G: Coronhada / Atordoar (Utilizado para civis roubarem)<br/>
 				Windows esquerdo: Tecla principal de interação. Usada para interagir com veículos/casas (reparar, etc) e para policiais interagir com civis.<br/>
 				Windows esquerdo + T: Utilizado para pegar itens/dinheiro e apanhar.<br/>
