@@ -118,7 +118,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Botes",
 				"
-				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Repetidamente empurrar botes sem permissão.<br/>
 				2. Empurrar um bote com a intenção de machucar ou matar alguém. Isto não é Roleplay, é apenas uma falha na mecânica.<br/>
@@ -131,7 +131,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Aviação",
 				"
-				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Propositalmente jogar um helicóptero em qualquer coisa. Outros helicópteros, veículos, construções, etc.<br/>
 				2. Voar abaixo de 150m sobre a cidade constantemente. Mais do que ilegal, você corre o risco de colidir com a cidade, e indo assim contra as regras do servidor.<br/>
@@ -144,7 +144,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Veículos",
 				"
-				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Propositalmente atropelar outros jogadores. Sabemos que acidentes acontecem.<br/>
 				2. Propositalmente se jogar na frente de veículos tentando prejudicar outros jogadores.<br/>
@@ -161,7 +161,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			"Regras de Comunicação",
 				"
-				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Canal direto não pode ser usado para tocar música ou qualquer outro tipo de micspam.<br/>
 				2. Spam em qualquer canal de comunicação resultará na sua remoção do servidor.<br/>
@@ -174,7 +174,7 @@ player createDiarySubject ["controles","Controles"];
 		[
 			" Anti roleplay (Anti-RP)",
 				"
-				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Matar alguém sem motivo justificado no roleplay.<br/>
 				2. Declarar uma rebelião não é motivo para alguém, até mesmo policiais.<br/>
@@ -193,7 +193,7 @@ player createDiarySubject ["controles","Controles"];
 				"
 				A regra da nova vida é aplicada para policiais e civis/rebeldes.<br/><br/>
 
-				Itens nesta lista poderá resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
+				Itens nesta lista podem resultar na sua remoção do servidor e/ou banimento, baseado nos critérios dos admins.<br/><br/>
 
 				1. Se você morreu, deverá aguardar 15 minutos antes de voltar para o local da sua morte.<br/>
 				2. Se você morreu para a polícia durante o roleplay, seus crimes passados serão perdoados, mas você não pode buscar por vingança.<br/><br/>
