@@ -408,6 +408,8 @@ class Doador {
             { "30Rnd_65x39_caseless_mag", "", 130 },
             { "100Rnd_65x39_caseless_mag_Tracer", "", 130 },
             { "100Rnd_65x39_caseless_mag", "", 130 },
+            { "200Rnd_65x39_cased_Box", "", 300 },
+            { "200Rnd_65x39_cased_Box_Tracer", "", 300 },
             { "30Rnd_65x39_caseless_mag_Tracer", "", 130 }
         };
     };
@@ -428,7 +430,8 @@ class Doador {
             { "srifle_DMR_05_blk_F", "", 12000, -1 },
             { "srifle_DMR_06_camo_F", "", 14000, -1 },
             { "srifle_DMR_02_F", "", 14000, -1 },
-            
+            { "LMG_Mk200_F", "", 50000, -1 },
+             
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "Rangefinder", "", 300, -1 },
