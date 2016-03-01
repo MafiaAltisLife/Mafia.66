@@ -6,11 +6,11 @@
 */
 class Life_Settings {
     /* Persistent Settings */
-    save_civ_weapons = true; //Allow civilians to save weapons on them?
-    save_virtualItems = true; //Save Virtual items (all sides)?
+    save_civ_weapons = false; //Allow civilians to save weapons on them?
+    save_virtualItems = false; //Save Virtual items (all sides)?
     save_playerStats = true; //Save food & water (all sides)?
-    save_veh_virtualItems = true; //Save Virtual items for vehicles (all sides)?
-    save_veh_gear = true; //Save Gear for vehicles (all sides)?
+    save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
+    save_veh_gear = false; //Save Gear for vehicles (all sides)?
 
     /* Clothing related settings */
     clothing_box = true; //true = preview inside a black box.  false = preview on map.
