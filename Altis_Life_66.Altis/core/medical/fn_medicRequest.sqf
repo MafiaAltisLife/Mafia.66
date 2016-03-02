@@ -16,3 +16,5 @@ if(isNull _caller) exitWith {}; //Bad data
 ["MedicalRequestEmerg",[format[localize "STR_Medic_Request",_callerName]]] call BIS_fnc_showNotification;
 
  Life_request_timer = true;
+
+[] spawn {((findDisplay 7300) displayCtrl 7303) ctrlEnable false;
