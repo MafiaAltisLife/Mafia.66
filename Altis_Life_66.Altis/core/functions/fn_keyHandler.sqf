@@ -6,7 +6,7 @@
 *	Description:
 *	Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player"];
 _ctrl = SEL(_this,0);
 _code = SEL(_this,1);
 _shift = SEL(_this,2);
@@ -14,6 +14,7 @@ _ctrlKey = SEL(_this,3);
 _alt = SEL(_this,4);
 _speed = speed cursorTarget;
 _handled = false;
+_player = player;
 
 _interactionKey = if((EQUAL(count (actionKeys "User10"),0))) then {219} else {(actionKeys "User10") select 0};
 _mapKey = SEL(actionKeys "ShowMap",0);
