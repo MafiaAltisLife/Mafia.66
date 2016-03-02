@@ -39,7 +39,7 @@ switch(playerSide) do {
 	};
 	case independent: {
 		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+			player setObjectTextureGlobal [0, "textures\medic_uniform.paa"];
 		};
 	};
 };
