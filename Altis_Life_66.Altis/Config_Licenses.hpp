@@ -162,14 +162,6 @@ class Licenses {
         side = "civ";
     };
 
-    class rebeldonator {
-        variable = "rebelvip";
-        displayName = "STR_License_Rebel";
-        price = 999999999;
-        illegal = true;
-        side = "civ";
-    };
-
     //Cop Licenses
     class cAir {
         variable = "cAir";
