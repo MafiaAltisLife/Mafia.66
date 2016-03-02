@@ -430,7 +430,7 @@ class Doador {
             { "srifle_DMR_05_blk_F", "", 12000, -1 },
             { "srifle_DMR_06_camo_F", "", 14000, -1 },
             { "srifle_DMR_02_F", "", 14000, -1 },
-            { "LMG_Mk200_F", "", 50000, -1 },
+            { "LMG_Zafir_F", "", 20000, -1 },
              
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
