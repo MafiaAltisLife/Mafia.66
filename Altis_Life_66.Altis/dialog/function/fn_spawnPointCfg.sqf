@@ -54,7 +54,7 @@ switch (_side) do
 		];
 		};
 
-		if(license_civ_rebel,license_civ_donator && playerSide == civilian) then {
+		if(license_civ_rebel &&! license_civ_donator) then {
 		_return = [
 			["reb_spawn_1","Rebelde 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["reb_spawn_2","Rebelde 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
