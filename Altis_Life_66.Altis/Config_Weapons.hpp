@@ -98,7 +98,6 @@ class WeaponShops {
             { "optic_MRCO", "", 4000, 1000 },
             { "optic_SOS", "", 10000, 1500 },
             { "optic_DMS", "", 18000, 6000 },
-            { "optic_AMS_snd", "", 20000, 5000 },
             { "optic_Arco", "", 4000, 2000 },
             { "optic_Holosight_smg", "", 1000, 500 },
             
@@ -192,7 +191,6 @@ class Doador {
             { "optic_MRCO", "", 3000, 500 },
             { "optic_SOS", "", 5000, 750 },
             { "optic_DMS", "", 9000, 3000 },
-            { "optic_AMS_snd", "", 10000, 2500 },
             { "optic_Arco", "", 2000, 1000 },
             { "optic_Holosight_smg", "", 500, 250 },
             
