@@ -43,6 +43,7 @@ life_disable_getIn = false;
 life_disable_getOut = false;
 life_nlrtimer_stop = false;
 life_nlrtimer_running = false;
+Life_request_timer = false;
 
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
