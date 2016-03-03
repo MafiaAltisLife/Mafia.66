@@ -45,7 +45,7 @@ player createDiarySubject ["controles","Controles"];
 				Farms Ilegais<br/><br/>
 				1.Heroina: 4000<br/>
 				2.Maconha: 3800<br/>
-				3.Cocaina: 45000<br/>
+				3.Cocaina: 4500<br/>
 				4.Diamante Ilegal: 6000<br/>
 				5.Tartaruga: <br/><br/>
 				A barra de ouro só é adquirida em assalto à reserva.<br/><br/>
