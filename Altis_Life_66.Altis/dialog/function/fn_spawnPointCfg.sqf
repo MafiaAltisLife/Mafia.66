@@ -55,12 +55,7 @@ switch (_side) do
 		];					
 			};
 		
-_return = _return + [
-			["spawn_donator","Area VIP","\a3\ui_f\data\map\MapControl\badge_rotate_0_gs.paa"]
-		];
-		
-			
-		
+			_return = pushBack [["spawn_donator","Area VIP","\a3\ui_f\data\map\MapControl\badge_rotate_0_gs.paa"]];
 		};		
 		
 		
