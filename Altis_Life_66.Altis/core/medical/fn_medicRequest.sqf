@@ -17,4 +17,4 @@ if(isNull _caller) exitWith {}; //Bad data
 
  Life_request_timer = true;
 
-
+[] spawn {((findDisplay 7300) displayCtrl 7303) ctrlEnable false;
