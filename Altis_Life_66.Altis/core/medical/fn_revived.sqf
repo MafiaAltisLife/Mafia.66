@@ -2,7 +2,6 @@
 /*
 	File: fn_revived.sqf
 	Author: Bryan "Tonic" Boardwine
-
 	Description:
 	THANK YOU JESUS I WAS SAVED!
 */
@@ -28,6 +27,8 @@ if(BANK > _reviveCost) then {
 	BANK = 0;
 };
 
+[] call life_fnc_playerSkins;
+
 //Bring me back to life.
 player setDir _dir;
 player setPosASL (visiblePositionASL life_corpse);
@@ -39,5 +40,4 @@ deleteVehicle life_corpse;
 player SVAR ["Revive",nil,TRUE];
 player SVAR ["name",nil,TRUE];
 player SVAR ["Reviving",nil,TRUE];
-[] call life_fnc_playerSkins;
 [] call life_fnc_hudUpdate; //Request update of hud.
