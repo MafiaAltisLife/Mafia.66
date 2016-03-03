@@ -35,15 +35,6 @@ switch (_side) do
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 
-		if(license_civ_rebel && playerSide == civilian) then {
-			_return = [
-				["reb_spawn_1","Rebelde 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["reb_spawn_2","Rebelde 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["reb_spawn_3","Rebelde 3","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["reb_spawn_4","Fronteira Rebelde","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-				];
-			};
-			
 		if(license_civ_donator && playerSide == civilian) then {
 		
 			if(license_civ_rebel && playerSide == civilian) then {
@@ -64,7 +55,23 @@ switch (_side) do
 		];					
 			};
 		
-		};
+_return = _return + [
+			["spawn_donator","Area VIP","\a3\ui_f\data\map\MapControl\badge_rotate_0_gs.paa"]
+		];
+		
+			
+		
+		};		
+		
+		
+		if(license_civ_rebel && playerSide == civilian) then {
+			_return = [
+				["reb_spawn_1","Rebelde 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["reb_spawn_2","Rebelde 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["reb_spawn_3","Rebelde 3","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["reb_spawn_4","Fronteira Rebelde","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				];
+			};		
 		
 
 		if(count life_houses > 0) then {
@@ -87,4 +94,4 @@ switch (_side) do
 	};
 };
 
-_return;
+_return;a
