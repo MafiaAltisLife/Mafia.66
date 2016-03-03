@@ -28,7 +28,6 @@ if(visibleMap) then {
 			_markerss setMarkerColorLocal "ColorIndependent";
 			_markerss setMarkerTypeLocal "Mil_dot";
 			_markerss setMarkerTextLocal format["%1", _x getVariable["realname",name _x]];
-
 			_markersMedecin pushBack [_markerss,_x];
 		};
 	} foreach _medics;
