@@ -40,7 +40,7 @@ switch (_side) do
 		_return pushBack [["spawn_donator","Area VIP","\a3\ui_f\data\map\MapControl\badge_rotate_0_gs.paa"]];
 			
 			if(license_civ_rebel && playerSide == civilian) then {
-			_return = [
+			_return pushBack [
 				["reb_spawn_1","Rebelde 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 				["reb_spawn_2","Rebelde 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 				["reb_spawn_3","Rebelde 3","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
