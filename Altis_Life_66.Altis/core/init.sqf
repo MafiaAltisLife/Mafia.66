@@ -124,6 +124,10 @@ life_fnc_moveIn = compileFinal
 	life_disable_getOut = true;
 ";
 
+
+// give keys back after re-connect
+[] execVM "core\fn_addKey.sqf"; //add keys back to player
+
 [] spawn life_fnc_survival;
 
 [] spawn {
