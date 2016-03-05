@@ -47,3 +47,6 @@ if(_action) then {
 		_house SVAR [format["bis_disabled_Door_%1",_i],1,true];
 	};
 };
+[]call SOCK_fnc_updateRequest;
+hint localize
+"STR_Session_SyncData";
