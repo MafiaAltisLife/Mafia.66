@@ -1,5 +1,3 @@
-
-
 class life_progress
 
 {
@@ -221,21 +219,11 @@ class life_nlrtimer
     };
 
 };
-
-
- 
-
-fn_onPlayerKilled.sqf
-
-
-
 /*
 
 File: fn_onPlayerKilled.sqf
 
 Author: Bryan "Tonic" Boardwine
-
- 
 
 Description:
 
