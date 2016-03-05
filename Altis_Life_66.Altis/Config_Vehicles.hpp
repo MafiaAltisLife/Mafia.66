@@ -145,7 +145,7 @@ class CarShops {
             { "C_Hatchback_01_sport_F", 30000, { "" }, { "life_coplevel", "HatchPM", -1 } },
             { "B_MRAP_01_F", 200000, { "" }, { "life_coplevel", "SCALAR", -1 } },
             { "B_G_Offroad_01_armed_F", 1000000, { "" }, { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 40000, { "" }, { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", 80000, { "" }, { "", "", -1 } }
         };
     };
 
