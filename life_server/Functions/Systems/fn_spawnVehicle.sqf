@@ -63,7 +63,10 @@ if!(EQUAL(typeName _sp,typeName "")) then {
 if(count _nearVehicles > 0) exitWith {
 	serv_sv_use deleteAt _servIndex;
 	[_price,_unit_return] remoteExecCall ["life_fnc_garageRefund",_unit];
-	[1,(localize "STR_Garage_SpawnPointError")] remoteExecCall ["life_fnc_broadcast",_unit];
+        if((_vInfo select 9) == 1) then {
+        [1,"Seu veiculo está pronto!"] remoteExecCall ["life_fnc_broadcast",_unit];
+} else {
+        [1,"Seu veiculo está pronto!"] remoteExecCall ["life_fnc_broadcast",_unit];
 };
 
 _query = format["UPDATE vehicles SET active='1' WHERE pid='%1' AND id='%2'",_pid,_vid];
@@ -96,7 +99,7 @@ _vehicle lock 2;
 //Reskin the vehicle
 [_vehicle,_vInfo select 8] remoteExecCall ["life_fnc_colorVehicle",_unit];
 _vehicle setVariable["vehicle_info_owners",[[_pid,_name]],true];
-_vehicle setVariable["dbInfo",[(_vInfo select 4),_vInfo select 7]];
+_vehicle setVariable["dbInfo",[(_vInfo select 4),_vInfo select 7, _vInfo select 9]];
 _vehicle setVariable["Trunk",_trunk,true];
 _vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
 
