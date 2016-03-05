@@ -28,7 +28,7 @@ class background : Life_RscText
 
 {
 
-idc = -1;3
+idc = -13;
 
 colorBackground[] = {0,0,0,0.7};
 
