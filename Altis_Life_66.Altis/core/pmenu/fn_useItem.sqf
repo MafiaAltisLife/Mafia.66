@@ -7,6 +7,14 @@
 	Main function for item effects and functionality through the player menu.
 */
 private "_item";
+
+if((life_spam != 0) && ((time - life_spam) < 0.2)) then {
+titleText ["AUTOCLICKER", "BLACK OUT", 3];
+[[0,"STR_ANOTF_autoclicker",true,[profileName]],"life_fnc_broadcast",true,false] call life_fnc_MP;
+sleep 2;
+[99] call SOCK_fnc_updatePartial;
+["TEMPBAN",false,true] call BIS_fnc_endMission;
+
 disableSerialization;
 if(EQUAL(lbCurSel 2005,-1)) exitWith {hint localize "STR_ISTR_SelectItemFirst";};
 _item = CONTROL_DATA(2005);
