@@ -65,7 +65,9 @@ Etat de l'assurance: %10<br/>
 " +(localize "STR_Shop_Veh_UI_PSeats")+ " <t color='#8cff9b'>%5</t><br/>
 " +(localize "STR_Shop_Veh_UI_Trunk")+ " <t color='#8cff9b'>%6</t><br/>
 " +(localize "STR_Shop_Veh_UI_Fuel")+ " <t color='#8cff9b'>%7</t>
-    ",
+
+if(_assur == 1) then {"<t color='#8cff9b'>Assegurado</t>"} else {"<t color='#FF0000'>Nenhum seguro</t>"},
+
 [_retrievePrice] call life_fnc_numberText,
 [_sellPrice] call life_fnc_numberText,
 SEL(_vehicleInfo,8),
@@ -75,7 +77,7 @@ if(_trunkSpace == -1) then {"None"} else {_trunkSpace},
 SEL(_vehicleInfo,12),
 _vehicleColor,
 [_assurPrice] call life_fnc_numberText,
-if(_assur == 1) then {"<t color='#8cff9b'>Assuré</t>"} else {"<t color='#FF0000'>Pas d'assurance</t>"},
+
 SEL(_vehicleInfo,9)
 ];
  
