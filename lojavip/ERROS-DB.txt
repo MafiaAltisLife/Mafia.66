@@ -1,2 +1,11 @@
 ======================= Configuração do Seguro de Veículos ======================= 
 
+20:21:09:976889 --2:00] [Thread 12228] extDB2: Database Type: MySQL
+[20:21:09:979889 --2:00] [Thread 12228] extDB2: Database Session Pool Started
+[20:21:09:988889 --2:00] [Thread 12228] extDB2: SQL_RAW_V2: Initialized: ADD_QUOTES True
+[20:22:33:262652 --2:00] [Thread 1496] extDB2: SQL_RAW_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'gear' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: INSERT INTO vehicles (side, classname, type, pid, alive, active, inventory, color, plate, gear) VALUES ('civ', 'B_Truck_01_box_F', 'Car', '76561197962580934', '1','1','"[[],0]"', '0', '67867','"[]"')
+[20:22:33:263652 --2:00] [Thread 1496] extDB2: SQL_RAW_V2: Error StatementException: SQL: INSERT INTO vehicles (side, classname, type, pid, alive, active, inventory, color, plate, gear) VALUES ('civ', 'B_Truck_01_box_F', 'Car', '76561197962580934', '1','1','"[[],0]"', '0', '67867','"[]"')
+[20:22:58:611102 --2:00] [Thread 6848] extDB2: SQL_RAW_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'gear' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: UPDATE vehicles SET active='0', inventory='[[],0]', gear='[]', fuel='0.999433' WHERE pid='76561197962580934' AND plate='67867'
+[20:22:58:611102 --2:00] [Thread 6848] extDB2: SQL_RAW_V2: Error StatementException: SQL: UPDATE vehicles SET active='0', inventory='[[],0]', gear='[]', fuel='0.999433' WHERE pid='76561197962580934' AND plate='67867'
+
+
