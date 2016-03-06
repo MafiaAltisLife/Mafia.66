@@ -7,6 +7,7 @@
 	Buy a virtual item from the store.
 */
 private["_type","_price","_amount","_diff","_name","_hideout"];
+
 if((life_spam != 0) && ((time - life_spam) < 0.2)) then {
 titleText ["AUTOCLICKER", "BLACK OUT", 3];
 [[0,"STR_ANOTF_autoclicker",true,[profileName]],"life_fnc_broadcast",true,false] call life_fnc_MP;
