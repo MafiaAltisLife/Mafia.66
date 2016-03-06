@@ -80,8 +80,7 @@ class CarShops {
 	    { "I_MRAP_03_F", 3750000, { "rebel" }, { "", "", -1 } },
 	    { "I_Heli_Transport_02_F", 3500000, { "pilot" }, { "", "", -1 } },
 	    { "O_Heli_Transport_04_F", 1750000, { "pilot" }, { "", "", -1 } },
-	    { "I_Heli_light_03_F", 15000000, { "pilot" }, { "", "", -1 } },
-	    { "B_Heli_Transport_03_unarmed_F", 20000000, { "pilot" }, { "", "", -1 } }
+	    { "I_Heli_light_03_F", 15000000, { "pilot" }, { "", "", -1 } }
         };
     };
     
@@ -106,8 +105,7 @@ class CarShops {
  	    { "I_MRAP_03_F", 1875000, { "rebel" }, { "", "", -1 } },
  	    { "I_Heli_Transport_02_F", 1875000, { "pilot" }, { "", "", -1 } },
  	    { "O_Heli_Transport_04_F", 875000, { "pilot" }, { "", "", -1 } },
- 	    { "I_Heli_light_03_F", 10000000, { "pilot" }, { "", "", -1 } },
- 	    { "B_Heli_Transport_03_unarmed_F", 15000000, { "pilot" }, { "", "", -1 } }
+ 	    { "I_Heli_light_03_F", 10000000, { "pilot" }, { "", "", -1 } }
         };
     };
      
@@ -132,8 +130,7 @@ class CarShops {
 	    { "I_MRAP_03_F", 1875000, { "rebel" }, { "", "", -1 } },
 	    { "I_Heli_Transport_02_F", 1875000, { "pilot" }, { "", "", -1 } },
 	    { "O_Heli_Transport_04_F", 875000, { "pilot" }, { "", "", -1 } },
-	    { "I_Heli_light_03_F", 10000000, { "pilot" }, { "", "", -1 } },
-	    { "B_Heli_Transport_03_unarmed_F", 15000000, { "pilot" }, { "", "", -1 } }
+	    { "I_Heli_light_03_F", 10000000, { "pilot" }, { "", "", -1 } }
         };
     };
 			
@@ -850,16 +847,6 @@ class LifeCfgVehicles {
         };
     };
 
-	class B_Heli_Transport_03_unarmed_F{
-        vItemSpace = 500;
-        storageFee[] = { 7500, 0, 0, 0 };
-        garageSell[] = { 12500, 0, 0, 0 };
-        assurPrice[] = { 15000, 0, 0, 0 };
-        insurance = 5000;
-        chopShop = 10000;
-        textures[] = {};
-    };
-	
 	class B_Heli_Transport_01_camo_F {
         vItemSpace = 150;
         storageFee[] = { 7500, 0, 0, 0 };
