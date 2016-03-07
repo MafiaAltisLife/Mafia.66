@@ -15,6 +15,8 @@ _vehicle = _control lbData (lbCurSel _control);
 _vehicle = call compile format["%1", _vehicle];
 _nearVehicles = nearestObjects [getMarkerPos life_chopShop,["Car","Truck"],25];
 _vehicle = SEL(_nearVehicles,_vehicle);
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+life_nottoofast = time;
 if(isNull _vehicle) exitWith {};
 
 hint localize "STR_Shop_ChopShopSelling";
