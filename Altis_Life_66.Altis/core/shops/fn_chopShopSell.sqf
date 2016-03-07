@@ -9,13 +9,6 @@
 disableSerialization;
 private["_control","_price","_vehicle","_nearVehicles","_price2"];
 
-if((life_spam != 0) && ((time - life_spam) < 0.2)) then {
-titleText ["AUTOCLICKER", "BLACK OUT", 3];
-[[0,"STR_ANOTF_autoclicker",true,[profileName]],"life_fnc_broadcast",true,false] call life_fnc_MP;
-sleep 2;
-[99] call SOCK_fnc_updatePartial;
-["TEMPBAN",false,true] call BIS_fnc_endMission;
-
 _control = CONTROL(39400,39402);
 _price = _control lbValue (lbCurSel _control);
 _vehicle = _control lbData (lbCurSel _control);
