@@ -124,14 +124,14 @@ class CarShops {
     class civ_air {
         side = "civ";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 1000000, { "" }, { "", "", -1 } },
+            { "B_Heli_Light_01_F", 1000000, { "" }, { "", "", -1 } }
         };
     };
 
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 200000, { "rebel" }, { "", "", -1 } },
+            { "B_Heli_Light_01_F", 200000, { "rebel" }, { "", "", -1 } }
         };
     };
 
