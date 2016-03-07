@@ -63,12 +63,7 @@ if!(EQUAL(typeName _sp,typeName "")) then {
 if(count _nearVehicles > 0) exitWith {
 	serv_sv_use deleteAt _servIndex;
 	[_price,_unit_return] remoteExecCall ["life_fnc_garageRefund",_unit];
-        if((_vInfo select 9) == 1) then {
-        [1,"Seu veiculo está pronto!"] remoteExecCall ["life_fnc_broadcast",_unit];
-} else {
-        [1,"Seu veiculo está pronto!"] remoteExecCall ["life_fnc_broadcast",_unit];
-};
-
+	    
 _query = format["UPDATE vehicles SET active='1' WHERE pid='%1' AND id='%2'",_pid,_vid];
 
 _trunk = [_vInfo select 9] call DB_fnc_mresToArray;
@@ -137,5 +132,9 @@ if(EQUAL(SEL(_vInfo,1),"cop") && (SEL(_vInfo,2)) in ["C_Offroad_01_F","B_MRAP_01
 if(EQUAL(SEL(_vInfo,1),"med") && EQUAL(SEL(_vInfo,2),"C_Offroad_01_F")) then {
 	[_vehicle,"med_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
-[1,"Your vehicle is ready!"] remoteExecCall ["life_fnc_broadcast",_unit];
-serv_sv_use deleteAt _servIndex;
+if((_vInfo select 9) == 1) then {
+[1,"O seu veículo está pronto e assegurado"] remoteExecCall ["life_fnc_broadcast",_unit];
+}
+else {
+[1,"O seu veículo está pronto !"] remoteExecCall ["life_fnc_broadcast",_unit];
+};
