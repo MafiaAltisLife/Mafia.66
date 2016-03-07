@@ -8,3 +8,6 @@
 .Altis\dialog\function\fn_bankWithdraw.sqf
 .Altis\dialog\function\fn_gangDeposit.sqf
 .Altis\dialog\function\fn_sellGarage.sqf
+
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+life_nottoofast = time;
