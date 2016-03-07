@@ -1,0 +1,10 @@
+.Altis\core\functions\fn_keyHandler.sqf
+.Altis\core\housing\fn_sellHouse.sqf
+.Altis\core\pmenu\fn_useItem.sqf
+.Altis\core\shops\fn_chopShopSell.sqf
+.Altis\core\shops\fn_virt_buy.sqf
+.Altis\core\vehicle\fn_vehStoreItem.sqf
+.Altis\dialog\function\fn_bankDeposit.sqf
+.Altis\dialog\function\fn_bankWithdraw.sqf
+.Altis\dialog\function\fn_gangDeposit.sqf
+.Altis\dialog\function\fn_sellGarage.sqf
