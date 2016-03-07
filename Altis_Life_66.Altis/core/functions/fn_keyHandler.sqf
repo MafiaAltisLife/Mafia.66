@@ -16,6 +16,58 @@ _speed = speed cursorTarget;
 _handled = false;
 _player = player;
 
+//KEYS ANTI-DISCONNECT
+
+	case 62:
+	{
+		if(_alt) then
+			{
+				[] spawn
+            {
+                private["_handle"];
+                _handle = [] spawn life_fnc_clearPlayer;
+                waitUntil {scriptDone _handle};
+				[[1,format["O jogador %1 apertou ALT+F4 e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+				_msg = format["O jogador %1 apertou ALT+F4 e perdeu todos os seus itens.",name player];
+				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+                [] call SOCK_fnc_updateRequest;
+            };		
+		};
+	};
+	case 211:
+	{
+		if(_ctrlKey && _alt) then
+			{
+				[] spawn
+            {
+                private["_handle"];
+                _handle = [] spawn life_fnc_clearPlayer;
+                waitUntil {scriptDone _handle};
+				[[1,format["O jogador %1 apertou CTRL + ALT + DEL e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+				_msg = format["O jogador %1 apertou CTRL + ALT + DEL e perdeu todos os seus itens.",name player];
+				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+                [] call SOCK_fnc_updateRequest;
+			};
+		};
+	};
+	case 1:
+	{
+		if(_ctrlKey) then
+			{
+				[] spawn
+            {
+                private["_handle"];
+                _handle = [] spawn life_fnc_clearPlayer;
+                waitUntil {scriptDone _handle};
+				[[1,format["O jogador %1 apertou CTRL + ESC e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+				_msg = format["O jogador %1 apertou CTRL + ESC e perdeu todos os seus itens.",name player];
+				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+                [] call SOCK_fnc_updateRequest;
+			};
+		};
+	};
+	
+	
 _interactionKey = if((EQUAL(count (actionKeys "User10"),0))) then {219} else {(actionKeys "User10") select 0};
 _mapKey = SEL(actionKeys "ShowMap",0);
 //hint str _code;
@@ -88,58 +140,6 @@ switch (_code) do {
 	    };
 	};
 
-//KEYS ANTI-DISCONNECT
-
-	case 62:
-	{
-		if(_alt) then
-			{
-				[] spawn
-            {
-                private["_handle"];
-                _handle = [] spawn life_fnc_clearPlayer;
-                waitUntil {scriptDone _handle};
-				[[1,format["O jogador %1 apertou ALT+F4 e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-				_msg = format["O jogador %1 apertou ALT+F4 e perdeu todos os seus itens.",name player];
-				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-                [] call SOCK_fnc_updateRequest;
-            };		
-		};
-	};
-	case 211:
-	{
-		if(_ctrlKey && _alt) then
-			{
-				[] spawn
-            {
-                private["_handle"];
-                _handle = [] spawn life_fnc_clearPlayer;
-                waitUntil {scriptDone _handle};
-				[[1,format["O jogador %1 apertou CTRL + ALT + DEL e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-				_msg = format["O jogador %1 apertou CTRL + ALT + DEL e perdeu todos os seus itens.",name player];
-				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-                [] call SOCK_fnc_updateRequest;
-			};
-		};
-	};
-	case 1:
-	{
-		if(_ctrlKey) then
-			{
-				[] spawn
-            {
-                private["_handle"];
-                _handle = [] spawn life_fnc_clearPlayer;
-                waitUntil {scriptDone _handle};
-				[[1,format["O jogador %1 apertou CTRL + ESC e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-				_msg = format["O jogador %1 apertou CTRL + ESC e perdeu todos os seus itens.",name player];
-				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-                [] call SOCK_fnc_updateRequest;
-			};
-		};
-	};
-	
-	
 	//Surrender (Shift + B)
 	case 15:
 	{
