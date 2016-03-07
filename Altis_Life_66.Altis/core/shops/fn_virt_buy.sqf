@@ -8,13 +8,6 @@
 */
 private["_type","_price","_amount","_diff","_name","_hideout"];
 
-if((life_spam != 0) && ((time - life_spam) < 0.2)) then {
-titleText ["AUTOCLICKER", "BLACK OUT", 3];
-[[0,"STR_ANOTF_autoclicker",true,[profileName]],"life_fnc_broadcast",true,false] call life_fnc_MP;
-sleep 2;
-[99] call SOCK_fnc_updatePartial;
-["TEMPBAN",false,true] call BIS_fnc_endMission;
-
 if((lbCurSel 2401) == -1) exitWith {hint localize "STR_Shop_Virt_Nothing"};
 _type = lbData[2401,(lbCurSel 2401)];
 _price = lbValue[2401,(lbCurSel 2401)];
