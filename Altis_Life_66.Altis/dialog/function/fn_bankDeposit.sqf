@@ -10,6 +10,9 @@ private "_value";
 
 _value = parseNumber(ctrlText 2702);
 
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+life_nottoofast = time;
+
 //Series of stupid checks
 if(_value > 999999) exitWith {hint localize "STR_ATM_GreaterThan";};
 if(_value < 0) exitWith {};
