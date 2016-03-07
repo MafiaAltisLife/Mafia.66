@@ -50,7 +50,7 @@ class CfgSounds
 	  class intro    
     {        
         name = "intro";        
-        sound[] = {"\sounds\welcome.ogg",1.0,1.0};        
+        sound[] = {"\sounds\welcome.ogg",0.25,1.0};        
         titles[] = {};    
     };
 	class SirenLong
