@@ -1,0 +1,25 @@
+#include <macro.h>
+/*
+	File: fn_bankDeposit.sqf
+	Author: Bryan "Tonic" Boardwine
+
+	Description:
+	Figure it out.
+*/
+private["_value"];
+_value = parseNumber(ctrlText 2702);
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 2)) exitWith {hint "Não tão rápido!";};
+life_nottoofast = time;
+//Series of stupid checks
+if(_value > 999999) exitWith {hint localize "STR_ATM_GreaterThan";};
+if(_value < 0) exitWith {};
+if(!([str(_value)] call life_fnc_isnumeric)) exitWith {hint localize "STR_ATM_notnumeric"};
+if(_value > CASH) exitWith {hint localize "STR_ATM_NotEnoughCash"};
+//if (BANK + _Value > 1200000) exitWith {hint "You cannot have more than $1.2 million. Congratulations on reaching the money cap!"};
+
+CASH = CASH - _value;
+BANK = BANK + _value;
+
+hint format[localize "STR_ATM_DepositMSG",[_value] call life_fnc_numberText];
+[] call life_fnc_atmMenu;
+[6] call SOCK_fnc_updatePartial;
