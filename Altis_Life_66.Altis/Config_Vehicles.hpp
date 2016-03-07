@@ -73,7 +73,6 @@ class CarShops {
             { "B_Quadbike_01_F", 5000, { "" }, { "", "", -1 } },
             { "B_G_Offroad_01_F", 25000, { "" }, { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", 4000000, { "rebel" }, { "", "", -1 } },
-			
 	    { "O_MRAP_02_F", 3750000, { "rebel" }, { "", "", -1 } },
 	    { "I_MRAP_03_F", 3750000, { "rebel" }, { "", "", -1 } },
 	    { "B_Heli_Light_01_F", 1000000, { "pilot" }, { "", "", -1 } },
@@ -94,9 +93,8 @@ class CarShops {
             { "O_Truck_03_covered_F", 280000, { "trucking" }, { "", "", -1 } },
             { "B_Truck_01_transport_F", 300000, { "trucking" }, { "", "", -1 } },
             { "B_Truck_01_box_F", 450000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_device_F", 10000000, { "trucking" }, { "", "", -1 } }
-            
- 	    { "B_Heli_Light_01_F", 1000000, { "rebel" }, { "", "", -1 } },
+            { "O_Truck_03_device_F", 10000000, { "trucking" }, { "", "", -1 } },
+            { "B_Heli_Light_01_F", 1000000, { "rebel" }, { "", "", -1 } }
         };    
     };
 			
