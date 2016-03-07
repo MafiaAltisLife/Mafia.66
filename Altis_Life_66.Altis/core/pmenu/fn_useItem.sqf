@@ -12,6 +12,9 @@ disableSerialization;
 if(EQUAL(lbCurSel 2005,-1)) exitWith {hint localize "STR_ISTR_SelectItemFirst";};
 _item = CONTROL_DATA(2005);
 
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+life_nottoofast = time;
+
 switch (true) do {
 	case (_item in ["waterBottle","coffee","redgull"]): {
 		if(([false,_item,1] call life_fnc_handleInv)) then {
