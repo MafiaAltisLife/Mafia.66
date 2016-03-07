@@ -9,6 +9,10 @@
 private["_vehicle","_vehicleLife","_vid","_pid","_unit","_sellPrice"];
 
 disableSerialization;
+
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+life_nottoofast = time;
+
 if(EQUAL(lbCurSel 2802,-1)) exitWith {hint localize "STR_Global_NoSelection"};
 _vehicle = lbData[2802,(lbCurSel 2802)];
 _vehicle = (call compile format["%1",_vehicle]) select 0;
