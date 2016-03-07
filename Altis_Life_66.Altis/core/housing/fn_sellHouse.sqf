@@ -10,6 +10,9 @@ private["_house","_uid","_action","_houseCfg"];
 _house = param [0,ObjNull,[ObjNull]];
 _uid = steamid;
 
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+life_nottoofast = time;
+
 if(isNull _house) exitWith {};
 if(!(_house isKindOf "House_F")) exitWith {};
 if(isNil {_house getVariable "house_owner"}) exitWith {hint "There is no owner for this house."};
