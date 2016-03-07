@@ -390,7 +390,6 @@ class Doador {
             { "optic_MRCO", "", 1200, 600 },
             { "optic_SOS", "", 1500, 750 },
             { "optic_DMS", "", 1800, 900 },
-            { "optic_AMS_snd", "", 3000, 1500 },
             { "optic_Arco", "", 2000, 1000 },
             { "optic_Holosight_smg", "", 500, 250 },
             
@@ -442,7 +441,6 @@ class Doador {
             { "optic_ACO_grn_smg", "", 950, 250 },
             { "optic_SOS", "", 1500, 750 },
             { "optic_DMS", "", 1800, 900 },
-            { "optic_AMS_snd", "", 3000, 1500 },
             { "optic_Arco", "", 2000, 1000 },
             { "optic_Holosight_smg", "", 500, 250 },
             
