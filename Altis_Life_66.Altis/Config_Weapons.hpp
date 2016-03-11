@@ -431,23 +431,23 @@ class Doador {
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "Rangefinder", "", 300, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 1000, 450 },
-            { "NVGoggles", "", 2000, 980 },
+            { "ItemGPS", "", 100, -1 },
+            { "ToolKit", "", 250, -1 },
+            { "FirstAidKit", "", 150, -1 },
+            { "Medikit", "", 1000, -1 },
+            { "NVGoggles", "", 2000, -1 },
             
-            { "optic_Hamr", "", 950, 250 },
-            { "optic_ACO_grn_smg", "", 950, 250 },
-            { "optic_SOS", "", 1500, 750 },
-            { "optic_DMS", "", 1800, 900 },
-            { "optic_Arco", "", 2000, 1000 },
-            { "optic_Holosight_smg", "", 500, 250 },
+            { "optic_Hamr", "", 950, -1 },
+            { "optic_ACO_grn_smg", "", 950, -1 },
+            { "optic_SOS", "", 1500, -1 },
+            { "optic_DMS", "", 1800, -1 },
+            { "optic_Arco", "", 2000, -1 },
+            { "optic_Holosight_smg", "", 500, -1 },
             
-            { "bipod_01_F_blk", "", 800, 400 },
-            { "bipod_01_F_mtp", "", 800, 400 },
-            { "bipod_01_F_snd", "", 800, 400 },
-            { "bipod_01_F_tan", "", 800, 400 }	
+            { "bipod_01_F_blk", "", 800, -1 },
+            { "bipod_01_F_mtp", "", 800, -1 },
+            { "bipod_01_F_snd", "", 800, -1 },
+            { "bipod_01_F_tan", "", 800, -1 }	
         };
         mags[] = {
             { "9Rnd_45ACP_Mag", "", 200 },
@@ -469,14 +469,14 @@ class Doador {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "ItemGPS", "", 100, 45 },
+            { "ItemGPS", "", 100, -1 },
             { "Binocular", "", 150, -1 },
             { "Rangefinder", "", 300, -1 },
-            { "ItemMap", "", 50, 35 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 500, 450 },
-            { "NVGoggles", "", 1200, 980 }
+            { "ItemMap", "", 50, -1 },
+            { "ToolKit", "", 250, -1 },
+            { "FirstAidKit", "", 150, -1 },
+            { "Medikit", "", 500, -1 },
+            { "NVGoggles", "", 1200, -1 }
         };
         mags[] = {};
     };
