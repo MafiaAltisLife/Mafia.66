@@ -75,7 +75,7 @@ if(_trunkSpace == -1) then {"None"} else {_trunkSpace},
 SEL(_vehicleInfo,12),
 _vehicleColor,
 [_assurPrice] call life_fnc_numberText,
-if(_assur == 1) then {"<t color='#8cff9b'>Assegurado</t>"} else {"<t color='#FF0000'>Nenhum seguro</t>"},
+if(_assur == 1) then {"<t color='#8cff9b'>Assuré</t>"} else {"<t color='#FF0000'>Pas d'assurance</t>"},
 SEL(_vehicleInfo,9)
 ];
 
