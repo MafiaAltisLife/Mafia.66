@@ -64,7 +64,7 @@ if(count _nearVehicles > 0) exitWith {
 	serv_sv_use deleteAt _servIndex;
 	[_price,_unit_return] remoteExecCall ["life_fnc_garageRefund",_unit];
 	    
-_query = format["UPDATE vehicles SET active='1' WHERE pid='%1' AND id='%2'",_pid,_vid];
+_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, insure FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
 
 _trunk = [_vInfo select 9] call DB_fnc_mresToArray;
 _gear = [_vInfo select 10] call DB_fnc_mresToArray;
