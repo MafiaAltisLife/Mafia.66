@@ -16,58 +16,6 @@ _speed = speed cursorTarget;
 _handled = false;
 _player = player;
 
-//KEYS ANTI-DISCONNECT
-
-	case 62:
-	{
-		if(_alt) then
-			{
-				[] spawn
-            {
-                private["_handle"];
-                _handle = [] spawn life_fnc_clearPlayer;
-                waitUntil {scriptDone _handle};
-				[[1,format["O jogador %1 apertou ALT+F4 e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-				_msg = format["O jogador %1 apertou ALT+F4 e perdeu todos os seus itens.",name player];
-				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-                [] call SOCK_fnc_updateRequest;
-            };		
-		};
-	};
-	case 211:
-	{
-		if(_ctrlKey && _alt) then
-			{
-				[] spawn
-            {
-                private["_handle"];
-                _handle = [] spawn life_fnc_clearPlayer;
-                waitUntil {scriptDone _handle};
-				[[1,format["O jogador %1 apertou CTRL + ALT + DEL e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-				_msg = format["O jogador %1 apertou CTRL + ALT + DEL e perdeu todos os seus itens.",name player];
-				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-                [] call SOCK_fnc_updateRequest;
-			};
-		};
-	};
-	case 1:
-	{
-		if(_ctrlKey) then
-			{
-				[] spawn
-            {
-                private["_handle"];
-                _handle = [] spawn life_fnc_clearPlayer;
-                waitUntil {scriptDone _handle};
-				[[1,format["O jogador %1 apertou CTRL + ESC e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-				_msg = format["O jogador %1 apertou CTRL + ESC e perdeu todos os seus itens.",name player];
-				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-                [] call SOCK_fnc_updateRequest;
-			};
-		};
-	};
-	
-	
 _interactionKey = if((EQUAL(count (actionKeys "User10"),0))) then {219} else {(actionKeys "User10") select 0};
 _mapKey = SEL(actionKeys "ShowMap",0);
 //hint str _code;
@@ -140,6 +88,58 @@ switch (_code) do {
 	    };
 	};
 
+//KEYS ANTI-DISCONNECT
+
+	case 62:
+	{
+		if(_alt) then
+			{
+				[] spawn
+            {
+                private["_handle"];
+                _handle = [] spawn life_fnc_clearPlayer;
+                waitUntil {scriptDone _handle};
+				[[1,format["O jogador %1 apertou ALT+F4 e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+				_msg = format["O jogador %1 apertou ALT+F4 e perdeu todos os seus itens.",name player];
+				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+                [] call SOCK_fnc_updateRequest;
+            };		
+		};
+	};
+	case 211:
+	{
+		if(_ctrlKey && _alt) then
+			{
+				[] spawn
+            {
+                private["_handle"];
+                _handle = [] spawn life_fnc_clearPlayer;
+                waitUntil {scriptDone _handle};
+				[[1,format["O jogador %1 apertou CTRL + ALT + DEL e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+				_msg = format["O jogador %1 apertou CTRL + ALT + DEL e perdeu todos os seus itens.",name player];
+				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+                [] call SOCK_fnc_updateRequest;
+			};
+		};
+	};
+	case 1:
+	{
+		if(_ctrlKey) then
+			{
+				[] spawn
+            {
+                private["_handle"];
+                _handle = [] spawn life_fnc_clearPlayer;
+                waitUntil {scriptDone _handle};
+				[[1,format["O jogador %1 apertou CTRL + ESC e perdeu todos os seus itens.",name player]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+				_msg = format["O jogador %1 apertou CTRL + ESC e perdeu todos os seus itens.",name player];
+				[[0,_msg],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+                [] call SOCK_fnc_updateRequest;
+			};
+		};
+	};
+	
+	
 	//Surrender (Shift + B)
 	case 15:
 	{
@@ -147,11 +147,6 @@ switch (_code) do {
 
 		if (!_shift && !_alt && !_ctrlKey) then
 		{
-				[] call SOCK_fnc_updateRequest;
-			};
-		if((life_nottoofast != 0) && ((time - life_nottoofast) < 1)) exitWith {};
-		life_nottoofast = time;
-	
 			if (vehicle player == player && !(player GVAR ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
 			{
 				if (player GVAR ["surrender", false]) then
@@ -163,7 +158,6 @@ switch (_code) do {
 				};
 			};
 		};
-		
 	};
 
 	//Map Key
@@ -192,8 +186,6 @@ switch (_code) do {
 
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	case _interactionKey: {
-	if((life_nottoofast != 0) && ((time - life_nottoofast) < 1)) exitWith {};
-		life_nottoofast = time;
 		if(!life_action_inUse) then {
 			[] spawn  {
 				private "_handle";
@@ -227,10 +219,6 @@ switch (_code) do {
 		if(!_alt && !_ctrlKey && !dialog && {!life_action_inUse}) then {
 			if(vehicle player != player && alive vehicle player) then {
 				if((vehicle player) in life_vehicles) then {
-				
-				if((life_nottoofastTrunk != 0) && ((time - life_nottoofastTrunk) < 0.2)) exitWith {};
-				life_nottoofastTrunk = time;
-				
 					[vehicle player] call life_fnc_openInventory;
 				};
 			} else {
@@ -243,10 +231,6 @@ switch (_code) do {
 					_list = ["landVehicle","Air","Ship"];
 					if(KINDOF_ARRAY(cursorTarget,_list) && {player distance cursorTarget < 7} && {vehicle player == player} && {alive cursorTarget} && {!life_action_inUse}) then {
 						if(cursorTarget in life_vehicles) then {
-						
-						if((life_nottoofastTrunk != 0) && ((time - life_nottoofastTrunk) < 0.2)) exitWith {};
-					life_nottoofastTrunk = time;
-					
 							[cursorTarget] call life_fnc_openInventory;
 						};
 					};
@@ -284,8 +268,6 @@ switch (_code) do {
 	//F Key
 	case 33: {
 		if(playerSide in [west,independent] && {vehicle player != player} && {!life_siren_active} && {((driver vehicle player) == player)}) then {
-		 if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {};
-				life_nottoofast = time;
 			[] spawn {
 				life_siren_active = true;
 				sleep 4.7;
