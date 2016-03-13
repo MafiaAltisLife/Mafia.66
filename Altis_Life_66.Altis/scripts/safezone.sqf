@@ -18,10 +18,47 @@
      if (isDedicated) exitWith {};
      waitUntil {!isNull player};
 
-    player addEventHandler ["Fired", {
-        if ({(_this select 0) distance getMarkerPos (_x select 0) < _x select 1} count SAFETY_ZONES > 0) then{               
-            deleteVehicle (_this select 6);
-            hint parseText format["<t color='#81bd41'><t align='center'><t size='2'>ATENÇÃO<br/><t color='#d84840'><t size ='1.2'<t align='center'>Você está em uma SafeZone!<br/><t color='#FFFFFF'><t align='center'><t size='1'>Proíbido Matar!<br/><t color='#FFFFFF'><t align='center'><t size='1'>Proíbido Violência!<br/><t color='#FFFFFF'><t align='center'><t size='1'>Proíbido Nocautear!<br/><t color='#FFFFFF'><t align='center'><t size='1'>Proíbido Roubar!<br/>"];
-            //titleText [MESSAGE, "PLAIN", 3];          
-        };      
-    }]; 
+    switch (playerSide) do
+{
+	case west:
+	{
+            if ({(_this select 0) distance getMarkerPos (_x select 0) < _x select 1} count SAFETY_ZONES > 0) then
+            {
+				_x allowDamage false;
+			};
+	};
+	
+	case civilian:
+	{
+
+
+     player addEventHandler ["Fired", {
+            if ({(_this select 0) distance getMarkerPos (_x select 0) < _x select 1} count SAFETY_ZONES > 0) then
+            {
+				 deleteVehicle (_this select 6);
+				 titleText [MESSAGE, "PLAIN", 3];
+             };
+        }];  
+            if ({(_this select 0) distance getMarkerPos (_x select 0) < _x select 1} count SAFETY_ZONES > 0) then
+            {
+				_x allowDamage false;
+			};
+	};
+	
+	case independent:
+	{
+
+     player addEventHandler ["Fired", {
+            if ({(_this select 0) distance getMarkerPos (_x select 0) < _x select 1} count SAFETY_ZONES > 0) then
+            {
+				 deleteVehicle (_this select 6);
+				 titleText [MESSAGE, "PLAIN", 3];
+             };
+        }];  
+            if ({(_this select 0) distance getMarkerPos (_x select 0) < _x select 1} count SAFETY_ZONES > 0) then
+            {
+				_x allowDamage false;
+			};
+	};
+};
+
