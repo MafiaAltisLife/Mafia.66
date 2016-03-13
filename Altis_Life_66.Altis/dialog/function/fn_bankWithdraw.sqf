@@ -8,7 +8,7 @@
 */
 private["_val"];
 _val = parseNumber(ctrlText 2702);
-if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 2)) exitWith {hint "Não tão rápido!";};
 life_nottoofast = time;
 if(_val > 999999) exitWith {hint localize "STR_ATM_WithdrawMax";};
 if(_val < 0) exitwith {};
