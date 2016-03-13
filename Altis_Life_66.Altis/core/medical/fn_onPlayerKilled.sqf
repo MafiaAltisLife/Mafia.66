@@ -220,5 +220,5 @@ life_cash = 0;
 
 [3] call SOCK_fnc_updatePartial;
 
-[] call SOCK_fnc_syncData;
+[1] call SOCK_fnc_syncData;
 hint localize "STR_Session_SyncData";
