@@ -10,7 +10,7 @@ private["_vehicle","_vehicleLife","_vid","_pid","_unit","_sellPrice"];
 
 disableSerialization;
 
-if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 2)) exitWith {hint "Não tão rápido!";};
 life_nottoofast = time;
 
 if(EQUAL(lbCurSel 2802,-1)) exitWith {hint localize "STR_Global_NoSelection"};
