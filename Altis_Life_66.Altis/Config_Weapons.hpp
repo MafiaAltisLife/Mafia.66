@@ -193,7 +193,7 @@ class Doador {
             { "optic_MRCO", "", 4000, -1 },
             { "optic_SOS", "", 10000, -1 },
             { "optic_DMS", "", 19000, -1 },
-             { "optic_AMS", "", 95000, -1 },
+            { "optic_AMS", "", 95000, -1 },
             
             { "bipod_01_F_blk", "", 2500, -1 },
             { "bipod_01_F_mtp", "", 2500, -1 },
@@ -394,6 +394,7 @@ class Doador {
             { "optic_DMS", "", 1800, -1 },
             { "optic_Arco", "", 2000, -1 },
             { "optic_Holosight_smg", "", 500, -1 },
+            { "optic_AMS", "", 45000, -1 },
             
             { "bipod_01_F_blk", "", 800, -1 },
             { "bipod_01_F_mtp", "", 800, -1 },
