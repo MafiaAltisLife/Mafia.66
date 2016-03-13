@@ -10,7 +10,7 @@ private "_value";
 
 _value = parseNumber(ctrlText 2702);
 
-if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {hint "Não tão rápido!";};
+if((life_nottoofast != 0) && ((time - life_nottoofast) < 2)) exitWith {hint "Não tão rápido!";};
 life_nottoofast = time;
 
 //Series of stupid checks
