@@ -7,8 +7,8 @@
 ****** Backend Variables *****
 *****************************
 */
-life_nottoofast = time;
-life_nottoofastTrunk = time;
+life_nottoofast = 0;
+life_nottoofastTrunk = 0;
 life_query_time = time;
 life_action_delay = time;
 life_trunk_vehicle = Objnull;
