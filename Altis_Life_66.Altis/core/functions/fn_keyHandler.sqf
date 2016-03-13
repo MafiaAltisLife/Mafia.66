@@ -224,7 +224,7 @@ switch (_code) do {
 			if(vehicle player != player && alive vehicle player) then {
 				if((vehicle player) in life_vehicles) then {
 				
-			if((life_nottoofastTrunk != 0) && ((time - life_nottoofastTrunk) < 0.2)) exitWith {};
+			if((life_nottoofastTrunk != 0) && ((time - life_nottoofastTrunk) < 2)) exitWith {};
 				life_nottoofastTrunk = time;
 		
 					[vehicle player] call life_fnc_openInventory;
@@ -240,7 +240,7 @@ switch (_code) do {
 					if(KINDOF_ARRAY(cursorTarget,_list) && {player distance cursorTarget < 7} && {vehicle player == player} && {alive cursorTarget} && {!life_action_inUse}) then {
 						if(cursorTarget in life_vehicles) then {
 		
-		if((life_nottoofastTrunk != 0) && ((time - life_nottoofastTrunk) < 0.2)) exitWith {};
+		if((life_nottoofastTrunk != 0) && ((time - life_nottoofastTrunk) < 2)) exitWith {};
 				life_nottoofastTrunk = time;
 							[cursorTarget] call life_fnc_openInventory;
 						};
@@ -282,7 +282,7 @@ switch (_code) do {
         if(_shift) then
         {
             if(playerSide in [west,independent] && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then {
-                if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {};
+                if((life_nottoofast != 0) && ((time - life_nottoofast) < 2)) exitWith {};
 				life_nottoofast = time;
 				[] spawn {
                     life_siren2_active = true;
@@ -312,7 +312,7 @@ switch (_code) do {
         {
             if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
             {
-                if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {};
+                if((life_nottoofast != 0) && ((time - life_nottoofast) < 2)) exitWith {};
 				life_nottoofast = time;
 				[] spawn
                 {
