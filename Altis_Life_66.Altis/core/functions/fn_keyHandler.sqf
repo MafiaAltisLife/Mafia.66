@@ -224,8 +224,8 @@ switch (_code) do {
 			if(vehicle player != player && alive vehicle player) then {
 				if((vehicle player) in life_vehicles) then {
 				
-				if((life_nottoofast != 0) && ((time - life_nottoofast) < 1)) exitWith {};
-				life_nottoofast = time;
+			if((life_nottoofastTrunk != 0) && ((time - life_nottoofastTrunk) < 0.2)) exitWith {};
+				life_nottoofastTrunk = time;
 		
 					[vehicle player] call life_fnc_openInventory;
 				};
@@ -239,8 +239,9 @@ switch (_code) do {
 					_list = ["landVehicle","Air","Ship"];
 					if(KINDOF_ARRAY(cursorTarget,_list) && {player distance cursorTarget < 7} && {vehicle player == player} && {alive cursorTarget} && {!life_action_inUse}) then {
 						if(cursorTarget in life_vehicles) then {
-						if((life_nottoofast != 0) && ((time - life_nottoofast) < 1)) exitWith {};
-		life_nottoofast = time;
+		
+		if((life_nottoofastTrunk != 0) && ((time - life_nottoofastTrunk) < 0.2)) exitWith {};
+				life_nottoofastTrunk = time;
 							[cursorTarget] call life_fnc_openInventory;
 						};
 					};
