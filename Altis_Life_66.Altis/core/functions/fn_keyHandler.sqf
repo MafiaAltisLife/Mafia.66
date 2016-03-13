@@ -6,7 +6,7 @@
 *	Description:
 *	Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys"];
 _ctrl = SEL(_this,0);
 _code = SEL(_this,1);
 _shift = SEL(_this,2);
@@ -14,7 +14,6 @@ _ctrlKey = SEL(_this,3);
 _alt = SEL(_this,4);
 _speed = speed cursorTarget;
 _handled = false;
-_player = player;
 
 _interactionKey = if((EQUAL(count (actionKeys "User10"),0))) then {219} else {(actionKeys "User10") select 0};
 _mapKey = SEL(actionKeys "ShowMap",0);
@@ -147,6 +146,9 @@ switch (_code) do {
 
 		if (!_shift && !_alt && !_ctrlKey) then
 		{
+		if((life_nottoofast != 0) && ((time - life_nottoofast) < 1)) exitWith {};
+		life_nottoofast = time;
+		
 			if (vehicle player == player && !(player GVAR ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
 			{
 				if (player GVAR ["surrender", false]) then
@@ -186,6 +188,8 @@ switch (_code) do {
 
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	case _interactionKey: {
+	if((life_nottoofast != 0) && ((time - life_nottoofast) < 1)) exitWith {};
+		life_nottoofast = time;
 		if(!life_action_inUse) then {
 			[] spawn  {
 				private "_handle";
@@ -219,6 +223,10 @@ switch (_code) do {
 		if(!_alt && !_ctrlKey && !dialog && {!life_action_inUse}) then {
 			if(vehicle player != player && alive vehicle player) then {
 				if((vehicle player) in life_vehicles) then {
+				
+				if((life_nottoofast != 0) && ((time - life_nottoofast) < 1)) exitWith {};
+				life_nottoofast = time;
+		
 					[vehicle player] call life_fnc_openInventory;
 				};
 			} else {
@@ -231,6 +239,8 @@ switch (_code) do {
 					_list = ["landVehicle","Air","Ship"];
 					if(KINDOF_ARRAY(cursorTarget,_list) && {player distance cursorTarget < 7} && {vehicle player == player} && {alive cursorTarget} && {!life_action_inUse}) then {
 						if(cursorTarget in life_vehicles) then {
+						if((life_nottoofast != 0) && ((time - life_nottoofast) < 1)) exitWith {};
+		life_nottoofast = time;
 							[cursorTarget] call life_fnc_openInventory;
 						};
 					};
@@ -265,31 +275,68 @@ switch (_code) do {
 		};
 	};
 
-	//F Key
-	case 33: {
-		if(playerSide in [west,independent] && {vehicle player != player} && {!life_siren_active} && {((driver vehicle player) == player)}) then {
-			[] spawn {
-				life_siren_active = true;
-				sleep 4.7;
-				life_siren_active = false;
-			};
+//F Key
+    case 33:
+    {
+        if(_shift) then
+        {
+            if(playerSide in [west,independent] && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then {
+                if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {};
+				life_nottoofast = time;
+				[] spawn {
+                    life_siren2_active = true;
+                    sleep 5.199;
+                    life_siren2_active = false;
+                };
 
-			_veh = vehicle player;
-			if(isNil {_veh GVAR "siren"}) then {_veh SVAR ["siren",false,true];};
-			if((_veh GVAR "siren")) then {
-				titleText [localize "STR_MISC_SirensOFF","PLAIN"];
-				_veh SVAR ["siren",false,true];
-			} else {
-				titleText [localize "STR_MISC_SirensON","PLAIN"];
-				_veh SVAR ["siren",true,true];
-				if(playerSide == west) then {
-					[_veh] remoteExec ["life_fnc_copSiren",RCLIENT];
-				} else {
-					[_veh] remoteExec ["life_fnc_medicSiren",RCLIENT];
-				};
-			};
-		};
-	};
+                _veh = vehicle player;
+                if(isNil {_veh getVariable "siren2"}) then {_veh setVariable["siren2",false,true];};
+                if((_veh getVariable "siren2")) then
+                {
+                    titleText ["Sirene Secundária OFF","PLAIN"];
+                     _veh setVariable["siren2",false,true];
+                } else {
+                    titleText ["Sirene Secundária ON","PLAIN"];
+                    _veh setVariable["siren2",true,true];
+                    if(playerSide == west) then {
+                        [[_veh],"life_fnc_copSiren2",nil,true] spawn life_fnc_MP;
+                    } else {
+                        [[_veh],"life_fnc_medicSiren2",nil,true] spawn life_fnc_MP;
+                    };
+                };
+            };
+        };
+
+        if (!_shift) then
+        {
+            if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+            {
+                if((life_nottoofast != 0) && ((time - life_nottoofast) < 0.2)) exitWith {};
+				life_nottoofast = time;
+				[] spawn
+                {
+                    life_siren_active = true;
+                    sleep 4.943;
+                    life_siren_active = false;
+                };
+                _veh = vehicle player;
+                if(isNil {_veh getVariable "siren"}) then {_veh setVariable["siren",false,true];};
+                if((_veh getVariable "siren")) then
+                {
+                    titleText [localize "STR_MISC_SirensOFF","PLAIN"];
+                     _veh setVariable["siren",false,true];
+                } else {
+                    titleText [localize "STR_MISC_SirensON","PLAIN"];
+                    _veh setVariable["siren",true,true];
+                    if(playerSide == west) then {
+                        [[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
+                    } else {
+                        [[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
+                    };
+                };
+            };
+        };
+    };
 
 	//O Key
 	case 24: {
