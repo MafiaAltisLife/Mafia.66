@@ -20,4 +20,4 @@ if(CASH > 0) then {
 	[2,"STR_NOTF_RobFail",true,[profileName]] remoteExecCall ["life_fnc_broadcast",_robber];
 };
 
-[0] call SOCK_fnc_updatePartial;
+[1] call SOCK_fnc_syncData;
