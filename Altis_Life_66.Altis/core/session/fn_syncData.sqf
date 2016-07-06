@@ -17,4 +17,5 @@ hint localize "STR_Session_SyncData";
 	sleep (5 * 60);
 	life_session_time = false;
 };
-	
+[1] call SOCK_fnc_syncData;
+hint localize "STR_Session_SyncData";	
